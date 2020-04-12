@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Layout from "../components/MyLayout";
 
+
 const Page = () => (
     <Layout>
       <Content />
