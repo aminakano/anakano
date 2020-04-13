@@ -17,7 +17,7 @@ const Header = () => (
         <Link href="/work">
           <li>Work</li>
         </Link>
-        <li>Contact</li>
+        {/* <li>Contact</li> */}
       </ul>
     </header>
     <style jsx>
@@ -42,9 +42,24 @@ const Header = () => (
           color: #fff;
           font-weight: 200;
           text-transform: uppercase;
+          position: relative;
+        }
+        li::after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          content: "";
+          height: 1px;
+          width: 100%;
+          background: #fff;
+          opacity: 0;
+          transition: 0.5s;
         }
         li:hover {
           cursor: pointer;
+        }
+        li:hover::after {
+          opacity: 1;
         }
       `}
     </style>

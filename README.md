@@ -30,13 +30,13 @@ $ npm run export
 
 ### Reference for setup
 
-* <https://dev.to/harveyjones282/the-simplest-way-to-configure-next-js-with-sass-3en)>
-
 * <https://marketplace.visualstudio.com/items?itemName=blanu.vscode-styled-jsx>
+
+* <https://github.com/FortAwesome/Font-Awesome/tree/1975bba5c4ade236c02bf2e5f9551160ee85109d/js-packages/%40fortawesome/free-brands-svg-icons>
 
 ### Reference for useful libraries
 
-* `react-slick`
+* `fortawesome`
 
 
 
