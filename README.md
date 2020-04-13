@@ -36,7 +36,7 @@ $ npm run export
 
 ### Reference for useful libraries
 
-* `@zeit/next-sass`
+* `react-slick`
 
 
 
