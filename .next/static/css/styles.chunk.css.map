@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./asset/scss/asset/scss/main.scss"],"sourcesContent":["// @import \"../fonts/fonts.scss\";\n\nbody {\n  background: yellow;\n  font-family: '07LogoTypeGothic7', sans-serif;\n}"],"mappings":"AAEA;AACA;AACA;;","sourceRoot":""}

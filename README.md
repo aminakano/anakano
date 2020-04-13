@@ -32,6 +32,8 @@ $ npm run export
 
 * <https://dev.to/harveyjones282/the-simplest-way-to-configure-next-js-with-sass-3en)>
 
+* <https://marketplace.visualstudio.com/items?itemName=blanu.vscode-styled-jsx>
+
 ### Reference for useful libraries
 
 * `@zeit/next-sass`
