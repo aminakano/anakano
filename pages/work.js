@@ -55,7 +55,7 @@ class Page extends Component {
       <li className={"list" + i} key={i} style={listStyle}>
         <h2 style={h2}>{work[i].title}</h2>
         <a href={work[i].url} target="_blank">
-          <img src={image} style={imgStyle} />
+          <img src={image} style={imgStyle} className="slider-img"/>
         </a>
         <p style={p}>{work[i].content}</p>
       </li>
@@ -86,9 +86,6 @@ class Page extends Component {
             }
             p {
               font-size: 2rem;
-            }
-            img:hover {
-              transform: scale(1.5);
             }
             .cover {
               background: url("/mac.png");

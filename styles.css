@@ -23,3 +23,7 @@ h2 {
   font-family: 'Crimson Text', serif;
   font-size: 2.5rem;
 }
+
+.slider-img:hover {
+  transform: scale(1.5);
+}
