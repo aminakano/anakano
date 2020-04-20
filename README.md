@@ -32,11 +32,10 @@ $ npm run export
 
 * <https://marketplace.visualstudio.com/items?itemName=blanu.vscode-styled-jsx>
 
-* <https://github.com/FortAwesome/Font-Awesome/tree/1975bba5c4ade236c02bf2e5f9551160ee85109d/js-packages/%40fortawesome/free-brands-svg-icons>
 
 ### Reference for useful libraries
 
-* `fortawesome`
+* `fortawesome` Font awesome component <https://github.com/FortAwesome/Font-Awesome/tree/1975bba5c4ade236c02bf2e5f9551160ee85109d/js-packages/%40fortawesome/free-brands-svg-icons>
 
-
+* `react-keyframes` Keyframe component <https://github.com/zeit/react-keyframes>
 

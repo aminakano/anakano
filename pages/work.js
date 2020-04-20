@@ -1,5 +1,6 @@
 import Layout from "../components/MyLayout.js";
 import { Component } from "react";
+import { Keyframes, Frame } from "react-keyframes";
 
 import data from "../public/json/data.json";
 import img1 from "../public/NYSL_web.png";
@@ -31,8 +32,7 @@ class Page extends Component {
     }
     const imgStyle = {
       width: "530px",
-      height: "330px",
-      transition: "0.5s"
+      height: "330px"
     };
     const listStyle = {
       listStyle: "none",
@@ -67,7 +67,10 @@ class Page extends Component {
           <div onClick={reverseTrigger} className="prev">
             <div className="prev_inner"></div>
           </div>
-          <ul id="slider">{imgList[this.state.count]}</ul>
+          {/* todo: add keyframe component */}
+          <ul id="slider">
+            {imgList[this.state.count]}
+          </ul>
           <div onClick={trigger} className="next">
             <div className="next_inner"></div>
           </div>
