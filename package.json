@@ -27,6 +27,7 @@
     "@glidejs/glide": "^3.4.1",
     "@zeit/next-sass": "^1.0.1",
     "fibers": "^3.1.0",
+    "global": "^4.4.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.3.4",
     "next-images": "^1.4.0",
@@ -35,6 +36,7 @@
     "react-dom": "^16.13.1",
     "react-keyframes": "^0.2.3",
     "react-markdown": "^4.3.1",
+    "react-siema": "^1.0.1",
     "react-slick": "^0.25.2",
     "sass": "^1.26.3",
     "swr": "^0.2.0"

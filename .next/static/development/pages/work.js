@@ -1,2099 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/work.js"],{
 
-/***/ "../../node_modules/babel-runtime/core-js/object/assign.js":
-/*!****************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/object/assign.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/assign */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/core-js/object/create.js":
-/*!****************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/object/create.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/create */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/core-js/object/keys.js":
-/*!**************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/object/keys.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/core-js/object/set-prototype-of.js":
-/*!**************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/object/set-prototype-of.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/core-js/symbol.js":
-/*!*********************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/symbol.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/core-js/symbol/iterator.js":
-/*!******************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/core-js/symbol/iterator.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/helpers/classCallCheck.js":
-/*!*****************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/helpers/classCallCheck.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-exports.default = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/helpers/extends.js":
-/*!**********************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/helpers/extends.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _assign = __webpack_require__(/*! ../core-js/object/assign */ "../../node_modules/babel-runtime/core-js/object/assign.js");
-
-var _assign2 = _interopRequireDefault(_assign);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _assign2.default || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/helpers/inherits.js":
-/*!***********************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/helpers/inherits.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "../../node_modules/babel-runtime/core-js/object/set-prototype-of.js");
-
-var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
-
-var _create = __webpack_require__(/*! ../core-js/object/create */ "../../node_modules/babel-runtime/core-js/object/create.js");
-
-var _create2 = _interopRequireDefault(_create);
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ "../../node_modules/babel-runtime/helpers/typeof.js");
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
-  }
-
-  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
-};
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/helpers/possibleConstructorReturn.js":
-/*!****************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/helpers/possibleConstructorReturn.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ "../../node_modules/babel-runtime/helpers/typeof.js");
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
-};
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/helpers/typeof.js":
-/*!*********************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/helpers/typeof.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "../../node_modules/babel-runtime/core-js/symbol/iterator.js");
-
-var _iterator2 = _interopRequireDefault(_iterator);
-
-var _symbol = __webpack_require__(/*! ../core-js/symbol */ "../../node_modules/babel-runtime/core-js/symbol.js");
-
-var _symbol2 = _interopRequireDefault(_symbol);
-
-var _typeof = typeof _symbol2.default === "function" && typeof _iterator2.default === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj; };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.default) === "symbol" ? function (obj) {
-  return typeof obj === "undefined" ? "undefined" : _typeof(obj);
-} : function (obj) {
-  return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof(obj);
-};
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.assign */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js").Object.assign;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function create(P, D) {
-  return $Object.create(P, D);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js":
-/*!**************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.keys.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js").Object.keys;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js":
-/*!**************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js ***!
-  \**************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js":
-/*!***************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.symbol */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js");
-__webpack_require__(/*! ../../modules/es6.object.to-string */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js");
-__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js");
-__webpack_require__(/*! ../../modules/es7.symbol.observable */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js").Symbol;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.string.iterator */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js");
-__webpack_require__(/*! ../../modules/web.dom.iterable */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js");
-module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js").f('iterator');
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (it) {
-  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
-  return it;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js":
-/*!***************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function () { /* empty */ };
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-module.exports = function (it) {
-  if (!isObject(it)) throw TypeError(it + ' is not an object!');
-  return it;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js":
-/*!***********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// false -> Array#indexOf
-// true  -> Array#includes
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-var toLength = __webpack_require__(/*! ./_to-length */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js");
-var toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js");
-module.exports = function (IS_INCLUDES) {
-  return function ($this, el, fromIndex) {
-    var O = toIObject($this);
-    var length = toLength(O.length);
-    var index = toAbsoluteIndex(fromIndex, length);
-    var value;
-    // Array#includes uses SameValueZero equality algorithm
-    // eslint-disable-next-line no-self-compare
-    if (IS_INCLUDES && el != el) while (length > index) {
-      value = O[index++];
-      // eslint-disable-next-line no-self-compare
-      if (value != value) return true;
-    // Array#indexOf ignores holes, Array#includes - not
-    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {
-      if (O[index] === el) return IS_INCLUDES || index || 0;
-    } return !IS_INCLUDES && -1;
-  };
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js":
-/*!************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var toString = {}.toString;
-
-module.exports = function (it) {
-  return toString.call(it).slice(8, -1);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js":
-/*!*************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var core = module.exports = { version: '2.6.10' };
-if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js":
-/*!************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// optional / simple context binding
-var aFunction = __webpack_require__(/*! ./_a-function */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js");
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
-    return fn.apply(that, arguments);
-  };
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// 7.2.1 RequireObjectCoercible(argument)
-module.exports = function (it) {
-  if (it == undefined) throw TypeError("Can't call method on  " + it);
-  return it;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
-});
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-var document = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js").document;
-// typeof document.createElement is 'object' in old IE
-var is = isObject(document) && isObject(document.createElement);
-module.exports = function (it) {
-  return is ? document.createElement(it) : {};
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js":
-/*!**********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// IE 8- don't enum bug keys
-module.exports = (
-  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
-).split(',');
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(/*! ./_object-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js");
-var gOPS = __webpack_require__(/*! ./_object-gops */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js");
-var pIE = __webpack_require__(/*! ./_object-pie */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js");
-module.exports = function (it) {
-  var result = getKeys(it);
-  var getSymbols = gOPS.f;
-  if (getSymbols) {
-    var symbols = getSymbols(it);
-    var isEnum = pIE.f;
-    var i = 0;
-    var key;
-    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);
-  } return result;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js":
-/*!***************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js");
-var ctx = __webpack_require__(/*! ./_ctx */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js");
-var hide = __webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js");
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var PROTOTYPE = 'prototype';
-
-var $export = function (type, name, source) {
-  var IS_FORCED = type & $export.F;
-  var IS_GLOBAL = type & $export.G;
-  var IS_STATIC = type & $export.S;
-  var IS_PROTO = type & $export.P;
-  var IS_BIND = type & $export.B;
-  var IS_WRAP = type & $export.W;
-  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
-  var expProto = exports[PROTOTYPE];
-  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
-  var key, own, out;
-  if (IS_GLOBAL) source = name;
-  for (key in source) {
-    // contains in native
-    own = !IS_FORCED && target && target[key] !== undefined;
-    if (own && has(exports, key)) continue;
-    // export native or passed
-    out = own ? target[key] : source[key];
-    // prevent global pollution for namespaces
-    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-    // bind timers to global for call from export context
-    : IS_BIND && own ? ctx(out, global)
-    // wrap global constructors for prevent change them in library
-    : IS_WRAP && target[key] == out ? (function (C) {
-      var F = function (a, b, c) {
-        if (this instanceof C) {
-          switch (arguments.length) {
-            case 0: return new C();
-            case 1: return new C(a);
-            case 2: return new C(a, b);
-          } return new C(a, b, c);
-        } return C.apply(this, arguments);
-      };
-      F[PROTOTYPE] = C[PROTOTYPE];
-      return F;
-    // make static versions for prototype methods
-    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-    if (IS_PROTO) {
-      (exports.virtual || (exports.virtual = {}))[key] = out;
-      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
-    }
-  }
-};
-// type bitmap
-$export.F = 1;   // forced
-$export.G = 2;   // global
-$export.S = 4;   // static
-$export.P = 8;   // proto
-$export.B = 16;  // bind
-$export.W = 32;  // wrap
-$export.U = 64;  // safe
-$export.R = 128; // real proto method for `library`
-module.exports = $export;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js":
-/*!**************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (exec) {
-  try {
-    return !!exec();
-  } catch (e) {
-    return true;
-  }
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js":
-/*!***************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-var global = module.exports = typeof window != 'undefined' && window.Math == Math
-  ? window : typeof self != 'undefined' && self.Math == Math ? self
-  // eslint-disable-next-line no-new-func
-  : Function('return this')();
-if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js":
-/*!************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var hasOwnProperty = {}.hasOwnProperty;
-module.exports = function (it, key) {
-  return hasOwnProperty.call(it, key);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js":
-/*!*************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var dP = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js");
-module.exports = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js") ? function (object, key, value) {
-  return dP.f(object, key, createDesc(1, value));
-} : function (object, key, value) {
-  object[key] = value;
-  return object;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js":
-/*!*************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var document = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js").document;
-module.exports = document && document.documentElement;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js":
-/*!***********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = !__webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js") && !__webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js")('div'), 'a', { get: function () { return 7; } }).a != 7;
-});
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(/*! ./_cof */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js");
-// eslint-disable-next-line no-prototype-builtins
-module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
-  return cof(it) == 'String' ? it.split('') : Object(it);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js":
-/*!*****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.2.2 IsArray(argument)
-var cof = __webpack_require__(/*! ./_cof */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js");
-module.exports = Array.isArray || function isArray(arg) {
-  return cof(arg) == 'Array';
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (it) {
-  return typeof it === 'object' ? it !== null : typeof it === 'function';
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var create = __webpack_require__(/*! ./_object-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js");
-var descriptor = __webpack_require__(/*! ./_property-desc */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js");
-var IteratorPrototype = {};
-
-// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js")(IteratorPrototype, __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js")('iterator'), function () { return this; });
-
-module.exports = function (Constructor, NAME, next) {
-  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
-  setToStringTag(Constructor, NAME + ' Iterator');
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var LIBRARY = __webpack_require__(/*! ./_library */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js");
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-var redefine = __webpack_require__(/*! ./_redefine */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js");
-var hide = __webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js");
-var $iterCreate = __webpack_require__(/*! ./_iter-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js");
-var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js");
-var ITERATOR = __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js")('iterator');
-var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
-var FF_ITERATOR = '@@iterator';
-var KEYS = 'keys';
-var VALUES = 'values';
-
-var returnThis = function () { return this; };
-
-module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {
-  $iterCreate(Constructor, NAME, next);
-  var getMethod = function (kind) {
-    if (!BUGGY && kind in proto) return proto[kind];
-    switch (kind) {
-      case KEYS: return function keys() { return new Constructor(this, kind); };
-      case VALUES: return function values() { return new Constructor(this, kind); };
-    } return function entries() { return new Constructor(this, kind); };
-  };
-  var TAG = NAME + ' Iterator';
-  var DEF_VALUES = DEFAULT == VALUES;
-  var VALUES_BUG = false;
-  var proto = Base.prototype;
-  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
-  var $default = $native || getMethod(DEFAULT);
-  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
-  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
-  var methods, key, IteratorPrototype;
-  // Fix native
-  if ($anyNative) {
-    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));
-    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {
-      // Set @@toStringTag to native iterators
-      setToStringTag(IteratorPrototype, TAG, true);
-      // fix for some old engines
-      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);
-    }
-  }
-  // fix Array#{values, @@iterator}.name in V8 / FF
-  if (DEF_VALUES && $native && $native.name !== VALUES) {
-    VALUES_BUG = true;
-    $default = function values() { return $native.call(this); };
-  }
-  // Define iterator
-  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {
-    hide(proto, ITERATOR, $default);
-  }
-  // Plug for library
-  Iterators[NAME] = $default;
-  Iterators[TAG] = returnThis;
-  if (DEFAULT) {
-    methods = {
-      values: DEF_VALUES ? $default : getMethod(VALUES),
-      keys: IS_SET ? $default : getMethod(KEYS),
-      entries: $entries
-    };
-    if (FORCED) for (key in methods) {
-      if (!(key in proto)) redefine(proto, key, methods[key]);
-    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);
-  }
-  return methods;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (done, value) {
-  return { value: value, done: !!done };
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = {};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = true;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js":
-/*!*************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var META = __webpack_require__(/*! ./_uid */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js")('meta');
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var setDesc = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js").f;
-var id = 0;
-var isExtensible = Object.isExtensible || function () {
-  return true;
-};
-var FREEZE = !__webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js")(function () {
-  return isExtensible(Object.preventExtensions({}));
-});
-var setMeta = function (it) {
-  setDesc(it, META, { value: {
-    i: 'O' + ++id, // object ID
-    w: {}          // weak collections IDs
-  } });
-};
-var fastKey = function (it, create) {
-  // return primitive with prefix
-  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;
-  if (!has(it, META)) {
-    // can't set metadata to uncaught frozen object
-    if (!isExtensible(it)) return 'F';
-    // not necessary to add metadata
-    if (!create) return 'E';
-    // add missing metadata
-    setMeta(it);
-  // return object ID
-  } return it[META].i;
-};
-var getWeak = function (it, create) {
-  if (!has(it, META)) {
-    // can't set metadata to uncaught frozen object
-    if (!isExtensible(it)) return true;
-    // not necessary to add metadata
-    if (!create) return false;
-    // add missing metadata
-    setMeta(it);
-  // return hash weak collections IDs
-  } return it[META].w;
-};
-// add metadata on freeze-family methods calling
-var onFreeze = function (it) {
-  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);
-  return it;
-};
-var meta = module.exports = {
-  KEY: META,
-  NEED: false,
-  fastKey: fastKey,
-  getWeak: getWeak,
-  onFreeze: onFreeze
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js":
-/*!**********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// 19.1.2.1 Object.assign(target, source, ...)
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js");
-var getKeys = __webpack_require__(/*! ./_object-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js");
-var gOPS = __webpack_require__(/*! ./_object-gops */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js");
-var pIE = __webpack_require__(/*! ./_object-pie */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js");
-var IObject = __webpack_require__(/*! ./_iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js");
-var $assign = Object.assign;
-
-// should work with symbols and should have deterministic property order (V8 bug)
-module.exports = !$assign || __webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js")(function () {
-  var A = {};
-  var B = {};
-  // eslint-disable-next-line no-undef
-  var S = Symbol();
-  var K = 'abcdefghijklmnopqrst';
-  A[S] = 7;
-  K.split('').forEach(function (k) { B[k] = k; });
-  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
-}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
-  var T = toObject(target);
-  var aLen = arguments.length;
-  var index = 1;
-  var getSymbols = gOPS.f;
-  var isEnum = pIE.f;
-  while (aLen > index) {
-    var S = IObject(arguments[index++]);
-    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);
-    var length = keys.length;
-    var j = 0;
-    var key;
-    while (length > j) {
-      key = keys[j++];
-      if (!DESCRIPTORS || isEnum.call(S, key)) T[key] = S[key];
-    }
-  } return T;
-} : $assign;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js":
-/*!**********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-var anObject = __webpack_require__(/*! ./_an-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js");
-var dPs = __webpack_require__(/*! ./_object-dps */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js");
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js");
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-var Empty = function () { /* empty */ };
-var PROTOTYPE = 'prototype';
-
-// Create object with fake `null` prototype: use iframe Object with cleared prototype
-var createDict = function () {
-  // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(/*! ./_dom-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js")('iframe');
-  var i = enumBugKeys.length;
-  var lt = '<';
-  var gt = '>';
-  var iframeDocument;
-  iframe.style.display = 'none';
-  __webpack_require__(/*! ./_html */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js").appendChild(iframe);
-  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
-  // createDict = iframe.contentWindow.Object;
-  // html.removeChild(iframe);
-  iframeDocument = iframe.contentWindow.document;
-  iframeDocument.open();
-  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);
-  iframeDocument.close();
-  createDict = iframeDocument.F;
-  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];
-  return createDict();
-};
-
-module.exports = Object.create || function create(O, Properties) {
-  var result;
-  if (O !== null) {
-    Empty[PROTOTYPE] = anObject(O);
-    result = new Empty();
-    Empty[PROTOTYPE] = null;
-    // add "__proto__" for Object.getPrototypeOf polyfill
-    result[IE_PROTO] = O;
-  } else result = createDict();
-  return Properties === undefined ? result : dPs(result, Properties);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var anObject = __webpack_require__(/*! ./_an-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js");
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js");
-var dP = Object.defineProperty;
-
-exports.f = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperty : function defineProperty(O, P, Attributes) {
-  anObject(O);
-  P = toPrimitive(P, true);
-  anObject(Attributes);
-  if (IE8_DOM_DEFINE) try {
-    return dP(O, P, Attributes);
-  } catch (e) { /* empty */ }
-  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
-  if ('value' in Attributes) O[P] = Attributes.value;
-  return O;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var dP = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js");
-var getKeys = __webpack_require__(/*! ./_object-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js");
-
-module.exports = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperties : function defineProperties(O, Properties) {
-  anObject(O);
-  var keys = getKeys(Properties);
-  var length = keys.length;
-  var i = 0;
-  var P;
-  while (length > i) dP.f(O, P = keys[i++], Properties[P]);
-  return O;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pIE = __webpack_require__(/*! ./_object-pie */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js");
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js");
-var gOPD = Object.getOwnPropertyDescriptor;
-
-exports.f = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js") ? gOPD : function getOwnPropertyDescriptor(O, P) {
-  O = toIObject(O);
-  P = toPrimitive(P, true);
-  if (IE8_DOM_DEFINE) try {
-    return gOPD(O, P);
-  } catch (e) { /* empty */ }
-  if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js":
-/*!************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js ***!
-  \************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-var gOPN = __webpack_require__(/*! ./_object-gopn */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js").f;
-var toString = {}.toString;
-
-var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
-  ? Object.getOwnPropertyNames(window) : [];
-
-var getWindowNames = function (it) {
-  try {
-    return gOPN(it);
-  } catch (e) {
-    return windowNames.slice();
-  }
-};
-
-module.exports.f = function getOwnPropertyNames(it) {
-  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js");
-var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js").concat('length', 'prototype');
-
-exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
-  return $keys(O, hiddenKeys);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-exports.f = Object.getOwnPropertySymbols;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js");
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-var ObjectProto = Object.prototype;
-
-module.exports = Object.getPrototypeOf || function (O) {
-  O = toObject(O);
-  if (has(O, IE_PROTO)) return O[IE_PROTO];
-  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
-    return O.constructor.prototype;
-  } return O instanceof Object ? ObjectProto : null;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js":
-/*!*****************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-var arrayIndexOf = __webpack_require__(/*! ./_array-includes */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js")(false);
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-
-module.exports = function (object, names) {
-  var O = toIObject(object);
-  var i = 0;
-  var result = [];
-  var key;
-  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);
-  // Don't enum bug & hidden keys
-  while (names.length > i) if (has(O, key = names[i++])) {
-    ~arrayIndexOf(result, key) || result.push(key);
-  }
-  return result;
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js":
-/*!********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js");
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js");
-
-module.exports = Object.keys || function keys(O) {
-  return $keys(O, enumBugKeys);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-exports.f = {}.propertyIsEnumerable;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// most Object methods by ES6 should accept primitives
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-var core = __webpack_require__(/*! ./_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js");
-var fails = __webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js");
-module.exports = function (KEY, exec) {
-  var fn = (core.Object || {})[KEY] || Object[KEY];
-  var exp = {};
-  exp[KEY] = exec(fn);
-  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js":
-/*!**********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (bitmap, value) {
-  return {
-    enumerable: !(bitmap & 1),
-    configurable: !(bitmap & 2),
-    writable: !(bitmap & 4),
-    value: value
-  };
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js":
-/*!*****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js");
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Works with __proto__ only. Old v8 can't work with null proto objects.
-/* eslint-disable no-proto */
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js");
-var check = function (O, proto) {
-  anObject(O);
-  if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
-};
-module.exports = {
-  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
-    function (test, buggy, set) {
-      try {
-        set = __webpack_require__(/*! ./_ctx */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js")(Function.call, __webpack_require__(/*! ./_object-gopd */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js").f(Object.prototype, '__proto__').set, 2);
-        set(test, []);
-        buggy = !(test instanceof Array);
-      } catch (e) { buggy = true; }
-      return function setPrototypeOf(O, proto) {
-        check(O, proto);
-        if (buggy) O.__proto__ = proto;
-        else set(O, proto);
-        return O;
-      };
-    }({}, false) : undefined),
-  check: check
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js":
-/*!**************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js ***!
-  \**************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var def = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js").f;
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var TAG = __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js")('toStringTag');
-
-module.exports = function (it, tag, stat) {
-  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var shared = __webpack_require__(/*! ./_shared */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js")('keys');
-var uid = __webpack_require__(/*! ./_uid */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js");
-module.exports = function (key) {
-  return shared[key] || (shared[key] = uid(key));
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js":
-/*!***************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var core = __webpack_require__(/*! ./_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js");
-var global = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js");
-var SHARED = '__core-js_shared__';
-var store = global[SHARED] || (global[SHARED] = {});
-
-(module.exports = function (key, value) {
-  return store[key] || (store[key] = value !== undefined ? value : {});
-})('versions', []).push({
-  version: core.version,
-  mode: __webpack_require__(/*! ./_library */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
-});
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toInteger = __webpack_require__(/*! ./_to-integer */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js");
-var defined = __webpack_require__(/*! ./_defined */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js");
-// true  -> String#at
-// false -> String#codePointAt
-module.exports = function (TO_STRING) {
-  return function (that, pos) {
-    var s = String(defined(that));
-    var i = toInteger(pos);
-    var l = s.length;
-    var a, b;
-    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;
-    a = s.charCodeAt(i);
-    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff
-      ? TO_STRING ? s.charAt(i) : a
-      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
-  };
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js":
-/*!**************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js ***!
-  \**************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toInteger = __webpack_require__(/*! ./_to-integer */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js");
-var max = Math.max;
-var min = Math.min;
-module.exports = function (index, length) {
-  index = toInteger(index);
-  return index < 0 ? max(index + length, 0) : min(index, length);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// 7.1.4 ToInteger
-var ceil = Math.ceil;
-var floor = Math.floor;
-module.exports = function (it) {
-  return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(/*! ./_iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js");
-var defined = __webpack_require__(/*! ./_defined */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js");
-module.exports = function (it) {
-  return IObject(defined(it));
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.1.15 ToLength
-var toInteger = __webpack_require__(/*! ./_to-integer */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js");
-var min = Math.min;
-module.exports = function (it) {
-  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.1.13 ToObject(argument)
-var defined = __webpack_require__(/*! ./_defined */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js");
-module.exports = function (it) {
-  return Object(defined(it));
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js":
-/*!*********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js ***!
-  \*********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-// instead of the ES6 spec version, we didn't implement @@toPrimitive case
-// and the second argument - flag - preferred type is a string
-module.exports = function (it, S) {
-  if (!isObject(it)) return it;
-  var fn, val;
-  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  throw TypeError("Can't convert object to primitive value");
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js":
-/*!************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var id = 0;
-var px = Math.random();
-module.exports = function (key) {
-  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js":
-/*!*******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js");
-var LIBRARY = __webpack_require__(/*! ./_library */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js");
-var wksExt = __webpack_require__(/*! ./_wks-ext */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js");
-var defineProperty = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js").f;
-module.exports = function (name) {
-  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
-  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
-};
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js":
-/*!****************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.f = __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js");
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js":
-/*!************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var store = __webpack_require__(/*! ./_shared */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js")('wks');
-var uid = __webpack_require__(/*! ./_uid */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js");
-var Symbol = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js").Symbol;
-var USE_SYMBOL = typeof Symbol == 'function';
-
-var $exports = module.exports = function (name) {
-  return store[name] || (store[name] =
-    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
-};
-
-$exports.store = store;
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js":
-/*!**************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js ***!
-  \**************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js");
-var step = __webpack_require__(/*! ./_iter-step */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-
-// 22.1.3.4 Array.prototype.entries()
-// 22.1.3.13 Array.prototype.keys()
-// 22.1.3.29 Array.prototype.values()
-// 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(/*! ./_iter-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js")(Array, 'Array', function (iterated, kind) {
-  this._t = toIObject(iterated); // target
-  this._i = 0;                   // next index
-  this._k = kind;                // kind
-// 22.1.5.2.1 %ArrayIteratorPrototype%.next()
-}, function () {
-  var O = this._t;
-  var kind = this._k;
-  var index = this._i++;
-  if (!O || index >= O.length) {
-    this._t = undefined;
-    return step(1);
-  }
-  if (kind == 'keys') return step(0, index);
-  if (kind == 'values') return step(0, O[index]);
-  return step(0, [index, O[index]]);
-}, 'values');
-
-// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
-Iterators.Arguments = Iterators.Array;
-
-addToUnscopables('keys');
-addToUnscopables('values');
-addToUnscopables('entries');
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js":
-/*!*************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.3.1 Object.assign(target, source)
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js") });
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js":
-/*!*************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js") });
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.keys.js":
-/*!***********************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.keys.js ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js");
-
-__webpack_require__(/*! ./_object-sap */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
-  return function keys(it) {
-    return $keys(toObject(it));
-  };
-});
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js":
-/*!***********************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js").set });
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js":
-/*!****************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js ***!
-  \****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js":
-/*!***************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var $at = __webpack_require__(/*! ./_string-at */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js")(true);
-
-// 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(/*! ./_iter-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js")(String, 'String', function (iterated) {
-  this._t = String(iterated); // target
-  this._i = 0;                // next index
-// 21.1.5.2.1 %StringIteratorPrototype%.next()
-}, function () {
-  var O = this._t;
-  var index = this._i;
-  var point;
-  if (index >= O.length) return { value: undefined, done: true };
-  point = $at(O, index);
-  this._i += point.length;
-  return { value: point, done: false };
-});
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js":
-/*!******************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// ECMAScript 6 symbols shim
-var global = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js");
-var has = __webpack_require__(/*! ./_has */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js");
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js");
-var $export = __webpack_require__(/*! ./_export */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js");
-var redefine = __webpack_require__(/*! ./_redefine */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js");
-var META = __webpack_require__(/*! ./_meta */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js").KEY;
-var $fails = __webpack_require__(/*! ./_fails */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js");
-var shared = __webpack_require__(/*! ./_shared */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js");
-var uid = __webpack_require__(/*! ./_uid */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js");
-var wks = __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js");
-var wksExt = __webpack_require__(/*! ./_wks-ext */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js");
-var wksDefine = __webpack_require__(/*! ./_wks-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js");
-var enumKeys = __webpack_require__(/*! ./_enum-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js");
-var isArray = __webpack_require__(/*! ./_is-array */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js");
-var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js");
-var _create = __webpack_require__(/*! ./_object-create */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js");
-var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js");
-var $GOPD = __webpack_require__(/*! ./_object-gopd */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js");
-var $GOPS = __webpack_require__(/*! ./_object-gops */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js");
-var $DP = __webpack_require__(/*! ./_object-dp */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js");
-var gOPD = $GOPD.f;
-var dP = $DP.f;
-var gOPN = gOPNExt.f;
-var $Symbol = global.Symbol;
-var $JSON = global.JSON;
-var _stringify = $JSON && $JSON.stringify;
-var PROTOTYPE = 'prototype';
-var HIDDEN = wks('_hidden');
-var TO_PRIMITIVE = wks('toPrimitive');
-var isEnum = {}.propertyIsEnumerable;
-var SymbolRegistry = shared('symbol-registry');
-var AllSymbols = shared('symbols');
-var OPSymbols = shared('op-symbols');
-var ObjectProto = Object[PROTOTYPE];
-var USE_NATIVE = typeof $Symbol == 'function' && !!$GOPS.f;
-var QObject = global.QObject;
-// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
-var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
-
-// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
-var setSymbolDesc = DESCRIPTORS && $fails(function () {
-  return _create(dP({}, 'a', {
-    get: function () { return dP(this, 'a', { value: 7 }).a; }
-  })).a != 7;
-}) ? function (it, key, D) {
-  var protoDesc = gOPD(ObjectProto, key);
-  if (protoDesc) delete ObjectProto[key];
-  dP(it, key, D);
-  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);
-} : dP;
-
-var wrap = function (tag) {
-  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);
-  sym._k = tag;
-  return sym;
-};
-
-var isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {
-  return typeof it == 'symbol';
-} : function (it) {
-  return it instanceof $Symbol;
-};
-
-var $defineProperty = function defineProperty(it, key, D) {
-  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);
-  anObject(it);
-  key = toPrimitive(key, true);
-  anObject(D);
-  if (has(AllSymbols, key)) {
-    if (!D.enumerable) {
-      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));
-      it[HIDDEN][key] = true;
-    } else {
-      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;
-      D = _create(D, { enumerable: createDesc(0, false) });
-    } return setSymbolDesc(it, key, D);
-  } return dP(it, key, D);
-};
-var $defineProperties = function defineProperties(it, P) {
-  anObject(it);
-  var keys = enumKeys(P = toIObject(P));
-  var i = 0;
-  var l = keys.length;
-  var key;
-  while (l > i) $defineProperty(it, key = keys[i++], P[key]);
-  return it;
-};
-var $create = function create(it, P) {
-  return P === undefined ? _create(it) : $defineProperties(_create(it), P);
-};
-var $propertyIsEnumerable = function propertyIsEnumerable(key) {
-  var E = isEnum.call(this, key = toPrimitive(key, true));
-  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;
-  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;
-};
-var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {
-  it = toIObject(it);
-  key = toPrimitive(key, true);
-  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;
-  var D = gOPD(it, key);
-  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;
-  return D;
-};
-var $getOwnPropertyNames = function getOwnPropertyNames(it) {
-  var names = gOPN(toIObject(it));
-  var result = [];
-  var i = 0;
-  var key;
-  while (names.length > i) {
-    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);
-  } return result;
-};
-var $getOwnPropertySymbols = function getOwnPropertySymbols(it) {
-  var IS_OP = it === ObjectProto;
-  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));
-  var result = [];
-  var i = 0;
-  var key;
-  while (names.length > i) {
-    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);
-  } return result;
-};
-
-// 19.4.1.1 Symbol([description])
-if (!USE_NATIVE) {
-  $Symbol = function Symbol() {
-    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');
-    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);
-    var $set = function (value) {
-      if (this === ObjectProto) $set.call(OPSymbols, value);
-      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;
-      setSymbolDesc(this, tag, createDesc(1, value));
-    };
-    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });
-    return wrap(tag);
-  };
-  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
-    return this._k;
-  });
-
-  $GOPD.f = $getOwnPropertyDescriptor;
-  $DP.f = $defineProperty;
-  __webpack_require__(/*! ./_object-gopn */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js").f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(/*! ./_object-pie */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js").f = $propertyIsEnumerable;
-  $GOPS.f = $getOwnPropertySymbols;
-
-  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js")) {
-    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
-  }
-
-  wksExt.f = function (name) {
-    return wrap(wks(name));
-  };
-}
-
-$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });
-
-for (var es6Symbols = (
-  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14
-  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'
-).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);
-
-for (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);
-
-$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {
-  // 19.4.2.1 Symbol.for(key)
-  'for': function (key) {
-    return has(SymbolRegistry, key += '')
-      ? SymbolRegistry[key]
-      : SymbolRegistry[key] = $Symbol(key);
-  },
-  // 19.4.2.5 Symbol.keyFor(sym)
-  keyFor: function keyFor(sym) {
-    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');
-    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;
-  },
-  useSetter: function () { setter = true; },
-  useSimple: function () { setter = false; }
-});
-
-$export($export.S + $export.F * !USE_NATIVE, 'Object', {
-  // 19.1.2.2 Object.create(O [, Properties])
-  create: $create,
-  // 19.1.2.4 Object.defineProperty(O, P, Attributes)
-  defineProperty: $defineProperty,
-  // 19.1.2.3 Object.defineProperties(O, Properties)
-  defineProperties: $defineProperties,
-  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
-  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,
-  // 19.1.2.7 Object.getOwnPropertyNames(O)
-  getOwnPropertyNames: $getOwnPropertyNames,
-  // 19.1.2.8 Object.getOwnPropertySymbols(O)
-  getOwnPropertySymbols: $getOwnPropertySymbols
-});
-
-// Chrome 38 and 39 `Object.getOwnPropertySymbols` fails on primitives
-// https://bugs.chromium.org/p/v8/issues/detail?id=3443
-var FAILS_ON_PRIMITIVES = $fails(function () { $GOPS.f(1); });
-
-$export($export.S + $export.F * FAILS_ON_PRIMITIVES, 'Object', {
-  getOwnPropertySymbols: function getOwnPropertySymbols(it) {
-    return $GOPS.f(toObject(it));
-  }
-});
-
-// 24.3.2 JSON.stringify(value [, replacer [, space]])
-$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
-  var S = $Symbol();
-  // MS Edge converts symbol values to JSON as {}
-  // WebKit converts symbol values to JSON as null
-  // V8 throws on boxed symbols
-  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';
-})), 'JSON', {
-  stringify: function stringify(it) {
-    var args = [it];
-    var i = 1;
-    var replacer, $replacer;
-    while (arguments.length > i) args.push(arguments[i++]);
-    $replacer = replacer = args[1];
-    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
-    if (!isArray(replacer)) replacer = function (key, value) {
-      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);
-      if (!isSymbol(value)) return value;
-    };
-    args[1] = replacer;
-    return _stringify.apply($JSON, args);
-  }
-});
-
-// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js")($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
-// 19.4.3.5 Symbol.prototype[@@toStringTag]
-setToStringTag($Symbol, 'Symbol');
-// 20.2.1.9 Math[@@toStringTag]
-setToStringTag(Math, 'Math', true);
-// 24.3.3 JSON[@@toStringTag]
-setToStringTag(global.JSON, 'JSON', true);
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js":
-/*!*********************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js ***!
-  \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ./_wks-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js")('asyncIterator');
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js":
-/*!*****************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ./_wks-define */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js")('observable');
-
-
-/***/ }),
-
-/***/ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js":
-/*!************************************************************************************************************!*\
-  !*** /Users/aminakano/node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js ***!
-  \************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ./es6.array.iterator */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js");
-var global = __webpack_require__(/*! ./_global */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js");
-var hide = __webpack_require__(/*! ./_hide */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js");
-var TO_STRING_TAG = __webpack_require__(/*! ./_wks */ "../../node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js")('toStringTag');
-
-var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
-  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +
-  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +
-  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +
-  'TextTrackList,TouchList').split(',');
-
-for (var i = 0; i < DOMIterables.length; i++) {
-  var NAME = DOMIterables[i];
-  var Collection = global[NAME];
-  var proto = Collection && Collection.prototype;
-  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
-  Iterators[NAME] = Iterators.Array;
-}
-
-
-/***/ }),
-
 /***/ "./components/Footer.js":
 /*!******************************!*\
   !*** ./components/Footer.js ***!
@@ -2327,6 +233,66 @@ var Header = function Header() {
 
 /***/ }),
 
+/***/ "./components/Headtag.js":
+/*!*******************************!*\
+  !*** ./components/Headtag.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/aminakano/workspace/anakano/components/Headtag.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Headtag = function Headtag() {
+  return __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 5
+    }
+  }, __jsx("title", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }, "Ami Nakano"), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "node_modules/@glidejs/glide/dist/css/glide.core.min.css",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Headtag);
+
+/***/ }),
+
 /***/ "./components/MyLayout.js":
 /*!********************************!*\
   !*** ./components/MyLayout.js ***!
@@ -2338,8 +304,9 @@ var Header = function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
+/* harmony import */ var _Headtag__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Headtag */ "./components/Headtag.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 var _this = undefined,
     _jsxFileName = "/Users/aminakano/workspace/anakano/components/MyLayout.js";
 
@@ -2348,27 +315,35 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Layout = function Layout(Page) {
   return function () {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7,
-        columnNumber: 7
-      }
-    }), __jsx(Page, {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_Headtag__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 8,
         columnNumber: 7
       }
-    }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 9,
+        columnNumber: 7
+      }
+    }), __jsx(Page, {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 7
+      }
+    }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
         columnNumber: 7
       }
     }));
@@ -2391,6 +366,27 @@ function _arrayWithHoles(arr) {
 }
 
 module.exports = _arrayWithHoles;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+
+module.exports = _arrayWithoutHoles;
 
 /***/ }),
 
@@ -2815,6 +811,21 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+module.exports = _iterableToArray;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
@@ -2868,6 +879,21 @@ function _nonIterableRest() {
 }
 
 module.exports = _nonIterableRest;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+module.exports = _nonIterableSpread;
 
 /***/ }),
 
@@ -2932,6 +958,27 @@ function _slicedToArray(arr, i) {
 }
 
 module.exports = _slicedToArray;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/toConsumableArray.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
+
+var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
+
+var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray;
 
 /***/ }),
 
@@ -9020,6 +7067,31 @@ module.exports = Function.prototype.bind || implementation;
 
 /***/ }),
 
+/***/ "./node_modules/global/window.js":
+/*!***************************************!*\
+  !*** ./node_modules/global/window.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var win;
+
+if (typeof window !== "undefined") {
+    win = window;
+} else if (typeof global !== "undefined") {
+    win = global;
+} else if (typeof self !== "undefined"){
+    win = self;
+} else {
+    win = {};
+}
+
+module.exports = win;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
 /***/ "./node_modules/has/src/index.js":
 /*!***************************************!*\
   !*** ./node_modules/has/src/index.js ***!
@@ -9667,6 +7739,855 @@ function withRouter(ComposedComponent) {
 
   return WithRouterWrapper;
 }
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/amp-context.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp-context.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.AmpStateContext = React.createContext({});
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/amp.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+function isInAmpMode() {
+  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      _ref$ampFirst = _ref.ampFirst,
+      ampFirst = _ref$ampFirst === void 0 ? false : _ref$ampFirst,
+      _ref$hybrid = _ref.hybrid,
+      hybrid = _ref$hybrid === void 0 ? false : _ref$hybrid,
+      _ref$hasQuery = _ref.hasQuery,
+      hasQuery = _ref$hasQuery === void 0 ? false : _ref$hasQuery;
+
+  return ampFirst || hybrid && hasQuery;
+}
+
+exports.isInAmpMode = isInAmpMode;
+
+function useAmp() {
+  // Don't assign the context value to a variable to save bytes
+  return isInAmpMode(react_1["default"].useContext(amp_context_1.AmpStateContext));
+}
+
+exports.useAmp = useAmp;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/dynamic.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/dynamic.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var loadable_1 = __importDefault(__webpack_require__(/*! ./loadable */ "./node_modules/next/dist/next-server/lib/loadable.js"));
+
+var isServerSide = false;
+
+function noSSR(LoadableInitializer, loadableOptions) {
+  // Removing webpack and modules means react-loadable won't try preloading
+  delete loadableOptions.webpack;
+  delete loadableOptions.modules; // This check is neccesary to prevent react-loadable from initializing on the server
+
+  if (!isServerSide) {
+    return LoadableInitializer(loadableOptions);
+  }
+
+  var Loading = loadableOptions.loading; // This will only be rendered on the server side
+
+  return function () {
+    return react_1["default"].createElement(Loading, {
+      error: null,
+      isLoading: true,
+      pastDelay: false,
+      timedOut: false
+    });
+  };
+}
+
+exports.noSSR = noSSR; // function dynamic<P = {}, O extends DynamicOptions>(options: O):
+
+function dynamic(dynamicOptions, options) {
+  var loadableFn = loadable_1["default"];
+  var loadableOptions = {
+    // A loading component is not required, so we default it
+    loading: function loading(_ref) {
+      var error = _ref.error,
+          isLoading = _ref.isLoading,
+          pastDelay = _ref.pastDelay;
+      if (!pastDelay) return null;
+
+      if (true) {
+        if (isLoading) {
+          return null;
+        }
+
+        if (error) {
+          return react_1["default"].createElement("p", null, error.message, react_1["default"].createElement("br", null), error.stack);
+        }
+      }
+
+      return null;
+    }
+  }; // Support for direct import(), eg: dynamic(import('../hello-world'))
+  // Note that this is only kept for the edge case where someone is passing in a promise as first argument
+  // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))
+  // To make sure we don't execute the import without rendering first
+
+  if (dynamicOptions instanceof Promise) {
+    loadableOptions.loader = function () {
+      return dynamicOptions;
+    }; // Support for having import as a function, eg: dynamic(() => import('../hello-world'))
+
+  } else if (typeof dynamicOptions === 'function') {
+    loadableOptions.loader = dynamicOptions; // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})
+  } else if (typeof dynamicOptions === 'object') {
+    loadableOptions = Object.assign(Object.assign({}, loadableOptions), dynamicOptions);
+  } // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
+
+
+  loadableOptions = Object.assign(Object.assign({}, loadableOptions), options);
+
+  if (typeof dynamicOptions === 'object' && !(dynamicOptions instanceof Promise)) {
+    // show deprecation warning for `modules` key in development
+    if (true) {
+      if (dynamicOptions.modules) {
+        console.warn('The modules option for next/dynamic has been deprecated. See here for more info https://err.sh/zeit/next.js/next-dynamic-modules');
+      }
+    } // Support for `render` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+
+    if (dynamicOptions.render) {
+      loadableOptions.render = function (loaded, props) {
+        return dynamicOptions.render(props, loaded);
+      };
+    } // Support for `modules` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+
+    if (dynamicOptions.modules) {
+      loadableFn = loadable_1["default"].Map;
+      var loadModules = {};
+      var modules = dynamicOptions.modules();
+      Object.keys(modules).forEach(function (key) {
+        var value = modules[key];
+
+        if (typeof value.then === 'function') {
+          loadModules[key] = function () {
+            return value.then(function (mod) {
+              return mod["default"] || mod;
+            });
+          };
+
+          return;
+        }
+
+        loadModules[key] = value;
+      });
+      loadableOptions.loader = loadModules;
+    }
+  } // coming from build/babel/plugins/react-loadable-plugin.js
+
+
+  if (loadableOptions.loadableGenerated) {
+    loadableOptions = Object.assign(Object.assign({}, loadableOptions), loadableOptions.loadableGenerated);
+    delete loadableOptions.loadableGenerated;
+  } // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false})
+
+
+  if (typeof loadableOptions.ssr === 'boolean') {
+    if (!loadableOptions.ssr) {
+      delete loadableOptions.ssr;
+      return noSSR(loadableFn, loadableOptions);
+    }
+
+    delete loadableOptions.ssr;
+  }
+
+  return loadableFn(loadableOptions);
+}
+
+exports["default"] = dynamic;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head-manager-context.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head-manager-context.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.HeadManagerContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head.js":
+/*!********************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/next-server/lib/side-effect.js"));
+
+var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");
+
+var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next/dist/next-server/lib/amp.js");
+
+function defaultHead() {
+  var inAmpMode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+  var head = [react_1["default"].createElement("meta", {
+    charSet: "utf-8"
+  })];
+
+  if (!inAmpMode) {
+    head.push(react_1["default"].createElement("meta", {
+      name: "viewport",
+      content: "width=device-width"
+    }));
+  }
+
+  return head;
+}
+
+exports.defaultHead = defaultHead;
+
+function onlyReactElement(list, child) {
+  // React children can be "string" or "number" in this case we ignore them for backwards compat
+  if (typeof child === 'string' || typeof child === 'number') {
+    return list;
+  } // Adds support for React.Fragment
+
+
+  if (child.type === react_1["default"].Fragment) {
+    return list.concat(react_1["default"].Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
+      if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
+        return fragmentList;
+      }
+
+      return fragmentList.concat(fragmentChild);
+    }, []));
+  }
+
+  return list.concat(child);
+}
+
+var METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp'];
+/*
+ returns a function for filtering head child elements
+ which shouldn't be duplicated, like <title/>
+ Also adds support for deduplicated `key` properties
+*/
+
+function unique() {
+  var keys = new Set();
+  var tags = new Set();
+  var metaTypes = new Set();
+  var metaCategories = {};
+  return function (h) {
+    var unique = true;
+
+    if (h.key && typeof h.key !== 'number' && h.key.indexOf('$') > 0) {
+      var key = h.key.slice(h.key.indexOf('$') + 1);
+
+      if (keys.has(key)) {
+        unique = false;
+      } else {
+        keys.add(key);
+      }
+    } // eslint-disable-next-line default-case
+
+
+    switch (h.type) {
+      case 'title':
+      case 'base':
+        if (tags.has(h.type)) {
+          unique = false;
+        } else {
+          tags.add(h.type);
+        }
+
+        break;
+
+      case 'meta':
+        for (var i = 0, len = METATYPES.length; i < len; i++) {
+          var metatype = METATYPES[i];
+          if (!h.props.hasOwnProperty(metatype)) continue;
+
+          if (metatype === 'charSet') {
+            if (metaTypes.has(metatype)) {
+              unique = false;
+            } else {
+              metaTypes.add(metatype);
+            }
+          } else {
+            var category = h.props[metatype];
+            var categories = metaCategories[metatype] || new Set();
+
+            if (categories.has(category)) {
+              unique = false;
+            } else {
+              categories.add(category);
+              metaCategories[metatype] = categories;
+            }
+          }
+        }
+
+        break;
+    }
+
+    return unique;
+  };
+}
+/**
+ *
+ * @param headElements List of multiple <Head> instances
+ */
+
+
+function reduceComponents(headElements, props) {
+  return headElements.reduce(function (list, headElement) {
+    var headElementChildren = react_1["default"].Children.toArray(headElement.props.children);
+    return list.concat(headElementChildren);
+  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
+    var key = c.key || i;
+    return react_1["default"].cloneElement(c, {
+      key: key
+    });
+  });
+}
+
+var Effect = side_effect_1["default"]();
+/**
+ * This component injects elements to `<head>` of your page.
+ * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
+ */
+
+function Head(_ref) {
+  var children = _ref.children;
+  return react_1["default"].createElement(amp_context_1.AmpStateContext.Consumer, null, function (ampState) {
+    return react_1["default"].createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
+      return react_1["default"].createElement(Effect, {
+        reduceComponentsToState: reduceComponents,
+        handleStateChange: updateHead,
+        inAmpMode: amp_1.isInAmpMode(ampState)
+      }, children);
+    });
+  });
+}
+
+Head.rewind = Effect.rewind;
+exports["default"] = Head;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/loadable-context.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/loadable-context.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.LoadableContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/loadable.js":
+/*!************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/loadable.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+@copyright (c) 2017-present James Kyle <me@thejameskyle.com>
+ MIT License
+ Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+ The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+*/
+// https://github.com/jamiebuilds/react-loadable/blob/v5.5.0/src/index.js
+// Modified to be compatible with webpack 4 / Next.js
+
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+
+function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var use_subscription_1 = __webpack_require__(/*! use-subscription */ "./node_modules/use-subscription/index.js");
+
+var loadable_context_1 = __webpack_require__(/*! ./loadable-context */ "./node_modules/next/dist/next-server/lib/loadable-context.js");
+
+var ALL_INITIALIZERS = [];
+var READY_INITIALIZERS = [];
+var initialized = false;
+
+function load(loader) {
+  var promise = loader();
+  var state = {
+    loading: true,
+    loaded: null,
+    error: null
+  };
+  state.promise = promise.then(function (loaded) {
+    state.loading = false;
+    state.loaded = loaded;
+    return loaded;
+  })["catch"](function (err) {
+    state.loading = false;
+    state.error = err;
+    throw err;
+  });
+  return state;
+}
+
+function loadMap(obj) {
+  var state = {
+    loading: false,
+    loaded: {},
+    error: null
+  };
+  var promises = [];
+
+  try {
+    Object.keys(obj).forEach(function (key) {
+      var result = load(obj[key]);
+
+      if (!result.loading) {
+        state.loaded[key] = result.loaded;
+        state.error = result.error;
+      } else {
+        state.loading = true;
+      }
+
+      promises.push(result.promise);
+      result.promise.then(function (res) {
+        state.loaded[key] = res;
+      })["catch"](function (err) {
+        state.error = err;
+      });
+    });
+  } catch (err) {
+    state.error = err;
+  }
+
+  state.promise = Promise.all(promises).then(function (res) {
+    state.loading = false;
+    return res;
+  })["catch"](function (err) {
+    state.loading = false;
+    throw err;
+  });
+  return state;
+}
+
+function resolve(obj) {
+  return obj && obj.__esModule ? obj["default"] : obj;
+}
+
+function render(loaded, props) {
+  return react_1["default"].createElement(resolve(loaded), props);
+}
+
+function createLoadableComponent(loadFn, options) {
+  var opts = Object.assign({
+    loader: null,
+    loading: null,
+    delay: 200,
+    timeout: null,
+    render: render,
+    webpack: null,
+    modules: null
+  }, options);
+  var subscription = null;
+
+  function init() {
+    if (!subscription) {
+      var sub = new LoadableSubscription(loadFn, opts);
+      subscription = {
+        getCurrentValue: sub.getCurrentValue.bind(sub),
+        subscribe: sub.subscribe.bind(sub),
+        retry: sub.retry.bind(sub),
+        promise: sub.promise.bind(sub)
+      };
+    }
+
+    return subscription.promise();
+  } // Server only
+
+
+  if (false) {} // Client only
+
+
+  if (!initialized && true && typeof opts.webpack === 'function') {
+    var moduleIds = opts.webpack();
+    READY_INITIALIZERS.push(function (ids) {
+      var _iterator = _createForOfIteratorHelper(moduleIds),
+          _step;
+
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var moduleId = _step.value;
+
+          if (ids.indexOf(moduleId) !== -1) {
+            return init();
+          }
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+    });
+  }
+
+  var LoadableComponent = function LoadableComponent(props, ref) {
+    init();
+    var context = react_1["default"].useContext(loadable_context_1.LoadableContext);
+    var state = use_subscription_1.useSubscription(subscription);
+    react_1["default"].useImperativeHandle(ref, function () {
+      return {
+        retry: subscription.retry
+      };
+    });
+
+    if (context && Array.isArray(opts.modules)) {
+      opts.modules.forEach(function (moduleName) {
+        context(moduleName);
+      });
+    }
+
+    if (state.loading || state.error) {
+      return react_1["default"].createElement(opts.loading, {
+        isLoading: state.loading,
+        pastDelay: state.pastDelay,
+        timedOut: state.timedOut,
+        error: state.error,
+        retry: subscription.retry
+      });
+    } else if (state.loaded) {
+      return opts.render(state.loaded, props);
+    } else {
+      return null;
+    }
+  };
+
+  LoadableComponent.preload = function () {
+    return init();
+  };
+
+  LoadableComponent.displayName = 'LoadableComponent';
+  return react_1["default"].forwardRef(LoadableComponent);
+}
+
+var LoadableSubscription = /*#__PURE__*/function () {
+  function LoadableSubscription(loadFn, opts) {
+    _classCallCheck(this, LoadableSubscription);
+
+    this._loadFn = loadFn;
+    this._opts = opts;
+    this._callbacks = new Set();
+    this._delay = null;
+    this._timeout = null;
+    this.retry();
+  }
+
+  _createClass(LoadableSubscription, [{
+    key: "promise",
+    value: function promise() {
+      return this._res.promise;
+    }
+  }, {
+    key: "retry",
+    value: function retry() {
+      var _this = this;
+
+      this._clearTimeouts();
+
+      this._res = this._loadFn(this._opts.loader);
+      this._state = {
+        pastDelay: false,
+        timedOut: false
+      };
+      var res = this._res,
+          opts = this._opts;
+
+      if (res.loading) {
+        if (typeof opts.delay === 'number') {
+          if (opts.delay === 0) {
+            this._state.pastDelay = true;
+          } else {
+            this._delay = setTimeout(function () {
+              _this._update({
+                pastDelay: true
+              });
+            }, opts.delay);
+          }
+        }
+
+        if (typeof opts.timeout === 'number') {
+          this._timeout = setTimeout(function () {
+            _this._update({
+              timedOut: true
+            });
+          }, opts.timeout);
+        }
+      }
+
+      this._res.promise.then(function () {
+        _this._update();
+
+        _this._clearTimeouts();
+      }) // eslint-disable-next-line handle-callback-err
+      ["catch"](function (err) {
+        _this._update();
+
+        _this._clearTimeouts();
+      });
+
+      this._update({});
+    }
+  }, {
+    key: "_update",
+    value: function _update(partial) {
+      this._state = Object.assign(Object.assign({}, this._state), partial);
+
+      this._callbacks.forEach(function (callback) {
+        return callback();
+      });
+    }
+  }, {
+    key: "_clearTimeouts",
+    value: function _clearTimeouts() {
+      clearTimeout(this._delay);
+      clearTimeout(this._timeout);
+    }
+  }, {
+    key: "getCurrentValue",
+    value: function getCurrentValue() {
+      return Object.assign(Object.assign({}, this._state), {
+        error: this._res.error,
+        loaded: this._res.loaded,
+        loading: this._res.loading
+      });
+    }
+  }, {
+    key: "subscribe",
+    value: function subscribe(callback) {
+      var _this2 = this;
+
+      this._callbacks.add(callback);
+
+      return function () {
+        _this2._callbacks["delete"](callback);
+      };
+    }
+  }]);
+
+  return LoadableSubscription;
+}();
+
+function Loadable(opts) {
+  return createLoadableComponent(load, opts);
+}
+
+function LoadableMap(opts) {
+  if (typeof opts.render !== 'function') {
+    throw new Error('LoadableMap requires a `render(loaded, props)` function');
+  }
+
+  return createLoadableComponent(loadMap, opts);
+}
+
+Loadable.Map = LoadableMap;
+
+function flushInitializers(initializers, ids) {
+  var promises = [];
+
+  while (initializers.length) {
+    var init = initializers.pop();
+    promises.push(init(ids));
+  }
+
+  return Promise.all(promises).then(function () {
+    if (initializers.length) {
+      return flushInitializers(initializers, ids);
+    }
+  });
+}
+
+Loadable.preloadAll = function () {
+  return new Promise(function (resolve, reject) {
+    flushInitializers(ALL_INITIALIZERS).then(resolve, reject);
+  });
+};
+
+Loadable.preloadReady = function () {
+  var ids = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  return new Promise(function (resolve) {
+    var res = function res() {
+      initialized = true;
+      return resolve();
+    }; // We always will resolve, errors should be handled within loading UIs.
+
+
+    flushInitializers(READY_INITIALIZERS, ids).then(res, res);
+  });
+};
+
+if (true) {
+  window.__NEXT_PRELOADREADY = Loadable.preloadReady;
+}
+
+exports["default"] = Loadable;
 
 /***/ }),
 
@@ -10659,6 +9580,115 @@ function getRouteRegex(normalizedRoute) {
 }
 
 exports.getRouteRegex = getRouteRegex;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/side-effect.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/side-effect.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+
+var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+
+var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var isServer = false;
+
+exports["default"] = function () {
+  var mountedInstances = new Set();
+  var state;
+
+  function emitChange(component) {
+    state = component.props.reduceComponentsToState(_toConsumableArray(mountedInstances), component.props);
+
+    if (component.props.handleStateChange) {
+      component.props.handleStateChange(state);
+    }
+  }
+
+  return /*#__PURE__*/function (_react_1$Component) {
+    _inherits(_class, _react_1$Component);
+
+    var _super = _createSuper(_class);
+
+    _createClass(_class, null, [{
+      key: "rewind",
+      // Used when server rendering
+      value: function rewind() {
+        var recordedState = state;
+        state = undefined;
+        mountedInstances.clear();
+        return recordedState;
+      }
+    }]);
+
+    function _class(props) {
+      var _this;
+
+      _classCallCheck(this, _class);
+
+      _this = _super.call(this, props);
+
+      if (isServer) {
+        mountedInstances.add(_assertThisInitialized(_this));
+        emitChange(_assertThisInitialized(_this));
+      }
+
+      return _this;
+    }
+
+    _createClass(_class, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        mountedInstances.add(this);
+        emitChange(this);
+      }
+    }, {
+      key: "componentDidUpdate",
+      value: function componentDidUpdate() {
+        emitChange(this);
+      }
+    }, {
+      key: "componentWillUnmount",
+      value: function componentWillUnmount() {
+        mountedInstances["delete"](this);
+        emitChange(this);
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        return null;
+      }
+    }]);
+
+    return _class;
+  }(react_1.Component);
+};
 
 /***/ }),
 
@@ -12254,306 +11284,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-keyframes/dist/frame.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-keyframes/dist/frame.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keys = __webpack_require__(/*! babel-runtime/core-js/object/keys */ "../../node_modules/babel-runtime/core-js/object/keys.js");
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "../../node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "../../node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "../../node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// Packages
-var Frame = function (_React$Component) {
-  (0, _inherits3.default)(Frame, _React$Component);
-
-  function Frame() {
-    (0, _classCallCheck3.default)(this, Frame);
-    return (0, _possibleConstructorReturn3.default)(this, _React$Component.apply(this, arguments));
-  }
-
-  Frame.prototype.componentDidMount = function componentDidMount() {
-    this.props.onRender();
-  };
-
-  Frame.prototype.componentDidUpdate = function componentDidUpdate() {
-    this.props.onRender();
-  };
-
-  Frame.prototype.render = function render() {
-    var _this2 = this;
-
-    var component = this.props.component;
-
-    var props = {};
-
-    (0, _keys2.default)(this.props).forEach(function (k) {
-      if (Frame.propTypes[k]) {
-        return;
-      }
-      props[k] = _this2.props[k];
-    });
-
-    return _react2.default.createElement(component, props, this.props.children);
-  };
-
-  return Frame;
-}(_react2.default.Component);
-
-Frame.propTypes = {
-  children: _propTypes2.default.any,
-  component: _propTypes2.default.any,
-  duration: _propTypes2.default.number,
-  onRender: _propTypes2.default.func
-};
-Frame.defaultProps = {
-  duration: 0,
-  onRender: function onRender() {}
-};
-exports.default = Frame;
-
-/***/ }),
-
-/***/ "./node_modules/react-keyframes/dist/index.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-keyframes/dist/index.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _keyframes = __webpack_require__(/*! ./keyframes */ "./node_modules/react-keyframes/dist/keyframes.js");
-
-Object.defineProperty(exports, 'Keyframes', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_keyframes).default;
-  }
-});
-
-var _frame = __webpack_require__(/*! ./frame */ "./node_modules/react-keyframes/dist/frame.js");
-
-Object.defineProperty(exports, 'Frame', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_frame).default;
-  }
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
-
-/***/ "./node_modules/react-keyframes/dist/keyframes.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-keyframes/dist/keyframes.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends2 = __webpack_require__(/*! babel-runtime/helpers/extends */ "../../node_modules/babel-runtime/helpers/extends.js");
-
-var _extends3 = _interopRequireDefault(_extends2);
-
-var _keys = __webpack_require__(/*! babel-runtime/core-js/object/keys */ "../../node_modules/babel-runtime/core-js/object/keys.js");
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "../../node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "../../node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "../../node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _frame = __webpack_require__(/*! ./frame */ "./node_modules/react-keyframes/dist/frame.js");
-
-var _frame2 = _interopRequireDefault(_frame);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var noop = function noop() {};
-
-// Utilities
-// Packages
-
-var Keyframes = function (_React$Component) {
-  (0, _inherits3.default)(Keyframes, _React$Component);
-
-  function Keyframes(props) {
-    (0, _classCallCheck3.default)(this, Keyframes);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, _React$Component.call(this, props));
-
-    _this.state = {
-      frameNum: _this.props.delay ? -1 : 0,
-      loopNum: 0
-    };
-    _this.timer = null;
-    return _this;
-  }
-
-  Keyframes.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps, nextState) {
-    var frameNum = nextState.frameNum;
-
-    if (this.state.frameNum === frameNum) {
-      return false;
-    }
-    return frameNum >= 0 && frameNum < this.props.children.length;
-  };
-
-  Keyframes.prototype.componentWillMount = function componentWillMount() {
-    if (this.state.frameNum === 0) {
-      this.props.onStart();
-    }
-  };
-
-  Keyframes.prototype.componentWillUpdate = function componentWillUpdate() {
-    if (this.state.frameNum === 0) {
-      this.props.onStart();
-    }
-  };
-
-  Keyframes.prototype.componentDidMount = function componentDidMount() {
-    this.requestNextFrame();
-  };
-
-  Keyframes.prototype.componentDidUpdate = function componentDidUpdate() {
-    this.requestNextFrame();
-  };
-
-  Keyframes.prototype.componentWillUnmount = function componentWillUnmount() {
-    clearTimeout(this.timer);
-  };
-
-  Keyframes.prototype.render = function render() {
-    var _this2 = this;
-
-    var frame = this.getFrame();
-    if (!frame) {
-      return null;
-    }
-
-    var props = {};
-    (0, _keys2.default)(this.props).forEach(function (k) {
-      // Don't pass props which exist only on Keyframes
-      if (Keyframes.propTypes[k] && !_frame2.default.propTypes[k]) {
-        return;
-      }
-
-      props[k] = _this2.props[k];
-    });
-
-    return _react2.default.cloneElement(frame, (0, _extends3.default)({}, props, frame.props));
-  };
-
-  Keyframes.prototype.requestNextFrame = function requestNextFrame() {
-    var _this3 = this;
-
-    this.waitForDelay(function () {
-      var frameNum = _this3.state.frameNum + 1;
-      var loopNum = _this3.state.loopNum + 1;
-      if (_this3.props.children.length <= frameNum) {
-        if (_this3.props.loop === true || _this3.props.loop === 'infinite' || loopNum < _this3.props.loop) {
-          _this3.setState({
-            frameNum: 0,
-            loopNum: loopNum
-          });
-          _this3.requestNextFrame();
-          return;
-        }
-        _this3.props.onEnd();
-        return;
-      }
-
-      _this3.setState({ frameNum: frameNum });
-    });
-  };
-
-  Keyframes.prototype.waitForDelay = function waitForDelay(fn) {
-    var currentFrame = this.getFrame();
-    var delay = currentFrame ? currentFrame.props.duration : this.props.delay;
-    clearTimeout(this.timer);
-    this.timer = setTimeout(fn, delay);
-  };
-
-  Keyframes.prototype.getFrame = function getFrame() {
-    return this.props.children[this.state.frameNum];
-  };
-
-  return Keyframes;
-}(_react2.default.Component);
-
-Keyframes.propTypes = {
-  children: _propTypes2.default.arrayOf(_propTypes2.default.element).isRequired,
-  component: _propTypes2.default.any, // eslint-disable-line react/no-unused-prop-types
-  delay: _propTypes2.default.number,
-  loop: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number, _propTypes2.default.bool]),
-  onStart: _propTypes2.default.func,
-  onEnd: _propTypes2.default.func
-};
-Keyframes.defaultProps = {
-  component: 'span',
-  delay: 0,
-  loop: 1,
-  onStart: noop,
-  onEnd: noop
-};
-exports.default = Keyframes;
-
-/***/ }),
-
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
@@ -13998,6 +12728,252 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
+/***/ "./node_modules/use-subscription/cjs/use-subscription.development.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/use-subscription/cjs/use-subscription.development.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/** @license React v1.1.1
+ * use-subscription.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+
+/* eslint-disable no-unused-vars */
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var propIsEnumerable = Object.prototype.propertyIsEnumerable;
+
+function toObject(val) {
+	if (val === null || val === undefined) {
+		throw new TypeError('Object.assign cannot be called with null or undefined');
+	}
+
+	return Object(val);
+}
+
+function shouldUseNative() {
+	try {
+		if (!Object.assign) {
+			return false;
+		}
+
+		// Detect buggy property enumeration order in older V8 versions.
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
+		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
+		test1[5] = 'de';
+		if (Object.getOwnPropertyNames(test1)[0] === '5') {
+			return false;
+		}
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+		var test2 = {};
+		for (var i = 0; i < 10; i++) {
+			test2['_' + String.fromCharCode(i)] = i;
+		}
+		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
+			return test2[n];
+		});
+		if (order2.join('') !== '0123456789') {
+			return false;
+		}
+
+		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+		var test3 = {};
+		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
+			test3[letter] = letter;
+		});
+		if (Object.keys(Object.assign({}, test3)).join('') !==
+				'abcdefghijklmnopqrst') {
+			return false;
+		}
+
+		return true;
+	} catch (err) {
+		// We don't expect any of the above to throw, but better to be safe.
+		return false;
+	}
+}
+
+var objectAssign = shouldUseNative() ? Object.assign : function (target, source) {
+	var from;
+	var to = toObject(target);
+	var symbols;
+
+	for (var s = 1; s < arguments.length; s++) {
+		from = Object(arguments[s]);
+
+		for (var key in from) {
+			if (hasOwnProperty.call(from, key)) {
+				to[key] = from[key];
+			}
+		}
+
+		if (getOwnPropertySymbols) {
+			symbols = getOwnPropertySymbols(from);
+			for (var i = 0; i < symbols.length; i++) {
+				if (propIsEnumerable.call(from, symbols[i])) {
+					to[symbols[i]] = from[symbols[i]];
+				}
+			}
+		}
+	}
+
+	return to;
+};
+
+//
+// In order to avoid removing and re-adding subscriptions each time this hook is called,
+// the parameters passed to this hook should be memoized in some way–
+// either by wrapping the entire params object with useMemo()
+// or by wrapping the individual callbacks with useCallback().
+
+function useSubscription(_ref) {
+  var getCurrentValue = _ref.getCurrentValue,
+      subscribe = _ref.subscribe;
+
+  // Read the current value from our subscription.
+  // When this value changes, we'll schedule an update with React.
+  // It's important to also store the hook params so that we can check for staleness.
+  // (See the comment in checkForUpdates() below for more info.)
+  var _useState = react.useState(function () {
+    return {
+      getCurrentValue: getCurrentValue,
+      subscribe: subscribe,
+      value: getCurrentValue()
+    };
+  }),
+      state = _useState[0],
+      setState = _useState[1];
+
+  var valueToReturn = state.value; // If parameters have changed since our last render, schedule an update with its current value.
+
+  if (state.getCurrentValue !== getCurrentValue || state.subscribe !== subscribe) {
+    // If the subscription has been updated, we'll schedule another update with React.
+    // React will process this update immediately, so the old subscription value won't be committed.
+    // It is still nice to avoid returning a mismatched value though, so let's override the return value.
+    valueToReturn = getCurrentValue();
+    setState({
+      getCurrentValue: getCurrentValue,
+      subscribe: subscribe,
+      value: valueToReturn
+    });
+  } // Display the current value for this hook in React DevTools.
+
+
+  react.useDebugValue(valueToReturn); // It is important not to subscribe while rendering because this can lead to memory leaks.
+  // (Learn more at reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects)
+  // Instead, we wait until the commit phase to attach our handler.
+  //
+  // We intentionally use a passive effect (useEffect) rather than a synchronous one (useLayoutEffect)
+  // so that we don't stretch the commit phase.
+  // This also has an added benefit when multiple components are subscribed to the same source:
+  // It allows each of the event handlers to safely schedule work without potentially removing an another handler.
+  // (Learn more at https://codesandbox.io/s/k0yvr5970o)
+
+  react.useEffect(function () {
+    var didUnsubscribe = false;
+
+    var checkForUpdates = function () {
+      // It's possible that this callback will be invoked even after being unsubscribed,
+      // if it's removed as a result of a subscription event/update.
+      // In this case, React will log a DEV warning about an update from an unmounted component.
+      // We can avoid triggering that warning with this check.
+      if (didUnsubscribe) {
+        return;
+      } // We use a state updater function to avoid scheduling work for a stale source.
+      // However it's important to eagerly read the currently value,
+      // so that all scheduled work shares the same value (in the event of multiple subscriptions).
+      // This avoids visual "tearing" when a mutation happens during a (concurrent) render.
+
+
+      var value = getCurrentValue();
+      setState(function (prevState) {
+        // Ignore values from stale sources!
+        // Since we subscribe an unsubscribe in a passive effect,
+        // it's possible that this callback will be invoked for a stale (previous) subscription.
+        // This check avoids scheduling an update for that stale subscription.
+        if (prevState.getCurrentValue !== getCurrentValue || prevState.subscribe !== subscribe) {
+          return prevState;
+        } // Some subscriptions will auto-invoke the handler, even if the value hasn't changed.
+        // If the value hasn't changed, no update is needed.
+        // Return state as-is so React can bail out and avoid an unnecessary render.
+
+
+        if (prevState.value === value) {
+          return prevState;
+        }
+
+        return objectAssign({}, prevState, {
+          value: value
+        });
+      });
+    };
+
+    var unsubscribe = subscribe(checkForUpdates); // Because we're subscribing in a passive effect,
+    // it's possible that an update has occurred between render and our effect handler.
+    // Check for this and schedule an update if work has occurred.
+
+    checkForUpdates();
+    return function () {
+      didUnsubscribe = true;
+      unsubscribe();
+    };
+  }, [getCurrentValue, subscribe]); // Return the current value for our caller to use while rendering.
+
+  return valueToReturn;
+}
+
+exports.useSubscription = useSubscription;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/use-subscription/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/use-subscription/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/use-subscription.development.js */ "./node_modules/use-subscription/cjs/use-subscription.development.js");
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -14048,18 +13024,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var react_keyframes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-keyframes */ "./node_modules/react-keyframes/dist/index.js");
-/* harmony import */ var react_keyframes__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_keyframes__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/json/data.json */ "./public/json/data.json");
-var _public_json_data_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/json/data.json */ "./public/json/data.json", 1);
-/* harmony import */ var _public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/NYSL_web.png */ "./public/NYSL_web.png");
-/* harmony import */ var _public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _public_TGIF_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/TGIF.png */ "./public/TGIF.png");
-/* harmony import */ var _public_TGIF_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_TGIF_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/NYSL_mob.png */ "./public/NYSL_mob.png");
-/* harmony import */ var _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _public_quiz_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/quiz.png */ "./public/quiz.png");
-/* harmony import */ var _public_quiz_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_quiz_png__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! global */ "./node_modules/global/window.js");
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/dynamic */ "./node_modules/next/dist/next-server/lib/dynamic.js");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/json/data.json */ "./public/json/data.json", 1);
+/* harmony import */ var _public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/NYSL_web.png */ "./public/NYSL_web.png");
+/* harmony import */ var _public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _public_TGIF_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/TGIF.png */ "./public/TGIF.png");
+/* harmony import */ var _public_TGIF_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_TGIF_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/NYSL_mob.png */ "./public/NYSL_mob.png");
+/* harmony import */ var _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _public_quiz_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/quiz.png */ "./public/quiz.png");
+/* harmony import */ var _public_quiz_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_quiz_png__WEBPACK_IMPORTED_MODULE_14__);
 
 
 
@@ -14075,6 +13053,7 @@ function _createSuper(Derived) { return function () { var Super = Object(_babel_
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 
+ // import Glide from "@glidejs/glide";
 
 
 
@@ -14082,6 +13061,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
+ // const Glide = dynamic(() => import("@glidejs/glide"));
 
 var Page = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Page, _Component);
@@ -14105,8 +13085,8 @@ var Page = /*#__PURE__*/function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      var images = [_public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_10___default.a, _public_TGIF_png__WEBPACK_IMPORTED_MODULE_11___default.a, _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_12___default.a, _public_quiz_png__WEBPACK_IMPORTED_MODULE_13___default.a];
-      var work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_9__.work;
+      var images = [_public_NYSL_web_png__WEBPACK_IMPORTED_MODULE_11___default.a, _public_TGIF_png__WEBPACK_IMPORTED_MODULE_12___default.a, _public_NYSL_mob_png__WEBPACK_IMPORTED_MODULE_13___default.a, _public_quiz_png__WEBPACK_IMPORTED_MODULE_14___default.a];
+      var work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_10__.work; // new Glide(".glide").mount();
 
       var trigger = function trigger() {
         _this2.setState(function (state) {
@@ -14137,7 +13117,8 @@ var Page = /*#__PURE__*/function (_Component) {
         display: "flex",
         justifyContent: "center",
         marginTop: "1.5rem",
-        position: "relative"
+        position: "relative",
+        transform: "translateX(0)"
       };
       var h2 = {
         position: "absolute",
@@ -14150,13 +13131,13 @@ var Page = /*#__PURE__*/function (_Component) {
       };
       var imgList = images.map(function (image, i) {
         return __jsx("li", {
-          className: "list" + i,
+          className: "glide__slide",
           key: i,
           style: listStyle,
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55,
+            lineNumber: 63,
             columnNumber: 7
           }
         }, __jsx("h2", {
@@ -14164,7 +13145,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56,
+            lineNumber: 64,
             columnNumber: 9
           }
         }, work[i].title), __jsx("a", {
@@ -14173,7 +13154,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 57,
+            lineNumber: 65,
             columnNumber: 9
           }
         }, __jsx("img", {
@@ -14183,7 +13164,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 58,
+            lineNumber: 66,
             columnNumber: 11
           }
         })), __jsx("p", {
@@ -14191,7 +13172,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60,
+            lineNumber: 68,
             columnNumber: 9
           }
         }, work[i].content));
@@ -14201,7 +13182,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 73,
           columnNumber: 7
         }
       }, __jsx("div", {
@@ -14209,7 +13190,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 74,
           columnNumber: 9
         }
       }, __jsx("div", {
@@ -14218,7 +13199,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 75,
           columnNumber: 11
         }
       }, __jsx("div", {
@@ -14226,7 +13207,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 76,
           columnNumber: 13
         }
       })), __jsx("ul", {
@@ -14235,7 +13216,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 78,
           columnNumber: 11
         }
       }, imgList[this.state.count]), __jsx("div", {
@@ -14244,7 +13225,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 79,
           columnNumber: 11
         }
       }, __jsx("div", {
@@ -14252,13 +13233,13 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 80,
           columnNumber: 13
         }
       }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "321957253",
         __self: this
-      }, ".main.jsx-321957253{width:100%;height:92vh;background-color:#25252b;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#fff;}p.jsx-321957253{font-size:2rem;}.cover.jsx-321957253{background:url(\"/mac.png\");width:700px;height:400px;background-repeat:no-repeat;background-size:cover;position:relative;}.prev.jsx-321957253{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:60px;width:60px;top:160px;z-index:100;}.prev_inner.jsx-321957253{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg);}.next.jsx-321957253{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;right:0;height:60px;width:60px;top:160px;z-index:100;}.next_inner.jsx-321957253{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.prev.jsx-321957253:hover,.next.jsx-321957253:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4RVcsQUFHMEIsQUFVSSxBQUdZLEFBUVQsQUFVVSxBQU9WLEFBV1UsQUFRYixXQXhESCxJQVVkLEFBK0NBLEdBcENlLEFBaUJBLEtBckNZLElBWWIsQ0FrQmlCLEFBa0JBLFdBbkNoQixTQVpBLElBYWUsS0FpQmhCLEFBa0JBLFlBakJELEFBa0JBLFdBbkNXLEFBa0JHLEFBa0JBLFlBOUJGLEFBaUJBLFVBdEJMLGtCQUNwQixFQWZ3Qiw2Q0FnQ3hCLEFBa0JBLHdCQTlCcUIsQUFpQkEsU0FwQ0Esb0ZBb0JQLEFBaUJKLFFBQ0ksQ0FyQ1csR0FvQlosUUFrQkEsR0FqQkQsUUFrQkEsRUFqQkUsUUFrQkEsSUFqQmQsUUFrQkEsdURBeENhLFdBQ2IiLCJmaWxlIjoiL1VzZXJzL2FtaW5ha2Fuby93b3Jrc3BhY2UvYW5ha2Fuby9wYWdlcy93b3JrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9NeUxheW91dC5qc1wiO1xuaW1wb3J0IHsgQ29tcG9uZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBLZXlmcmFtZXMsIEZyYW1lIH0gZnJvbSBcInJlYWN0LWtleWZyYW1lc1wiO1xuXG5pbXBvcnQgZGF0YSBmcm9tIFwiLi4vcHVibGljL2pzb24vZGF0YS5qc29uXCI7XG5pbXBvcnQgaW1nMSBmcm9tIFwiLi4vcHVibGljL05ZU0xfd2ViLnBuZ1wiO1xuaW1wb3J0IGltZzIgZnJvbSBcIi4uL3B1YmxpYy9UR0lGLnBuZ1wiO1xuaW1wb3J0IGltZzMgZnJvbSBcIi4uL3B1YmxpYy9OWVNMX21vYi5wbmdcIjtcbmltcG9ydCBpbWc0IGZyb20gXCIuLi9wdWJsaWMvcXVpei5wbmdcIjtcblxuY2xhc3MgUGFnZSBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIHRoaXMuc3RhdGUgPSB7IGNvdW50OiAwIH07XG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgY29uc3QgaW1hZ2VzID0gW2ltZzEsIGltZzIsIGltZzMsIGltZzRdO1xuICAgIGNvbnN0IHdvcmsgPSBkYXRhLndvcms7XG5cbiAgICBjb25zdCB0cmlnZ2VyID0gKCkgPT4ge1xuICAgICAgdGhpcy5zZXRTdGF0ZShzdGF0ZSA9PiB7XG4gICAgICAgIHJldHVybiBzdGF0ZS5jb3VudCA8IGltYWdlcy5sZW5ndGggLTEgID8geyBjb3VudDogc3RhdGUuY291bnQgKyAxIH0gOiB7IGNvdW50OiAwIH07XG4gICAgICB9KVxuICAgIH07XG4gICAgY29uc3QgcmV2ZXJzZVRyaWdnZXIgPSAoKSA9PiB7XG4gICAgICB0aGlzLnNldFN0YXRlKChzdGF0ZSkgPT4ge1xuICAgICAgICByZXR1cm4gc3RhdGUuY291bnQgPT09IDBcbiAgICAgICAgICA/IHsgY291bnQ6IGltYWdlcy5sZW5ndGggLSAxIH1cbiAgICAgICAgICA6IHsgY291bnQ6IHN0YXRlLmNvdW50IC0gMSB9O1xuICAgICAgfSk7XG4gICAgfVxuICAgIGNvbnN0IGltZ1N0eWxlID0ge1xuICAgICAgd2lkdGg6IFwiNTMwcHhcIixcbiAgICAgIGhlaWdodDogXCIzMzBweFwiXG4gICAgfTtcbiAgICBjb25zdCBsaXN0U3R5bGUgPSB7XG4gICAgICBsaXN0U3R5bGU6IFwibm9uZVwiLFxuICAgICAgZGlzcGxheTogXCJmbGV4XCIsXG4gICAgICBqdXN0aWZ5Q29udGVudDogXCJjZW50ZXJcIixcbiAgICAgIG1hcmdpblRvcDogXCIxLjVyZW1cIixcbiAgICAgIHBvc2l0aW9uOiBcInJlbGF0aXZlXCJcbiAgICB9O1xuICAgIGNvbnN0IGgyID0ge1xuICAgICAgcG9zaXRpb246IFwiYWJzb2x1dGVcIixcbiAgICAgIHRvcDogXCItMTAwcHhcIlxuICAgIH1cbiAgICBjb25zdCBwID0ge1xuICAgICAgcG9zaXRpb246IFwiYWJzb2x1dGVcIixcbiAgICAgIGJvdHRvbTogXCItMTAwcHhcIixcbiAgICAgIHRleHRBbGlnbjogXCJjZW50ZXJcIlxuICAgIH07XG5cbiAgICBjb25zdCBpbWdMaXN0ID0gaW1hZ2VzLm1hcCgoaW1hZ2UsIGkpID0+IChcbiAgICAgIDxsaSBjbGFzc05hbWU9e1wibGlzdFwiICsgaX0ga2V5PXtpfSBzdHlsZT17bGlzdFN0eWxlfT5cbiAgICAgICAgPGgyIHN0eWxlPXtoMn0+e3dvcmtbaV0udGl0bGV9PC9oMj5cbiAgICAgICAgPGEgaHJlZj17d29ya1tpXS51cmx9IHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxpbWcgc3JjPXtpbWFnZX0gc3R5bGU9e2ltZ1N0eWxlfSBjbGFzc05hbWU9XCJzbGlkZXItaW1nXCIvPlxuICAgICAgICA8L2E+XG4gICAgICAgIDxwIHN0eWxlPXtwfT57d29ya1tpXS5jb250ZW50fTwvcD5cbiAgICAgIDwvbGk+XG4gICAgKSk7XG5cbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY292ZXJcIj5cbiAgICAgICAgICA8ZGl2IG9uQ2xpY2s9e3JldmVyc2VUcmlnZ2VyfSBjbGFzc05hbWU9XCJwcmV2XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByZXZfaW5uZXJcIj48L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICB7LyogdG9kbzogYWRkIGtleWZyYW1lIGNvbXBvbmVudCAqL31cbiAgICAgICAgICA8dWwgaWQ9XCJzbGlkZXJcIj5cbiAgICAgICAgICAgIHtpbWdMaXN0W3RoaXMuc3RhdGUuY291bnRdfVxuICAgICAgICAgIDwvdWw+XG4gICAgICAgICAgPGRpdiBvbkNsaWNrPXt0cmlnZ2VyfSBjbGFzc05hbWU9XCJuZXh0XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5leHRfaW5uZXJcIj48L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAge2BcbiAgICAgICAgICAgIC5tYWluIHtcbiAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgIGhlaWdodDogOTJ2aDtcbiAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzI1MjUyYjtcbiAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcCB7XG4gICAgICAgICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5jb3ZlciB7XG4gICAgICAgICAgICAgIGJhY2tncm91bmQ6IHVybChcIi9tYWMucG5nXCIpO1xuICAgICAgICAgICAgICB3aWR0aDogNzAwcHg7XG4gICAgICAgICAgICAgIGhlaWdodDogNDAwcHg7XG4gICAgICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5wcmV2IHtcbiAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICAgICAgICB3aWR0aDogNjBweDtcbiAgICAgICAgICAgICAgdG9wOiAxNjBweDtcbiAgICAgICAgICAgICAgei1pbmRleDogMTAwO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLnByZXZfaW5uZXIge1xuICAgICAgICAgICAgICBib3JkZXItcmlnaHQ6IDNweCBzb2xpZCAjZmZmO1xuICAgICAgICAgICAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmZjtcbiAgICAgICAgICAgICAgaGVpZ2h0OiAyNXB4O1xuICAgICAgICAgICAgICB3aWR0aDogMjVweDtcbiAgICAgICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMTM1ZGVnKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5uZXh0IHtcbiAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgICAgICAgIGhlaWdodDogNjBweDtcbiAgICAgICAgICAgICAgd2lkdGg6IDYwcHg7XG4gICAgICAgICAgICAgIHRvcDogMTYwcHg7XG4gICAgICAgICAgICAgIHotaW5kZXg6IDEwMDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5uZXh0X2lubmVyIHtcbiAgICAgICAgICAgICAgYm9yZGVyLXJpZ2h0OiAzcHggc29saWQgI2ZmZjtcbiAgICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgICAgIGhlaWdodDogMjVweDtcbiAgICAgICAgICAgICAgd2lkdGg6IDI1cHg7XG4gICAgICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKC00NWRlZyk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAucHJldjpob3ZlcixcbiAgICAgICAgICAgIC5uZXh0OmhvdmVyIHtcbiAgICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dChQYWdlKTtcbiJdfQ== */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/pages/work.js */"));
+      }, ".main.jsx-321957253{width:100%;height:92vh;background-color:#25252b;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#fff;}p.jsx-321957253{font-size:2rem;}.cover.jsx-321957253{background:url(\"/mac.png\");width:700px;height:400px;background-repeat:no-repeat;background-size:cover;position:relative;}.prev.jsx-321957253{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:60px;width:60px;top:160px;z-index:100;}.prev_inner.jsx-321957253{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg);}.next.jsx-321957253{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;right:0;height:60px;width:60px;top:160px;z-index:100;}.next_inner.jsx-321957253{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.prev.jsx-321957253:hover,.next.jsx-321957253:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF5RlcsQUFHMEIsQUFVSSxBQUdZLEFBUVQsQUFVVSxBQU9WLEFBV1UsQUFRYixXQXhESCxJQVVkLEFBK0NBLEdBcENlLEFBaUJBLEtBckNZLElBWWIsQ0FrQmlCLEFBa0JBLFdBbkNoQixTQVpBLElBYWUsS0FpQmhCLEFBa0JBLFlBakJELEFBa0JBLFdBbkNXLEFBa0JHLEFBa0JBLFlBOUJGLEFBaUJBLFVBdEJMLGtCQUNwQixFQWZ3Qiw2Q0FnQ3hCLEFBa0JBLHdCQTlCcUIsQUFpQkEsU0FwQ0Esb0ZBb0JQLEFBaUJKLFFBQ0ksQ0FyQ1csR0FvQlosUUFrQkEsR0FqQkQsUUFrQkEsRUFqQkUsUUFrQkEsSUFqQmQsUUFrQkEsdURBeENhLFdBQ2IiLCJmaWxlIjoiL1VzZXJzL2FtaW5ha2Fuby93b3Jrc3BhY2UvYW5ha2Fuby9wYWdlcy93b3JrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9NeUxheW91dC5qc1wiO1xuaW1wb3J0IHsgQ29tcG9uZW50IH0gZnJvbSBcInJlYWN0XCI7XG4vLyBpbXBvcnQgR2xpZGUgZnJvbSBcIkBnbGlkZWpzL2dsaWRlXCI7XG5pbXBvcnQgd2luZG93IGZyb20gXCJnbG9iYWxcIjtcbmltcG9ydCBkeW5hbWljIGZyb20gXCJuZXh0L2R5bmFtaWNcIjtcblxuaW1wb3J0IGRhdGEgZnJvbSBcIi4uL3B1YmxpYy9qc29uL2RhdGEuanNvblwiO1xuaW1wb3J0IGltZzEgZnJvbSBcIi4uL3B1YmxpYy9OWVNMX3dlYi5wbmdcIjtcbmltcG9ydCBpbWcyIGZyb20gXCIuLi9wdWJsaWMvVEdJRi5wbmdcIjtcbmltcG9ydCBpbWczIGZyb20gXCIuLi9wdWJsaWMvTllTTF9tb2IucG5nXCI7XG5pbXBvcnQgaW1nNCBmcm9tIFwiLi4vcHVibGljL3F1aXoucG5nXCI7XG5cblxuLy8gY29uc3QgR2xpZGUgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIkBnbGlkZWpzL2dsaWRlXCIpKTtcblxuXG5jbGFzcyBQYWdlIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcyk7XG4gICAgdGhpcy5zdGF0ZSA9IHsgY291bnQ6IDAgfTtcbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICBjb25zdCBpbWFnZXMgPSBbaW1nMSwgaW1nMiwgaW1nMywgaW1nNF07XG4gICAgY29uc3Qgd29yayA9IGRhdGEud29yaztcbiAgICAvLyBuZXcgR2xpZGUoXCIuZ2xpZGVcIikubW91bnQoKTtcblxuICAgIGNvbnN0IHRyaWdnZXIgPSAoKSA9PiB7XG4gICAgICB0aGlzLnNldFN0YXRlKHN0YXRlID0+IHtcbiAgICAgICAgcmV0dXJuIHN0YXRlLmNvdW50IDwgaW1hZ2VzLmxlbmd0aCAtMSAgPyB7IGNvdW50OiBzdGF0ZS5jb3VudCArIDEgfSA6IHsgY291bnQ6IDAgfTtcbiAgICAgIH0pXG4gICAgfTtcbiAgICBjb25zdCByZXZlcnNlVHJpZ2dlciA9ICgpID0+IHtcbiAgICAgIHRoaXMuc2V0U3RhdGUoKHN0YXRlKSA9PiB7XG4gICAgICAgIHJldHVybiBzdGF0ZS5jb3VudCA9PT0gMFxuICAgICAgICAgID8geyBjb3VudDogaW1hZ2VzLmxlbmd0aCAtIDEgfVxuICAgICAgICAgIDogeyBjb3VudDogc3RhdGUuY291bnQgLSAxIH07XG4gICAgICB9KTtcbiAgICB9XG4gICAgY29uc3QgaW1nU3R5bGUgPSB7XG4gICAgICB3aWR0aDogXCI1MzBweFwiLFxuICAgICAgaGVpZ2h0OiBcIjMzMHB4XCJcbiAgICB9O1xuICAgIGNvbnN0IGxpc3RTdHlsZSA9IHtcbiAgICAgIGxpc3RTdHlsZTogXCJub25lXCIsXG4gICAgICBkaXNwbGF5OiBcImZsZXhcIixcbiAgICAgIGp1c3RpZnlDb250ZW50OiBcImNlbnRlclwiLFxuICAgICAgbWFyZ2luVG9wOiBcIjEuNXJlbVwiLFxuICAgICAgcG9zaXRpb246IFwicmVsYXRpdmVcIixcbiAgICAgIHRyYW5zZm9ybTogXCJ0cmFuc2xhdGVYKDApXCJcbiAgICB9O1xuICAgIGNvbnN0IGgyID0ge1xuICAgICAgcG9zaXRpb246IFwiYWJzb2x1dGVcIixcbiAgICAgIHRvcDogXCItMTAwcHhcIlxuICAgIH1cbiAgICBjb25zdCBwID0ge1xuICAgICAgcG9zaXRpb246IFwiYWJzb2x1dGVcIixcbiAgICAgIGJvdHRvbTogXCItMTAwcHhcIixcbiAgICAgIHRleHRBbGlnbjogXCJjZW50ZXJcIlxuICAgIH07XG5cbiAgICBjb25zdCBpbWdMaXN0ID0gaW1hZ2VzLm1hcCgoaW1hZ2UsIGkpID0+IChcbiAgICAgIDxsaSBjbGFzc05hbWU9XCJnbGlkZV9fc2xpZGVcIiBrZXk9e2l9IHN0eWxlPXtsaXN0U3R5bGV9PiAgICAgICAgXG4gICAgICAgIDxoMiBzdHlsZT17aDJ9Pnt3b3JrW2ldLnRpdGxlfTwvaDI+XG4gICAgICAgIDxhIGhyZWY9e3dvcmtbaV0udXJsfSB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICA8aW1nIHNyYz17aW1hZ2V9IHN0eWxlPXtpbWdTdHlsZX0gY2xhc3NOYW1lPVwic2xpZGVyLWltZ1wiLz5cbiAgICAgICAgPC9hPlxuICAgICAgICA8cCBzdHlsZT17cH0+e3dvcmtbaV0uY29udGVudH08L3A+XG4gICAgICA8L2xpPlxuICAgICkpO1xuXG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpblwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvdmVyXCI+XG4gICAgICAgICAgPGRpdiBvbkNsaWNrPXtyZXZlcnNlVHJpZ2dlcn0gY2xhc3NOYW1lPVwicHJldlwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcmV2X2lubmVyXCI+PC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPHVsIGlkPVwic2xpZGVyXCI+e2ltZ0xpc3RbdGhpcy5zdGF0ZS5jb3VudF19PC91bD5cbiAgICAgICAgICA8ZGl2IG9uQ2xpY2s9e3RyaWdnZXJ9IGNsYXNzTmFtZT1cIm5leHRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmV4dF9pbm5lclwiPjwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgey8qIDxkaXYgY2xhc3M9XCJnbGlkZVwiPlxuICAgICAgICAgIDxkaXYgY2xhc3M9XCJnbGlkZV9fdHJhY2tcIiBkYXRhLWdsaWRlLWVsPVwidHJhY2tcIj5cbiAgICAgICAgICAgIDx1bCBjbGFzcz1cImdsaWRlX19zbGlkZXNcIj57aW1nTGlzdH08L3VsPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj4gKi99XG5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICB7YFxuICAgICAgICAgICAgLm1haW4ge1xuICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgICAgaGVpZ2h0OiA5MnZoO1xuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjUyNTJiO1xuICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBwIHtcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogdXJsKFwiL21hYy5wbmdcIik7XG4gICAgICAgICAgICAgIHdpZHRoOiA3MDBweDtcbiAgICAgICAgICAgICAgaGVpZ2h0OiA0MDBweDtcbiAgICAgICAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLnByZXYge1xuICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICBoZWlnaHQ6IDYwcHg7XG4gICAgICAgICAgICAgIHdpZHRoOiA2MHB4O1xuICAgICAgICAgICAgICB0b3A6IDE2MHB4O1xuICAgICAgICAgICAgICB6LWluZGV4OiAxMDA7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAucHJldl9pbm5lciB7XG4gICAgICAgICAgICAgIGJvcmRlci1yaWdodDogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjZmZmO1xuICAgICAgICAgICAgICBoZWlnaHQ6IDI1cHg7XG4gICAgICAgICAgICAgIHdpZHRoOiAyNXB4O1xuICAgICAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgxMzVkZWcpO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLm5leHQge1xuICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICAgICAgICB3aWR0aDogNjBweDtcbiAgICAgICAgICAgICAgdG9wOiAxNjBweDtcbiAgICAgICAgICAgICAgei1pbmRleDogMTAwO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLm5leHRfaW5uZXIge1xuICAgICAgICAgICAgICBib3JkZXItcmlnaHQ6IDNweCBzb2xpZCAjZmZmO1xuICAgICAgICAgICAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmZjtcbiAgICAgICAgICAgICAgaGVpZ2h0OiAyNXB4O1xuICAgICAgICAgICAgICB3aWR0aDogMjVweDtcbiAgICAgICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoLTQ1ZGVnKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5wcmV2OmhvdmVyLFxuICAgICAgICAgICAgLm5leHQ6aG92ZXIge1xuICAgICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgYH1cbiAgICAgICAgPC9zdHlsZT5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0KFBhZ2UpO1xuIl19 */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/pages/work.js */"));
     }
   }]);
 

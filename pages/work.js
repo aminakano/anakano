@@ -1,12 +1,18 @@
 import Layout from "../components/MyLayout.js";
 import { Component } from "react";
-import { Keyframes, Frame } from "react-keyframes";
+// import Glide from "@glidejs/glide";
+import window from "global";
+import dynamic from "next/dynamic";
 
 import data from "../public/json/data.json";
 import img1 from "../public/NYSL_web.png";
 import img2 from "../public/TGIF.png";
 import img3 from "../public/NYSL_mob.png";
 import img4 from "../public/quiz.png";
+
+
+// const Glide = dynamic(() => import("@glidejs/glide"));
+
 
 class Page extends Component {
   constructor(props) {
@@ -17,6 +23,7 @@ class Page extends Component {
   render() {
     const images = [img1, img2, img3, img4];
     const work = data.work;
+    // new Glide(".glide").mount();
 
     const trigger = () => {
       this.setState(state => {
@@ -39,7 +46,8 @@ class Page extends Component {
       display: "flex",
       justifyContent: "center",
       marginTop: "1.5rem",
-      position: "relative"
+      position: "relative",
+      transform: "translateX(0)"
     };
     const h2 = {
       position: "absolute",
@@ -52,7 +60,7 @@ class Page extends Component {
     };
 
     const imgList = images.map((image, i) => (
-      <li className={"list" + i} key={i} style={listStyle}>
+      <li className="glide__slide" key={i} style={listStyle}>        
         <h2 style={h2}>{work[i].title}</h2>
         <a href={work[i].url} target="_blank">
           <img src={image} style={imgStyle} className="slider-img"/>
@@ -67,14 +75,17 @@ class Page extends Component {
           <div onClick={reverseTrigger} className="prev">
             <div className="prev_inner"></div>
           </div>
-          {/* todo: add keyframe component */}
-          <ul id="slider">
-            {imgList[this.state.count]}
-          </ul>
+          <ul id="slider">{imgList[this.state.count]}</ul>
           <div onClick={trigger} className="next">
             <div className="next_inner"></div>
           </div>
         </div>
+        {/* <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">{imgList}</ul>
+          </div>
+        </div> */}
+
         <style jsx>
           {`
             .main {
