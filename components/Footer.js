@@ -1,26 +1,26 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-library.add(fab)
+import github from "../public/github.png";
+import linkedin from "../public/linkedin.png";
+import twitter from "../public/twitter.png";
+
 const Footer = () => (
   <>
     <footer>
       <ul>
-        <a href="https://github.com/aminakano" target="_blank">
-          <li>
-            <FontAwesomeIcon icon={["fab", "github"]} />
-          </li>
-        </a>
-        <a href="https://www.linkedin.com/in/aminakano/" target="_blank">
-          <li>
-            <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-          </li>
-        </a>
-        <a href="https://twitter.com/amithecoder" target="_blank">
-          <li>
-            <FontAwesomeIcon icon={["fab", "twitter"]} />
-          </li>
-        </a>
+        <li>
+          <a href="https://github.com/aminakano" target="_blank">
+            <img src={github} />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/aminakano/" target="_blank">
+            <img src={linkedin} />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/amithecoder" target="_blank">
+            <img src={twitter} />
+          </a>
+        </li>
       </ul>
     </footer>
     <style jsx>
@@ -42,12 +42,11 @@ const Footer = () => (
         }
         li {
           list-style: none;
-          margin-right: 1.25rem;
-          font-size: 1.5rem;
-          color: #fff;
-          font-weight: 200;
-          text-transform: uppercase;
-          position: relative;
+          margin-bottom: 1.25rem;
+        }
+        img {
+          height: 6rem;
+          width: 6rem;
         }
       `}
     </style>
