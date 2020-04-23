@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../components/Link";
 
 const linkStyle = {
   marginRight: 15,
@@ -58,8 +58,8 @@ const Header = () => (
         li:hover {
           cursor: pointer;
         }
-        li:hover::after {
-          opacity: 1;
+        li.selected {
+          font-weight: bold;
         }
       `}
     </style>
