@@ -34,6 +34,7 @@ $ npm run export
 
 * It helps to crate a custom link component that can add a 'selected' class dynamically. <https://flaviocopes.com/nextjs-active-link/>
 
+* <https://github.com/glidejs/glide/issues/366>
 
 ### Reference for useful libraries
 

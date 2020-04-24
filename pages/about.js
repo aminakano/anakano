@@ -37,8 +37,8 @@ const Page = () => (
         p {
           font-size: 1.25rem;
           font-weight: 300;
-          width: 60%;
-          line-height: 1.5;
+          width: 50%;
+          line-height: 1.8;
           margin-left: 2rem;
         }
 

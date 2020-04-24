@@ -58,6 +58,10 @@ const Header = () => (
         li:hover {
           cursor: pointer;
         }
+        li:hover::after {
+          text-decoration: underline;
+        }
+
         li.selected {
           font-weight: bold;
         }
