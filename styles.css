@@ -31,3 +31,8 @@ h2 {
 /* .slider-img {
   transform: translateX(100%);
 } */
+
+.glide--item {
+  height: 300px;
+  width: 500px;
+}

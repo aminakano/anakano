@@ -1,34 +1,53 @@
-import Glide from "@glidejs/glide";
-import { useState, useEffect } from "react";
+import { Component } from "react";
+import { Glide } from "react-glide";
+import data from "../public/json/data.json";
+const images = data.work;
+// class Carrousel extends Component {
+//   constructor(props){
+//     super(props)
+//   }
+//   render(){
+//     const images = data.work;
 
+//     return (
+//       <Glide
+//         height={400}
+//         width={400}
+//         autoPlay={true}
+//         autoPlaySpeed={2000}
+//         dots={true}
+//         infinite={true}
+//         onSlideChange={() => console.log("slide changed")}
+//       >
+//         {images.map((image, i) => {
+//           <img src={image.img} />
+//         })}      
+//       </Glide>
+//     );
+//   }
+// }
+const imgStyle = {
+  height: "400px",
+  width: "300px"
+}
+const Carrousel = () => (  
+  <>
+    <Glide
+          height={300}
+          width={400}
+          autoPlay={true}
+          autoPlaySpeed={2000}
+          dots={true}
+          infinite={true}
+          onSlideChange={() => console.log("slide changed")}
+        >
+      <img src={images[0].img} />
+      <img src={images[1].img} />
+      <img src={images[2].img} />
+      <img src={images[3].img} />
+    </Glide>
 
-const Carrousel = ({ element = "glide", options, children }) => {
-  const [slider] = useState(new Glide(`.${element}`, options));
-  useEffect(() => {
-    slider.mount();
-
-    // subscribe to an event
-    slider.on("run.before", (event) => {
-      // ... do something cool here
-    });
-
-    // cleanup when unmounting component
-    return () => slider.destroy();
-  }, []);
-  return (
-    <div className={element}>
-      <div className="glide__track" data-glide-el="track">
-        <ul className="glide__slides">
-          {children.map((slide, index) => {
-            return React.cloneElement(slide, {
-              key: index,
-              className: `${slide.props.className} glide__slide`,
-            });
-          })}
-        </ul>
-      </div>
-    </div>
-  );
-};
+  </>
+)
 
 export default Carrousel;
