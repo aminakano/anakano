@@ -1,6 +1,5 @@
 import Layout from "../components/MyLayout.js";
 import { Component } from "react";
-// import Glide from "@glidejs/glide";
 import window from "global";
 import dynamic from "next/dynamic";
 
@@ -9,9 +8,6 @@ import img1 from "../public/NYSL_web.png";
 import img2 from "../public/TGIF.png";
 import img3 from "../public/NYSL_mob.png";
 import img4 from "../public/quiz.png";
-
-
-// const Glide = dynamic(() => import("@glidejs/glide"));
 
 
 class Page extends Component {
@@ -23,7 +19,6 @@ class Page extends Component {
   render() {
     const images = [img1, img2, img3, img4];
     const work = data.work;
-    // new Glide(".glide").mount();
 
     const trigger = () => {
       this.setState(state => {
