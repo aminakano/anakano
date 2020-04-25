@@ -4,10 +4,6 @@ import window from "global";
 import dynamic from "next/dynamic";
 
 import data from "../public/json/data.json";
-import img1 from "../public/NYSL_web.png";
-import img2 from "../public/TGIF.png";
-import img3 from "../public/NYSL_mob.png";
-import img4 from "../public/quiz.png";
 
 
 class Page extends Component {
@@ -17,24 +13,24 @@ class Page extends Component {
   }
 
   render() {
-    const images = [img1, img2, img3, img4];
-    const work = data.work;
+    const works = data.work;
 
     const trigger = () => {
       this.setState(state => {
-        return state.count < images.length -1  ? { count: state.count + 1 } : { count: 0 };
+        return state.count < works.length -1  ? { count: state.count + 1 } : { count: 0 };
       })
     };
     const reverseTrigger = () => {
       this.setState((state) => {
         return state.count === 0
-          ? { count: images.length - 1 }
+          ? { count: works.length - 1 }
           : { count: state.count - 1 };
       });
     }
     const imgStyle = {
       width: "530px",
-      height: "330px"
+      height: "330px",
+      transition: "opacity 1s ease-in-out"
     };
     const listStyle = {
       listStyle: "none",
@@ -42,7 +38,8 @@ class Page extends Component {
       justifyContent: "center",
       marginTop: "1.5rem",
       position: "relative",
-      transform: "translateX(0)"
+      transform: "translateX(0)",
+      transition: "opacity 1s ease-in-out",
     };
     const h2 = {
       position: "absolute",
@@ -54,13 +51,13 @@ class Page extends Component {
       textAlign: "center"
     };
 
-    const imgList = images.map((image, i) => (
+    const imgList = works.map((work, i) => (
       <li className="glide__slide" key={i} style={listStyle}>        
-        <h2 style={h2}>{work[i].title}</h2>
-        <a href={work[i].url} target="_blank">
-          <img src={image} style={imgStyle} className="slider-img"/>
+        <h2 style={h2}>{work.title}</h2>
+        <a href={work.url} target="_blank">
+          <img src={work.img} style={imgStyle} className="slider-img"/>
         </a>
-        <p style={p}>{work[i].content}</p>
+        <p style={p}>{work.content}</p>
       </li>
     ));
 

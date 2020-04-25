@@ -13,5 +13,4 @@ const Layout = Page => {
   );
 }
 
-
 export default Layout;

@@ -8,39 +8,37 @@ const images = data.work;
 //   }
 //   render(){
 //     const images = data.work;
-
+//     const slideList = images.map((image, i) => {
+//       <img src={image.img} />;
+//     });
+      
 //     return (
 //       <Glide
 //         height={400}
-//         width={400}
+//         width={500}
 //         autoPlay={true}
-//         autoPlaySpeed={2000}
+//         autoPlaySpeed={3000}
 //         dots={true}
 //         infinite={true}
 //         onSlideChange={() => console.log("slide changed")}
 //       >
-//         {images.map((image, i) => {
-//           <img src={image.img} />
-//         })}      
+//         {this.props.slideList}   
 //       </Glide>
 //     );
 //   }
 // }
-const imgStyle = {
-  height: "400px",
-  width: "300px"
-}
-const Carrousel = () => (  
+
+const Carrousel = ({children}) => (  
   <>
     <Glide
-          height={300}
-          width={400}
-          autoPlay={true}
-          autoPlaySpeed={2000}
-          dots={true}
-          infinite={true}
-          onSlideChange={() => console.log("slide changed")}
-        >
+      height={300}
+      width={500}
+      autoPlay={true}
+      autoPlaySpeed={3000}
+      dots={true}
+      infinite={true}
+      onSlideChange={() => console.log("slide changed")}
+        >   
       <img src={images[0].img} />
       <img src={images[1].img} />
       <img src={images[2].img} />

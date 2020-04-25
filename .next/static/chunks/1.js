@@ -29,35 +29,32 @@ var images = _public_json_data_json__WEBPACK_IMPORTED_MODULE_2__.work; // class 
 //   }
 //   render(){
 //     const images = data.work;
+//     const slideList = images.map((image, i) => {
+//       <img src={image.img} />;
+//     });
 //     return (
 //       <Glide
 //         height={400}
-//         width={400}
+//         width={500}
 //         autoPlay={true}
-//         autoPlaySpeed={2000}
+//         autoPlaySpeed={3000}
 //         dots={true}
 //         infinite={true}
 //         onSlideChange={() => console.log("slide changed")}
 //       >
-//         {images.map((image, i) => {
-//           <img src={image.img} />
-//         })}      
+//         {this.props.slideList}   
 //       </Glide>
 //     );
 //   }
 // }
 
-var imgStyle = {
-  height: "400px",
-  width: "300px"
-};
-
-var Carrousel = function Carrousel() {
+var Carrousel = function Carrousel(_ref) {
+  var children = _ref.children;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_glide__WEBPACK_IMPORTED_MODULE_1__["Glide"], {
     height: 300,
-    width: 400,
+    width: 500,
     autoPlay: true,
-    autoPlaySpeed: 2000,
+    autoPlaySpeed: 3000,
     dots: true,
     infinite: true,
     onSlideChange: function onSlideChange() {
@@ -66,7 +63,7 @@ var Carrousel = function Carrousel() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 33,
       columnNumber: 5
     }
   }, __jsx("img", {
@@ -74,7 +71,7 @@ var Carrousel = function Carrousel() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 42,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -82,7 +79,7 @@ var Carrousel = function Carrousel() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 43,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -90,7 +87,7 @@ var Carrousel = function Carrousel() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 44,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -98,7 +95,7 @@ var Carrousel = function Carrousel() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 45,
       columnNumber: 7
     }
   })));
@@ -129,17 +126,6 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */var c=Object.getOwnPropertySymbols,l=Object.prototype.hasOwnProperty,f=Object.prototype.propertyIsEnumerable;e.exports=function(){try{if(!Object.assign)return!1;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return!1;for(var t={},n=0;n<10;n++)t["_"+String.fromCharCode(n)]=n;if("0123456789"!==Object.getOwnPropertyNames(t).map(function(e){return t[e]}).join(""))return!1;var r={};return"abcdefghijklmnopqrst".split("").forEach(function(e){r[e]=e}),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},r)).join("")}catch(e){return!1}}()?Object.assign:function(e,t){for(var n,r,o=function(e){if(null==e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}(e),u=1;u<arguments.length;u++){for(var i in n=Object(arguments[u]))l.call(n,i)&&(o[i]=n[i]);if(c){r=c(n);for(var a=0;a<r.length;a++)f.call(n,r[a])&&(o[r[a]]=n[r[a]])}}return o}},function(e,t,n){},function(e,t,n){"use strict";n.r(t);var r=n(1);n.d(t,"Glide",function(){return r.Glide})}])});
-
-/***/ }),
-
-/***/ "./public/json/data.json":
-/*!*******************************!*\
-  !*** ./public/json/data.json ***!
-  \*******************************/
-/*! exports provided: work, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"}]}");
 
 /***/ })
 

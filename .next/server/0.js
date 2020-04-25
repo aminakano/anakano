@@ -28,41 +28,39 @@ const images = _public_json_data_json__WEBPACK_IMPORTED_MODULE_2__.work; // clas
 //   }
 //   render(){
 //     const images = data.work;
+//     const slideList = images.map((image, i) => {
+//       <img src={image.img} />;
+//     });
 //     return (
 //       <Glide
 //         height={400}
-//         width={400}
+//         width={500}
 //         autoPlay={true}
-//         autoPlaySpeed={2000}
+//         autoPlaySpeed={3000}
 //         dots={true}
 //         infinite={true}
 //         onSlideChange={() => console.log("slide changed")}
 //       >
-//         {images.map((image, i) => {
-//           <img src={image.img} />
-//         })}      
+//         {this.props.slideList}   
 //       </Glide>
 //     );
 //   }
 // }
 
-const imgStyle = {
-  height: "400px",
-  width: "300px"
-};
-
-const Carrousel = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_glide__WEBPACK_IMPORTED_MODULE_1__["Glide"], {
+const Carrousel = ({
+  children
+}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_glide__WEBPACK_IMPORTED_MODULE_1__["Glide"], {
   height: 300,
-  width: 400,
+  width: 500,
   autoPlay: true,
-  autoPlaySpeed: 2000,
+  autoPlaySpeed: 3000,
   dots: true,
   infinite: true,
   onSlideChange: () => console.log("slide changed"),
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35,
+    lineNumber: 33,
     columnNumber: 5
   }
 }, __jsx("img", {
@@ -70,7 +68,7 @@ const Carrousel = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragm
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44,
+    lineNumber: 42,
     columnNumber: 7
   }
 }), __jsx("img", {
@@ -78,7 +76,7 @@ const Carrousel = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragm
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45,
+    lineNumber: 43,
     columnNumber: 7
   }
 }), __jsx("img", {
@@ -86,7 +84,7 @@ const Carrousel = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragm
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46,
+    lineNumber: 44,
     columnNumber: 7
   }
 }), __jsx("img", {
@@ -94,23 +92,12 @@ const Carrousel = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragm
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47,
+    lineNumber: 45,
     columnNumber: 7
   }
 })));
 
 /* harmony default export */ __webpack_exports__["default"] = (Carrousel);
-
-/***/ }),
-
-/***/ "./public/json/data.json":
-/*!*******************************!*\
-  !*** ./public/json/data.json ***!
-  \*******************************/
-/*! exports provided: work, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"}]}");
 
 /***/ })
 

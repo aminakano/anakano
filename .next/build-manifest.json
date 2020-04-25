@@ -23,6 +23,10 @@
     "/sample": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/work": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

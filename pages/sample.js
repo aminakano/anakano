@@ -1,12 +1,15 @@
 import Layout from "../components/MyLayout";
 import dynamic from "next/dynamic";
 import { Component } from "react";
-
+import data from "../public/json/data.json";
 const Carrousel = dynamic(() => import("../components/Carrousel"), {
   ssr: false,
 });
-
-const Page = () => <Carrousel />;
+const images = data.work;
+const Page = () => (
+  <Carrousel>
+  </Carrousel>
+)
 
 // class Page extends Component {
 //   constructor(props) {

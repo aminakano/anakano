@@ -2221,9 +2221,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/json/data.json */ "./public/json/data.json", 1);
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/sample.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2234,13 +2237,14 @@ const Carrousel = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => __we
     modules: ["../components/Carrousel"]
   }
 });
+const images = _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__.work;
 
 const Page = () => __jsx(Carrousel, {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9,
-    columnNumber: 20
+    lineNumber: 10,
+    columnNumber: 3
   }
 }); // class Page extends Component {
 //   constructor(props) {
@@ -2287,6 +2291,17 @@ const Page = () => __jsx(Carrousel, {
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/github-a3c7970ff7517a98f20736cd6507d18d.png";
+
+/***/ }),
+
+/***/ "./public/json/data.json":
+/*!*******************************!*\
+  !*** ./public/json/data.json ***!
+  \*******************************/
+/*! exports provided: work, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"}]}");
 
 /***/ }),
 
