@@ -1,18 +1,4 @@
 {
-  "../components/Carrousel": [
-    {
-      "id": "./components/Carrousel.js",
-      "name": "./components/Carrousel.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/react-glide/lib/index.js",
-      "name": "./node_modules/react-glide/lib/index.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
   "./dev/noop": [
     {
       "id": "./node_modules/next/dist/client/dev/noop.js",
