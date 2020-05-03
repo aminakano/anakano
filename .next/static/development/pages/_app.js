@@ -1,5 +1,88 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
 
+/***/ "./asset/fonts/07LogoTypeGothic7.woff":
+/*!********************************************!*\
+  !*** ./asset/fonts/07LogoTypeGothic7.woff ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/07LogoTypeGothic7.322a854dc5d46e629c116e9ddbefcabc.woff";
+
+/***/ }),
+
+/***/ "./asset/fonts/07LogoTypeGothic7.woff2":
+/*!*********************************************!*\
+  !*** ./asset/fonts/07LogoTypeGothic7.woff2 ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/07LogoTypeGothic7.7766da1bc31fbbf58c540ab5f252b1d6.woff2";
+
+/***/ }),
+
+/***/ "./asset/fonts/fonts.css":
+/*!*******************************!*\
+  !*** ./asset/fonts/fonts.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./fonts.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./asset/fonts/fonts.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./fonts.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./asset/fonts/fonts.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./fonts.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./asset/fonts/fonts.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
@@ -350,6 +433,26 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./asset/fonts/fonts.css":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./asset/fonts/fonts.css ***!
+  \**********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Imports
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_PURE_IMPORT_0___ = __webpack_require__(/*! ./07LogoTypeGothic7.woff2 */ "./asset/fonts/07LogoTypeGothic7.woff2");
+var ___CSS_LOADER_URL_PURE_IMPORT_1___ = __webpack_require__(/*! ./07LogoTypeGothic7.woff */ "./asset/fonts/07LogoTypeGothic7.woff");
+var ___CSS_LOADER_URL_IMPORT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_0___);
+var ___CSS_LOADER_URL_IMPORT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_1___);
+// Module
+exports.push([module.i, "@font-face {\n\tfont-family: '07LogoTypeGothic7';\n\tsrc: url(" + ___CSS_LOADER_URL_IMPORT_0___ + ") format('woff2'),\n\t\t\turl(" + ___CSS_LOADER_URL_IMPORT_1___ + ") format('woff');\n\tfont-weight: normal;\n\tfont-style: normal;\n}", "",{"version":3,"sources":["/Users/aminakano/workspace/anakano/asset/fonts/fonts.css"],"names":[],"mappings":"AAAA;CACC,gCAAgC;CAChC;oDAC8C;CAC9C,mBAAmB;CACnB,kBAAkB;AACnB","file":"fonts.css","sourcesContent":["@font-face {\n\tfont-family: '07LogoTypeGothic7';\n\tsrc: url('07LogoTypeGothic7.woff2') format('woff2'),\n\t\t\turl('07LogoTypeGothic7.woff') format('woff');\n\tfont-weight: normal;\n\tfont-style: normal;\n}"]}]);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-glide/lib/reactGlide.css":
 /*!********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/react-glide/lib/reactGlide.css ***!
@@ -376,7 +479,7 @@ exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dis
 
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400|Crimson+Text:700&display=swap);"]);
 // Module
-exports.push([module.i, "/* Assistant:200,300,400 */\nbody {\n  font-family: 'Muli', sans-serif;\n  margin: 2rem;\n  color:#433f45;\n}\n\nh1,h2,h3,h4,h5,h6,p,div,ul,li {\n  padding: 0;\n  margin: 0;\n}\n#__next {\n  position: relative;\n}\n\nh1 {\n  font-family: 'Crimson Text', serif;\n  font-size: 8rem;\n}\nh2 {\n  font-family: 'Crimson Text', serif;\n  font-size: 2.5rem;\n}\n\n.jp {\n  font-family: '07logotypegothic7regular', sans-serif;\n}\n/* .slider-img:hover {\n  transform: scale(1.5);\n} */\n\n/* .slider-img {\n  transform: translateX(100%);\n} */\n\n.glide--item {\n  height: 300px;\n  width: 500px;\n}", "",{"version":3,"sources":["/Users/aminakano/workspace/anakano/styles.css"],"names":[],"mappings":"AAEA,0BAA0B;AAC1B;EACE,+BAA+B;EAC/B,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,UAAU;EACV,SAAS;AACX;AACA;EACE,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,eAAe;AACjB;AACA;EACE,kCAAkC;EAClC,iBAAiB;AACnB;;AAEA;EACE,mDAAmD;AACrD;AACA;;GAEG;;AAEH;;GAEG;;AAEH;EACE,aAAa;EACb,YAAY;AACd","file":"styles.css","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400|Crimson+Text:700&display=swap');\n\n/* Assistant:200,300,400 */\nbody {\n  font-family: 'Muli', sans-serif;\n  margin: 2rem;\n  color:#433f45;\n}\n\nh1,h2,h3,h4,h5,h6,p,div,ul,li {\n  padding: 0;\n  margin: 0;\n}\n#__next {\n  position: relative;\n}\n\nh1 {\n  font-family: 'Crimson Text', serif;\n  font-size: 8rem;\n}\nh2 {\n  font-family: 'Crimson Text', serif;\n  font-size: 2.5rem;\n}\n\n.jp {\n  font-family: '07logotypegothic7regular', sans-serif;\n}\n/* .slider-img:hover {\n  transform: scale(1.5);\n} */\n\n/* .slider-img {\n  transform: translateX(100%);\n} */\n\n.glide--item {\n  height: 300px;\n  width: 500px;\n}"]}]);
+exports.push([module.i, "body {\n  font-family: 'Muli', sans-serif;\n  margin: 2rem;\n  color:#433f45;\n}\n\nh1,h2,h3,h4,h5,h6,p,div,ul,li {\n  padding: 0;\n  margin: 0;\n}\n#__next {\n  position: relative;\n}\n\nh1 {\n  font-family: 'Crimson Text', serif;\n  font-size: 8rem;\n}\nh2 {\n  font-family: 'Crimson Text', serif;\n  font-size: 2.5rem;\n}\n\n.jp {\n  font-family: '07LogoTypeGothic7', sans-serif;\n}\n/* .slider-img:hover {\n  transform: scale(1.5);\n} */\n\n/* .slider-img {\n  transform: translateX(100%);\n} */\n\n.glide--item {\n  height: 300px;\n  width: 500px;\n}", "",{"version":3,"sources":["/Users/aminakano/workspace/anakano/styles.css"],"names":[],"mappings":"AAEA;EACE,+BAA+B;EAC/B,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,UAAU;EACV,SAAS;AACX;AACA;EACE,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,eAAe;AACjB;AACA;EACE,kCAAkC;EAClC,iBAAiB;AACnB;;AAEA;EACE,4CAA4C;AAC9C;AACA;;GAEG;;AAEH;;GAEG;;AAEH;EACE,aAAa;EACb,YAAY;AACd","file":"styles.css","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400|Crimson+Text:700&display=swap');\n\nbody {\n  font-family: 'Muli', sans-serif;\n  margin: 2rem;\n  color:#433f45;\n}\n\nh1,h2,h3,h4,h5,h6,p,div,ul,li {\n  padding: 0;\n  margin: 0;\n}\n#__next {\n  position: relative;\n}\n\nh1 {\n  font-family: 'Crimson Text', serif;\n  font-size: 8rem;\n}\nh2 {\n  font-family: 'Crimson Text', serif;\n  font-size: 2.5rem;\n}\n\n.jp {\n  font-family: '07LogoTypeGothic7', sans-serif;\n}\n/* .slider-img:hover {\n  transform: scale(1.5);\n} */\n\n/* .slider-img {\n  transform: translateX(100%);\n} */\n\n.glide--item {\n  height: 300px;\n  width: 500px;\n}"]}]);
 
 
 /***/ }),
@@ -479,6 +582,51 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
 
 /***/ }),
 
@@ -3511,14 +3659,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-glide/lib/reactGlide.css */ "./node_modules/react-glide/lib/reactGlide.css");
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset/fonts/fonts.css */ "./asset/fonts/fonts.css");
+/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-glide/lib/reactGlide.css */ "./node_modules/react-glide/lib/reactGlide.css");
+/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4__);
 
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 function MyApp(_ref) {
@@ -3528,7 +3679,7 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 10
     }
   }));

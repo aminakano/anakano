@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400|Crimson+Text:700&display=swap');
 
-/* Assistant:200,300,400 */
 body {
   font-family: 'Muli', sans-serif;
   margin: 2rem;
@@ -25,7 +24,7 @@ h2 {
 }
 
 .jp {
-  font-family: '07logotypegothic7regular', sans-serif;
+  font-family: '07LogoTypeGothic7', sans-serif;
 }
 /* .slider-img:hover {
   transform: scale(1.5);

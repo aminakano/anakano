@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,95 +88,155 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./asset/fonts/fonts.css":
-/*!*******************************!*\
-  !*** ./asset/fonts/fonts.css ***!
-  \*******************************/
+/***/ "../next-server/lib/head":
+/*!****************************************************!*\
+  !*** external "next/dist/next-server/lib/head.js" ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+module.exports = require("next/dist/next-server/lib/head.js");
 
 /***/ }),
 
-/***/ "./node_modules/react-glide/lib/reactGlide.css":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-glide/lib/reactGlide.css ***!
-  \*****************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../asset/fonts/fonts.css */ "./asset/fonts/fonts.css");
-/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-glide/lib/reactGlide.css */ "./node_modules/react-glide/lib/reactGlide.css");
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/_app.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-
-function MyApp({
-  Component,
-  pageProps
-}) {
-  return __jsx(Component, _extends({}, pageProps, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 10
-    }
-  }));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
 }
 
-/***/ }),
-
-/***/ "./styles.css":
-/*!********************!*\
-  !*** ./styles.css ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
+module.exports = _interopRequireDefault;
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************!*\
-  !*** multi private-next-pages/_app.js ***!
-  \****************************************/
+/***/ "./node_modules/next/dist/pages/_error.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+exports.__esModule = true;
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+
+var _head = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/head */ "../next-server/lib/head"));
+
+var statusCodes = {
+  400: 'Bad Request',
+  404: 'This page could not be found',
+  405: 'Method Not Allowed',
+  500: 'Internal Server Error'
+};
+
+function _getInitialProps(_ref) {
+  var {
+    res,
+    err
+  } = _ref;
+  var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+  return {
+    statusCode
+  };
+}
+/**
+* `Error` component used for handling errors.
+*/
+
+
+class Error extends _react.default.Component {
+  render() {
+    var {
+      statusCode
+    } = this.props;
+    var title = this.props.title || statusCodes[statusCode] || 'An unexpected error has occurred';
+    return _react.default.createElement("div", {
+      style: styles.error
+    }, _react.default.createElement(_head.default, null, _react.default.createElement("title", null, statusCode, ": ", title)), _react.default.createElement("div", null, _react.default.createElement("style", {
+      dangerouslySetInnerHTML: {
+        __html: 'body { margin: 0 }'
+      }
+    }), statusCode ? _react.default.createElement("h1", {
+      style: styles.h1
+    }, statusCode) : null, _react.default.createElement("div", {
+      style: styles.desc
+    }, _react.default.createElement("h2", {
+      style: styles.h2
+    }, title, "."))));
+  }
+
+}
+
+exports.default = Error;
+Error.displayName = 'ErrorPage';
+Error.getInitialProps = _getInitialProps;
+Error.origGetInitialProps = _getInitialProps;
+var styles = {
+  error: {
+    color: '#000',
+    background: '#fff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    height: '100vh',
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  desc: {
+    display: 'inline-block',
+    textAlign: 'left',
+    lineHeight: '49px',
+    height: '49px',
+    verticalAlign: 'middle'
+  },
+  h1: {
+    display: 'inline-block',
+    borderRight: '1px solid rgba(0, 0, 0,.3)',
+    margin: 0,
+    marginRight: '20px',
+    padding: '10px 23px 10px 0',
+    fontSize: '24px',
+    fontWeight: 500,
+    verticalAlign: 'top'
+  },
+  h2: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    lineHeight: 'inherit',
+    margin: 0,
+    padding: 0
+  }
+};
+
+/***/ }),
+
+/***/ 3:
+/*!******************************************************!*\
+  !*** multi ./node_modules/next/dist/pages/_error.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/aminakano/workspace/anakano/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
 
 /***/ }),
@@ -193,4 +253,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=_error.js.map
