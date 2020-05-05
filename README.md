@@ -38,6 +38,4 @@ $ npm run export
 
 ### Reference for useful libraries
 
-* `react-keyframes` Keyframe component <https://github.com/zeit/react-keyframes>
-
 * `global` To define window object <https://www.npmjs.com/package/global> 
