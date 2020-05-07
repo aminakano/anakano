@@ -1,9 +1,5 @@
 import Link from "../components/Link";
 
-const linkStyle = {
-  marginRight: 15,
-};
-
 const Header = () => (
   <>
     <header>
