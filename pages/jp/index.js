@@ -1,26 +1,11 @@
-import Layout from "../../components/MyLayout.js";
+import Layout from "../../components/MyLayout";
+import About from "../../components/About";
 
 const Page = () => (
-  <div className="main">
-    <h1 className="jp">中野亜美</h1>
-    <p>Frontend Developer</p>
-    <style jsx>
-      {`
-        .main {
-          width: 100%;
-          height: 92vh;
-          background-color: #10b1b0;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-        }
-        p {
-          font-size: 2rem;
-        }
-      `}
-    </style>
-  </div>
+  <About 
+    title="中野亜美"
+    text="こんにちは"
+  />
 );
 
 export default Layout(Page);

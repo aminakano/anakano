@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Muli', sans-serif;
-  margin: 2rem;
+  margin: 2rem !important;
   color:#433f45;
 }
 

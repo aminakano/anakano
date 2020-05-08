@@ -24,5 +24,16 @@
       "url": "https://trivia-quiz-vue.herokuapp.com/",
       "img": "../image/quiz.png"
     }
+  ],
+  "about": [
+    {
+      "title": "Ami Nakano",
+      "text": ""
+    },
+    {
+      "title": "中野亜美",
+      "text": ""
+    }
   ]
+  
 }
