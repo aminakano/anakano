@@ -4,7 +4,9 @@ const Language = () => (
     <ul>
       <li>en</li>
       <li>
-        <Link href="/jp">jp</Link>
+        <Link href="/jp">
+          <a>jp</a>
+        </Link>
       </li>
     </ul>
     <style jsx>

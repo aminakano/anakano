@@ -36,6 +36,8 @@ $ npm run export
 
 * <https://github.com/glidejs/glide/issues/366>
 
+* Usage of components <https://medium.com/trabe/advanced-composition-in-react-cloneelement-hocs-and-renderprops-a20971aec50e>
+
 ### Reference for useful libraries
 
 * `global` To define window object <https://www.npmjs.com/package/global> 
