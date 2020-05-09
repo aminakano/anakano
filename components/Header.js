@@ -1,4 +1,5 @@
 import Link from "../components/Link";
+import Language from "../components/Language";
 
 const Header = () => (
   <>
@@ -15,6 +16,7 @@ const Header = () => (
         </Link>
         {/* <li>Contact</li> */}
       </ul>
+      <Language />
     </header>
     <style jsx>
       {`

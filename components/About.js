@@ -1,9 +1,9 @@
 import React from "react";
 import image from "../public/profile.png";
 
-const About = ({ title, text }) => (
+const About = ({ title, text, lang }) => (
   <div className="main">
-    <h1>{title}</h1>
+    <h1 className={lang}>{title}</h1>
     <div>
       <img src={image} />
       <p>{text}</p>
