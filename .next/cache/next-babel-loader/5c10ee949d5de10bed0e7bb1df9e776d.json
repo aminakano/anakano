@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Layout from \"../../components/MyLayout\";","map":{"version":3,"sources":["/Users/aminakano/workspace/anakano/pages/jp/index.js"],"names":["Layout"],"mappings":"AAAA,OAAOA,MAAP,MAAmB,2BAAnB","sourcesContent":["import Layout from \"../../components/MyLayout\";\n\n"]},"metadata":{},"sourceType":"module"}
