@@ -1,10 +1,10 @@
-const Main = ({bg}) => {
+const Main = ({bg, children}) => {
   const styles = {
     backgroundColor: bg
   };
     return (
       <>
-        <div className="main" style={styles}></div>
+        <div className="main" style={styles}>{children}</div>
         <style jsx>
           {`
             .main {
