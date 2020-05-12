@@ -6388,7 +6388,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!*********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fjp%2Fabout&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2Fanakano%2Fpages%2Fjp%2Fabout.js ***!
   \*********************************************************************************************************************************************/
@@ -6411,5 +6411,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map

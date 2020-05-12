@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2487,7 +2487,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 8:
+/***/ 6:
 /*!*********************************!*\
   !*** multi ./pages/jp/about.js ***!
   \*********************************/
