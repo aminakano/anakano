@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -356,53 +356,6 @@ const Headtag = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Headtag);
-
-/***/ }),
-
-/***/ "./components/Index.js":
-/*!*****************************!*\
-  !*** ./components/Index.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/aminakano/workspace/anakano/components/Index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-const Index = ({
-  title,
-  name,
-  lang
-}) => __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("h1", {
-  className: "jsx-165783943" + " " + (lang || ""),
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5,
-    columnNumber: 5
-  }
-}, name), __jsx("p", {
-  className: "jsx-165783943" + " " + (lang || ""),
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6,
-    columnNumber: 5
-  }
-}, title), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "165783943",
-  __self: undefined
-}, "p.jsx-165783943{font-size:2rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9JbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPTyxBQUcwQixlQUNqQiIsImZpbGUiOiIvVXNlcnMvYW1pbmFrYW5vL3dvcmtzcGFjZS9hbmFrYW5vL2NvbXBvbmVudHMvSW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEluZGV4ID0gKHsgdGl0bGUsIG5hbWUsIGxhbmcgfSkgPT4gKFxuICA8PlxuICAgIDxoMSBjbGFzc05hbWU9e2xhbmd9PntuYW1lfTwvaDE+XG4gICAgPHAgY2xhc3NOYW1lPXtsYW5nfT57dGl0bGV9PC9wPlxuICAgIDxzdHlsZSBqc3g+XG4gICAgICB7YFxuICAgICAgICBwIHtcbiAgICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgICAgIH1cbiAgICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC8+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBJbmRleDtcbiJdfQ== */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Index.js */"));
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
@@ -737,6 +690,36 @@ const NavLink = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavLink);
+
+/***/ }),
+
+/***/ "./components/Work/WorkTitle.js":
+/*!**************************************!*\
+  !*** ./components/Work/WorkTitle.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/aminakano/workspace/anakano/components/Work/WorkTitle.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const WorkTitle = ({
+  title
+}) => __jsx("h2", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2,
+    columnNumber: 3
+  }
+}, title);
+
+/* harmony default export */ __webpack_exports__["default"] = (WorkTitle);
 
 /***/ }),
 
@@ -2409,10 +2392,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/jp/work.js":
+/*!**************************!*\
+  !*** ./pages/jp/work.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2420,34 +2403,44 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Main */ "./components/Main.js");
-/* harmony import */ var _components_Index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Index */ "./components/Index.js");
-var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/index.js";
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Main */ "./components/Main.js");
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
+/* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
+var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/jp/work.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+const work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__.work;
+
 const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  bg: "#10b1b0",
+  bg: "#25252b",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
+    lineNumber: 9,
     columnNumber: 5
   }
-}, __jsx(_components_Index__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  title: "Frontend Developer",
-  name: "Ami Nakano",
+}, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: work[0].title,
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 10,
     columnNumber: 7
   }
-})));
+}), __jsx("h1", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 7
+  }
+}, "This is work")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page));
 
@@ -2461,6 +2454,17 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/github-a3c7970ff7517a98f20736cd6507d18d.png";
+
+/***/ }),
+
+/***/ "./public/json/data.json":
+/*!*******************************!*\
+  !*** ./public/json/data.json ***!
+  \*******************************/
+/*! exports provided: work, about, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"}],\"about\":[{\"title\":\"Ami Nakano\",\"text\":\"I'm a Japanese Frontend Developer located in the Netherlands. I like coding, design and learning new technologies especially JavaScript and its libraries. I used to be a secretary, however, I came up with the idea of using my creativity in my full-time job and devoted myself into a coding bootcamp in Amsterdam, which surely was a fantastic decision. Currently I am working on a beautiful webshop as a full-time Frontend Intern and recently I have got my first freelance project to build a corporate website.\"},{\"title\":\"中野亜美\",\"text\":\"オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。\"}]}");
 
 /***/ }),
 
@@ -2486,14 +2490,14 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!********************************!*\
+  !*** multi ./pages/jp/work.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/aminakano/workspace/anakano/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/aminakano/workspace/anakano/pages/jp/work.js */"./pages/jp/work.js");
 
 
 /***/ }),
@@ -2587,4 +2591,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=work.js.map
