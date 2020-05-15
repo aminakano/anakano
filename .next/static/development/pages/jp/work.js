@@ -598,6 +598,39 @@ var NavLink = function NavLink() {
 
 /***/ }),
 
+/***/ "./components/Work/WorkDesc.js":
+/*!*************************************!*\
+  !*** ./components/Work/WorkDesc.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/Users/aminakano/workspace/anakano/components/Work/WorkDesc.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var WorkDesc = function WorkDesc(_ref) {
+  var desc = _ref.desc;
+  return __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 1,
+      columnNumber: 32
+    }
+  }, desc);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (WorkDesc);
+
+/***/ }),
+
 /***/ "./components/Work/WorkTitle.js":
 /*!**************************************!*\
   !*** ./components/Work/WorkTitle.js ***!
@@ -6306,11 +6339,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
 var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
 /* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
+/* harmony import */ var _components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Work/WorkDesc */ "./components/Work/WorkDesc.js");
 var _this = undefined,
     _jsxFileName = "/Users/aminakano/workspace/anakano/pages/jp/work.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -6323,7 +6358,7 @@ var Page = function Page() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 5
     }
   }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6331,17 +6366,18 @@ var Page = function Page() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 7
     }
-  }), __jsx("h1", {
+  }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    desc: work[0].content,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 7
     }
-  }, "This is work")));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page));
@@ -6392,7 +6428,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fjp%2Fwork&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2Fanakano%2Fpages%2Fjp%2Fwork.js ***!
   \*******************************************************************************************************************************************/
@@ -6415,5 +6451,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=work.js.map
