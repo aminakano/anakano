@@ -1,11 +1,8 @@
-//todo: make onClick func inners to take parameters
 const Arrow = ({ triggers, direction, inner }) => (
   <>
-    <div onClick={reverseTrigger} className="prev">
-      <div className="prev_inner"></div>
-    </div>
-    <div onClick={trigger} className="next">
-      <div className="next_inner"></div>
+    <div onClick={triggers} 
+          className={direction}>
+      <div className={inner}></div>
     </div>
     <style jsx>
       {`
