@@ -1,7 +1,5 @@
 import Layout from "../components/MyLayout.js";
 import { Component } from "react";
-import window from "global";
-import dynamic from "next/dynamic";
 
 import data from "../public/json/data.json";
 
