@@ -1,6 +1,6 @@
-const WorkSlide = () => (
+const WorkSlide = ({ children }) => (
   <>
-    <div className="cover"></div>
+    <div className="cover">{children}</div>
     <style jsx>
       {`
         .cover {

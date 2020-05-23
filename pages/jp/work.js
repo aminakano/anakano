@@ -20,10 +20,11 @@ class Page extends Component {
     return (
       <>
         <Main bg="#25252b">
-          <WorkTitle title={work[0].title} />
-          <WorkSlide />
-          {/* <h1>This is work</h1> */}
-          <WorkDesc desc={work[0].content} />
+          <WorkSlide>
+            <WorkTitle title={work[0].title} />
+            {/* <h1>This is work</h1> */}
+            <WorkDesc desc={work[0].content} />
+          </WorkSlide>
         </Main>
       </>
     );
