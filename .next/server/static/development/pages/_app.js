@@ -104,17 +104,6 @@ module.exports =
 
 /***/ }),
 
-/***/ "./node_modules/react-glide/lib/reactGlide.css":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-glide/lib/reactGlide.css ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./pages/_app.js":
 /*!***********************!*\
   !*** ./pages/_app.js ***!
@@ -131,15 +120,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-glide/lib/reactGlide.css */ "./node_modules/react-glide/lib/reactGlide.css");
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 
 function MyApp({
@@ -150,7 +138,7 @@ function MyApp({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 8,
       columnNumber: 10
     }
   }));

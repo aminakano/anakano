@@ -453,20 +453,6 @@ exports.push([module.i, "@font-face {\n\tfont-family: '07LogoTypeGothic7';\n\tsr
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-glide/lib/reactGlide.css":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/react-glide/lib/reactGlide.css ***!
-  \********************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, "body,html{padding:0;margin:0;cursor:default}.glide--container{position:relative}.glide--item{opacity:0}.glide--item,.glide--item.current{position:absolute;left:0;transition:opacity 1s ease-in-out}.glide--item.current{opacity:1}button{position:absolute;z-index:10;color:#9cecfc;background-color:#171b1c;height:60px;width:35px;border:none;font-size:25px;cursor:pointer;top:45%}.glide--next-btn{right:0}.glide--prev-btn{left:0}.glide--dots{position:absolute;left:40%;right:40%;bottom:0;display:inline-flex;font-size:64px;margin-top:100%;z-index:100;cursor:pointer}.glide--dots .active-dot{color:#9cecfc}.loading-indicator{content:\"\";box-sizing:border-box;position:absolute;top:44%;left:45%;width:5rem;height:5rem;margin-top:-10px;margin-left:-10px;border-radius:50%;border:2px solid #ccc;border-top-color:#333;-webkit-animation:load8 .6s linear infinite;animation:load8 .6s linear infinite}.loading-indicator:before{border-radius:50%;width:10em;height:10em}@-webkit-keyframes load8{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes load8{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.loading-message{color:#263238;text-align:center}", "",{"version":3,"sources":["/Users/aminakano/workspace/anakano/node_modules/react-glide/lib/reactGlide.css"],"names":[],"mappings":"AAAA,UAAU,SAAS,CAAC,QAAQ,CAAC,cAAc,CAAC,kBAAkB,iBAAiB,CAAC,aAAa,SAAS,CAAC,kCAAkC,iBAAiB,CAAC,MAAM,CAAuH,iCAAiC,CAAC,qBAAqB,SAAS,CAAC,OAAO,iBAAiB,CAAC,UAAU,CAAC,aAAa,CAAC,wBAAwB,CAAC,WAAW,CAAC,UAAU,CAAC,WAAW,CAAC,cAAc,CAAC,cAAc,CAAC,OAAO,CAAC,iBAAiB,OAAO,CAAC,iBAAiB,MAAM,CAAC,aAAa,iBAAiB,CAAC,QAAQ,CAAC,SAAS,CAAC,QAAQ,CAAC,mBAAmB,CAAC,cAAc,CAAC,eAAe,CAAC,WAAW,CAAC,cAAc,CAAC,yBAAyB,aAAa,CAAC,mBAAmB,UAAU,CAAC,qBAAqB,CAAC,iBAAiB,CAAC,OAAO,CAAC,QAAQ,CAAC,UAAU,CAAC,WAAW,CAAC,gBAAgB,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,qBAAqB,CAAC,qBAAqB,CAAC,2CAAkC,CAAlC,mCAAmC,CAAC,0BAA0B,iBAAiB,CAAC,UAAU,CAAC,WAAW,CAAC,yBAAyB,GAAkC,sBAAsB,CAAC,GAAmC,uBAAuB,CAAC,CAAC,iBAAiB,GAAkC,sBAAsB,CAAC,GAAmC,uBAAuB,CAAC,CAAC,iBAAiB,aAAa,CAAC,iBAAiB","file":"reactGlide.css","sourcesContent":["body,html{padding:0;margin:0;cursor:default}.glide--container{position:relative}.glide--item{opacity:0}.glide--item,.glide--item.current{position:absolute;left:0;-webkit-transition:opacity 1s ease-in-out;-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;transition:opacity 1s ease-in-out}.glide--item.current{opacity:1}button{position:absolute;z-index:10;color:#9cecfc;background-color:#171b1c;height:60px;width:35px;border:none;font-size:25px;cursor:pointer;top:45%}.glide--next-btn{right:0}.glide--prev-btn{left:0}.glide--dots{position:absolute;left:40%;right:40%;bottom:0;display:inline-flex;font-size:64px;margin-top:100%;z-index:100;cursor:pointer}.glide--dots .active-dot{color:#9cecfc}.loading-indicator{content:\"\";box-sizing:border-box;position:absolute;top:44%;left:45%;width:5rem;height:5rem;margin-top:-10px;margin-left:-10px;border-radius:50%;border:2px solid #ccc;border-top-color:#333;animation:load8 .6s linear infinite}.loading-indicator:before{border-radius:50%;width:10em;height:10em}@-webkit-keyframes load8{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes load8{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.loading-message{color:#263238;text-align:center}"]}]);
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles.css":
 /*!***********************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles.css ***!
@@ -2285,67 +2271,6 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
-/***/ "./node_modules/react-glide/lib/reactGlide.css":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-glide/lib/reactGlide.css ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./reactGlide.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-glide/lib/reactGlide.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./reactGlide.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-glide/lib/reactGlide.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./reactGlide.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-glide/lib/reactGlide.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
-
-/***/ }),
-
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -3663,13 +3588,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-glide/lib/reactGlide.css */ "./node_modules/react-glide/lib/reactGlide.css");
-/* harmony import */ var react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_glide_lib_reactGlide_css__WEBPACK_IMPORTED_MODULE_4__);
 
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 
 function MyApp(_ref) {
@@ -3679,7 +3603,7 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 8,
       columnNumber: 10
     }
   }));
