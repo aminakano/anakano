@@ -6,7 +6,7 @@ const SlideImages = ({ img, url }) => (
     <style jsx>
       {`
         img {
-          width: 530px;
+          width: 500px;
           height: 330px;
         }
       `}

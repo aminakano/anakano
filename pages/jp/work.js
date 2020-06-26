@@ -24,24 +24,28 @@ class Page extends Component {
 
   render () {
     const styles = {
-      ul: {
+      container: {
         display: "flex",
         alignItems: "center",
+        // justifyContent: "center",
+        width: "500px",
+        overflowX: "scroll",
       },
       list: {
-        listStyle: "none",
+        width: "500px",
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
+        margin: "2rem",
       },
     };
     const contents = work.map((item, i) => (
-      <li key={i} style={styles.list}>
+      <div key={i} style={styles.list}>
         <WorkTitle title={item.title} />
         <SlideImages img={item.img} url={item.url} />
         <WorkDesc desc={item.content} />
-      </li>
+      </div>
     ))
     const settings = {
       dots: true,
@@ -53,11 +57,10 @@ class Page extends Component {
     return (
       <>
         <Main bg="#25252b">
-          <ul style={styles.ul}>
-            <NoSSR>
-             {contents}
-            </NoSSR>
-          </ul>
+          <NoSSR>
+            {/* <Slider {...settings}>{contents}</Slider> */}
+            <div style={styles.container}>{contents}</div>
+          </NoSSR>
         </Main>
       </>
     );

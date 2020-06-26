@@ -26,3 +26,7 @@ h2 {
 .jp {
   font-family: '07LogoTypeGothic7', sans-serif;
 }
+
+.slider {
+  width: 500px;
+}

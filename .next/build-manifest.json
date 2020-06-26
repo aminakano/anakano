@@ -20,11 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/jp/about": [
+    "/jp/work": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/jp/work": [
+    "/work": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
