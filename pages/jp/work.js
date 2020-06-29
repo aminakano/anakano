@@ -58,7 +58,6 @@ class Page extends Component {
       <>
         <Main bg="#25252b">
           <NoSSR>
-            {/* <Slider {...settings}>{contents}</Slider> */}
             <div style={styles.container}>{contents}</div>
           </NoSSR>
         </Main>
