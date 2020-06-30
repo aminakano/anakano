@@ -27,12 +27,9 @@ class Page extends Component {
       container: {
         display: "flex",
         alignItems: "center",
-        // justifyContent: "center",
-        width: "500px",
-        overflowX: "scroll",
+        justifyContent: "center",
       },
       list: {
-        width: "500px",
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
@@ -47,19 +44,14 @@ class Page extends Component {
         <WorkDesc desc={item.content} />
       </div>
     ))
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    };
+
     return (
       <>
         <Main bg="#25252b">
-          <NoSSR>
-            <div style={styles.container}>{contents}</div>
-          </NoSSR>
+          <WorkSlide>
+            {contents[this.state.count]}
+            {/* <div style={styles.container}>{contents[this.state.count]}</div> */}
+          </WorkSlide>
         </Main>
       </>
     );

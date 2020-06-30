@@ -31,7 +31,7 @@ const Footer = () => (
           display: flex;
           align-items: center;
           position: absolute;
-          top: 350px;
+          top: 35%;
           left: 10px;
         }
         ul {

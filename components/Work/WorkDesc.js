@@ -5,6 +5,9 @@ const WorkDesc = ({ desc }) => (
       {`
         p {
           color: #fff;
+          position: absolute;
+          bottom: -70px;
+          text-align: center;
         }
       `}
     </style>

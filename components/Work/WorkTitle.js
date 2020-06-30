@@ -5,6 +5,8 @@ const WorkTitle = ({ title }) => (
       {`
         h2 {
           color: #fff;
+          position: absolute;
+          top: -75px;
         }
       `}
     </style>
