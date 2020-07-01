@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2603,17 +2603,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Main */ "./components/Main.js");
-/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
-var _public_json_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-no-ssr */ "react-no-ssr");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-slick */ "react-slick");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
-/* harmony import */ var _components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Work/WorkDesc */ "./components/Work/WorkDesc.js");
-/* harmony import */ var _components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/Work/WorkSlide */ "./components/Work/WorkSlide.js");
-/* harmony import */ var _components_Work_Arrow__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Work/Arrow */ "./components/Work/Arrow.js");
-/* harmony import */ var _components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Work/SlideImages */ "./components/Work/SlideImages.js");
+/* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
+/* harmony import */ var _components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Work/WorkDesc */ "./components/Work/WorkDesc.js");
+/* harmony import */ var _components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Work/WorkSlide */ "./components/Work/WorkSlide.js");
+/* harmony import */ var _components_Work_Arrow__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Work/Arrow */ "./components/Work/Arrow.js");
+/* harmony import */ var _components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Work/SlideImages */ "./components/Work/SlideImages.js");
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/jp/work.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -2622,15 +2618,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // import { Glide } from "react-glide";
 
 
 
 
-
- //todo: create trigger functions
-
-const work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_3__.work;
+const work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_8__.work;
 
 class Page extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(props) {
@@ -2661,51 +2653,92 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 34,
         columnNumber: 7
       }
-    }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_3__["default"], {
       title: item.title,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 35,
         columnNumber: 9
       }
-    }), __jsx(_components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    }), __jsx(_components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_7__["default"], {
       img: item.img,
       url: item.url,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 36,
         columnNumber: 9
       }
-    }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_4__["default"], {
       desc: item.content,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 37,
         columnNumber: 9
       }
     })));
+
+    const trigger = () => {
+      this.setState(state => {
+        return state.count < work.length - 1 ? {
+          count: state.count + 1
+        } : {
+          count: 0
+        };
+      });
+    };
+
+    const reverseTrigger = () => {
+      this.setState(state => {
+        return state.count === 0 ? {
+          count: work.length - 1
+        } : {
+          count: state.count - 1
+        };
+      });
+    };
+
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
       bg: "#25252b",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 59,
         columnNumber: 9
       }
-    }, __jsx(_components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    }, __jsx(_components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 60,
         columnNumber: 11
       }
-    }, contents[this.state.count])));
+    }, __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      direction: "prev",
+      inner: "prev_inner",
+      triggers: reverseTrigger,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 13
+      }
+    }), contents[this.state.count], __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      direction: "next",
+      inner: "next_inner",
+      triggers: trigger,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 13
+      }
+    }))));
   }
 
 }
@@ -2758,7 +2791,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /*!********************************!*\
   !*** multi ./pages/jp/work.js ***!
   \********************************/
@@ -2833,28 +2866,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "react-no-ssr":
-/*!*******************************!*\
-  !*** external "react-no-ssr" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-no-ssr");
-
-/***/ }),
-
-/***/ "react-slick":
-/*!******************************!*\
-  !*** external "react-slick" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-slick");
 
 /***/ }),
 

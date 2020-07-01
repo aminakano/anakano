@@ -3592,8 +3592,6 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/aminakano/workspace/anakano/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 
 function MyApp(_ref) {
@@ -3603,7 +3601,7 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 6,
       columnNumber: 10
     }
   }));

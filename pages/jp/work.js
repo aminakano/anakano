@@ -1,19 +1,12 @@
 import Layout from "../../components/MyLayout";
 import { Component } from "react";
 import Main from "../../components/Main";
-import data from "../../public/json/data.json";
-import NoSSR from "react-no-ssr";
-import Slider from "react-slick";
-
-// import { Glide } from "react-glide";
-
 import WorkTitle from "../../components/Work/WorkTitle";
 import WorkDesc from "../../components/Work/WorkDesc";
 import WorkSlide from "../../components/Work/WorkSlide";
 import Arrow from "../../components/Work/Arrow";
 import SlideImages from "../../components/Work/SlideImages";
-
-//todo: create trigger functions
+import data from "../../public/json/data.json";
 const work = data.work;
 
 class Page extends Component {
@@ -45,12 +38,29 @@ class Page extends Component {
       </div>
     ))
 
+    const trigger = () => {
+      this.setState(state => {
+        return state.count < work.length - 1
+          ? { count: state.count + 1 }
+          : { count: 0 };
+      });
+    }
+
+    const reverseTrigger = () => {
+      this.setState(state => {
+        return state.count === 0
+          ? { count: work.length - 1 }
+          : { count: state.count - 1 }
+      });
+    }
+
     return (
       <>
         <Main bg="#25252b">
           <WorkSlide>
+            <Arrow direction="prev" inner="prev_inner" triggers={reverseTrigger} />
             {contents[this.state.count]}
-            {/* <div style={styles.container}>{contents[this.state.count]}</div> */}
+            <Arrow direction="next" inner="next_inner" triggers={trigger} />
           </WorkSlide>
         </Main>
       </>
