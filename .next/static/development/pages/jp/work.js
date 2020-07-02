@@ -6769,7 +6769,7 @@ var Page = /*#__PURE__*/function (_Component) {
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
-          margin: "2rem"
+          margin: "1.5rem"
         }
       };
       var contents = work.map(function (item, i) {
@@ -6920,7 +6920,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fjp%2Fwork&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2Fanakano%2Fpages%2Fjp%2Fwork.js ***!
   \*******************************************************************************************************************************************/
@@ -6943,5 +6943,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=work.js.map

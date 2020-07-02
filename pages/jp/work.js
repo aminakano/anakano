@@ -27,7 +27,7 @@ class Page extends Component {
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        margin: "2rem",
+        margin: "1.5rem",
       },
     };
     const contents = work.map((item, i) => (

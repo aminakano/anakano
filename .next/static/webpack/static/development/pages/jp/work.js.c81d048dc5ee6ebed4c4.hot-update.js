@@ -18,13 +18,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Main */ "./components/Main.js");
-/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
-var _public_json_data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
-/* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
-/* harmony import */ var _components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Work/WorkDesc */ "./components/Work/WorkDesc.js");
-/* harmony import */ var _components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/Work/WorkSlide */ "./components/Work/WorkSlide.js");
-/* harmony import */ var _components_Work_Arrow__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/Work/Arrow */ "./components/Work/Arrow.js");
-/* harmony import */ var _components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/Work/SlideImages */ "./components/Work/SlideImages.js");
+/* harmony import */ var _components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/Work/WorkTitle */ "./components/Work/WorkTitle.js");
+/* harmony import */ var _components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Work/WorkDesc */ "./components/Work/WorkDesc.js");
+/* harmony import */ var _components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Work/WorkSlide */ "./components/Work/WorkSlide.js");
+/* harmony import */ var _components_Work_Arrow__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/Work/Arrow */ "./components/Work/Arrow.js");
+/* harmony import */ var _components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/Work/SlideImages */ "./components/Work/SlideImages.js");
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_13___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
 
 
 
@@ -46,9 +46,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
- //todo: create trigger functions
 
-var work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_8__.work;
+var work = _public_json_data_json__WEBPACK_IMPORTED_MODULE_13__.work;
 
 var Page = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Page, _Component);
@@ -83,7 +82,7 @@ var Page = /*#__PURE__*/function (_Component) {
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
-          margin: "2rem"
+          margin: "1.5rem"
         }
       };
       var contents = work.map(function (item, i) {
@@ -93,32 +92,32 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 34,
             columnNumber: 7
           }
-        }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_8__["default"], {
           title: item.title,
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 35,
             columnNumber: 9
           }
-        }), __jsx(_components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        }), __jsx(_components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_12__["default"], {
           img: item.img,
           url: item.url,
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40,
+            lineNumber: 36,
             columnNumber: 9
           }
-        }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_9__["default"], {
           desc: item.content,
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41,
+            lineNumber: 37,
             columnNumber: 9
           }
         }));
@@ -149,33 +148,34 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 59,
           columnNumber: 9
         }
-      }, __jsx(_components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, __jsx(_components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 60,
           columnNumber: 11
         }
-      }, __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_11__["default"], {
         direction: "prev",
         inner: "prev_inner",
-        triggers: this.reverseTrigger,
+        triggers: reverseTrigger,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 61,
           columnNumber: 13
         }
-      }), contents[this.state.count], __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), contents[this.state.count], __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_11__["default"], {
         direction: "next",
         inner: "next_inner",
+        triggers: trigger,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 63,
           columnNumber: 13
         }
       }))));
@@ -190,4 +190,4 @@ var Page = /*#__PURE__*/function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=work.js.09e0bcd9060098855c74.hot-update.js.map
+//# sourceMappingURL=work.js.c81d048dc5ee6ebed4c4.hot-update.js.map

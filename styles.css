@@ -4,6 +4,7 @@ body {
   font-family: 'Muli', sans-serif;
   margin: 2rem !important;
   color:#433f45;
+  overflow: hidden;
 }
 
 h1,h2,h3,h4,h5,h6,p,div,ul,li {
@@ -25,8 +26,4 @@ h2 {
 
 .jp {
   font-family: '07LogoTypeGothic7', sans-serif;
-}
-
-.slider {
-  width: 500px;
 }

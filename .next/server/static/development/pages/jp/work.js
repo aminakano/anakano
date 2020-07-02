@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2644,7 +2644,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        margin: "2rem"
+        margin: "1.5rem"
       }
     };
     const contents = work.map((item, i) => __jsx("div", {
@@ -2791,7 +2791,7 @@ module.exports = "/_next/static/images/twitter-4889eff2ae9bf3473872df635814a2a1.
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /*!********************************!*\
   !*** multi ./pages/jp/work.js ***!
   \********************************/

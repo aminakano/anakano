@@ -65,16 +65,11 @@ class Page extends Component {
           <div onClick={reverseTrigger} className="prev">
             <div className="prev_inner"></div>
           </div>
-          <ul id="slider">{imgList[this.state.count]}</ul>
+          <ul>{imgList[this.state.count]}</ul>
           <div onClick={trigger} className="next">
             <div className="next_inner"></div>
           </div>
         </div>
-        {/* <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">{imgList}</ul>
-          </div>
-        </div> */}
 
         <style jsx>
           {`
