@@ -50,7 +50,7 @@ class Page extends Component {
     };
 
     const imgList = works.map((work, i) => (
-      <li className="glide__slide" key={i} style={listStyle}>        
+      <li key={i} style={listStyle}>        
         <h2 style={h2}>{work.title}</h2>
         <a href={work.url} target="_blank">
           <img src={work.img} style={imgStyle} className="slider-img"/>
