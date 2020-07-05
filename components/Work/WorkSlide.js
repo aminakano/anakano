@@ -14,6 +14,16 @@ const WorkSlide = ({ children }) => (
           justify-content: center;
           align-items: center;
         }
+
+        @media screen and (max-width: 600px) {
+          .cover {
+            background: url("/image/iPhone3.png") center;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 2rem;
+          }
+        }
       `}
     </style>
   </>

@@ -19,6 +19,12 @@ const Header = () => (
           top: 30px;
           right: 0;
         }
+
+        @media screen and (max-width: 600px) {
+          header {
+            top: 0;
+          }
+        }
       `}
     </style>
   </>

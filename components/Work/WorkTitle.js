@@ -8,6 +8,13 @@ const WorkTitle = ({ title }) => (
           position: absolute;
           top: -75px;
         }
+
+        @media screen and (max-width: 600px) {
+          h2 {
+            font-size: 1.25rem;
+            top: -35px;
+          }
+        }
       `}
     </style>
   </>

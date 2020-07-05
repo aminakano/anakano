@@ -38,6 +38,41 @@ const About = ({ title, text, lang }) => (
           width: 14rem;
           height: 14rem;
         }
+
+        @media screen and (max-width: 600px) {
+          h1 {
+            margin-bottom: 1rem;
+            font-size: 3rem;
+            line-height: 0.8;
+          }
+
+          h1.jp {
+            font-size: 2.5rem;
+          }
+
+          div {
+            flex-direction: column;
+          }
+
+          img {
+            width: 6rem;
+            height: 6rem;
+          }
+
+          p {
+            width: 90%;
+            padding: 1rem 5%;
+            font-size: 1rem;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        @media screen and (max-width: 320px) {
+          p {
+            font-size: 0.8rem;
+          }
+        }
       `}
     </style>
   </div>

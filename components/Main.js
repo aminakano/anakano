@@ -4,7 +4,9 @@ const Main = ({bg, children}) => {
   };
     return (
       <>
-        <div className="main" style={styles}>{children}</div>
+        <div className="main" style={styles}>
+          {children}
+        </div>
         <style jsx>
           {`
             .main {
@@ -14,6 +16,12 @@ const Main = ({bg, children}) => {
               flex-direction: column;
               align-items: center;
               justify-content: center;
+            }
+
+            @media screen and (max-width: 600px) {
+              .main {
+                height: 85vh;
+              }
             }
           `}
         </style>

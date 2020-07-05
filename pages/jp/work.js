@@ -7,6 +7,8 @@ import WorkSlide from "../../components/Work/WorkSlide";
 import Arrow from "../../components/Work/Arrow";
 import SlideImages from "../../components/Work/SlideImages";
 import data from "../../public/json/data.json";
+import window from "global";
+
 const work = data.work;
 
 class Page extends Component {
@@ -24,12 +26,13 @@ class Page extends Component {
         alignItems: "center",
         overflow: "hidden",
         width: "530px",
-      },
-    };
+      }
+    }
+
     const contents = work.map((item, i) => (
       <div key={i} style={styles.list}>
         <WorkTitle title={item.title} />
-        <SlideImages img={item.img} url={item.url} />
+        <SlideImages img={window.innerWidth > 600 ? item.img : item.mobImg} url={item.url} />
         <WorkDesc desc={item.content} />
       </div>
     ))

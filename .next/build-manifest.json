@@ -20,11 +20,19 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
+    "/jp": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/jp/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/jp/work": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/work": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

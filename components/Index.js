@@ -9,6 +9,20 @@ const Index = ({ title, name, lang }) => (
         p {
           font-size: 2rem;
         }
+
+        @media screen and (max-width: 600px) {
+          h1 {
+            font-size: 3rem;
+          }
+
+          p {
+            font-size: 1.25rem;
+          }
+
+          p.jp {
+            font-size: 1rem;
+          }
+        }
       `}
     </style>
   </>

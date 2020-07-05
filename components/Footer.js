@@ -48,6 +48,28 @@ const Footer = () => (
           height: 6rem;
           width: 6rem;
         }
+
+        @media screen and (max-width: 600px) {
+          footer {
+            width: 100%;
+            top: unset;
+            bottom: 0;
+            left: 0;
+            padding-bottom: 1rem;
+          }
+
+          ul {
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            height: unset;
+          }
+
+          img {
+            height: 4rem;
+            width: 4rem;
+          }
+        }
       `}
     </style>
   </>

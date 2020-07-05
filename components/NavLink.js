@@ -51,6 +51,12 @@ const NavLink = () => {
           li.selected {
             font-weight: bold;
           }
+
+          @media screen and (max-width: 600px); {
+            li {
+              font-size: 0.9rem;
+            }
+          }
         `}
       </style>
     </>

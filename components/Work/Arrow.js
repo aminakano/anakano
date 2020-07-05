@@ -1,7 +1,6 @@
 const Arrow = ({ triggers, direction, inner }) => (
   <>
-    <div onClick={triggers} 
-          className={direction}>
+    <div onClick={triggers} className={direction}>
       <div className={inner}></div>
     </div>
     <style jsx>
@@ -45,6 +44,13 @@ const Arrow = ({ triggers, direction, inner }) => (
         .prev:hover,
         .next:hover {
           cursor: pointer;
+        }
+
+        @media screen and (max-width: 600px) {
+          .prev,
+          .next {
+            top: 130px;
+          }
         }
       `}
     </style>
