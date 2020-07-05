@@ -1,12 +1,6 @@
 {
   "work": [
     {
-      "title": "Soccer League",
-      "content": "A static multi-paged website with HTML & CSS",
-      "url": "https://aminakano.github.io/nysl-project/html/index.html",
-      "img": "../image/NYSL_web.png"
-    },
-    {
       "title": "US Government Congress Tracking",
       "content": "A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript",
       "url": "https://t-g-i-f.herokuapp.com/",
