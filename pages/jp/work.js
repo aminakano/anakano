@@ -17,17 +17,13 @@ class Page extends Component {
 
   render () {
     const styles = {
-      container: {
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      },
       list: {
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        margin: "1.5rem",
+        overflow: "hidden",
+        width: "530px",
       },
     };
     const contents = work.map((item, i) => (

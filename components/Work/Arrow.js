@@ -14,6 +14,7 @@ const Arrow = ({ triggers, direction, inner }) => (
           height: 60px;
           width: 60px;
           top: 160px;
+          left: 0;
           z-index: 100;
         }
         .prev_inner {

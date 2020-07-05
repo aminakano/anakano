@@ -645,7 +645,7 @@ var Arrow = function Arrow(_ref) {
       inner = _ref.inner;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
     onClick: triggers,
-    className: "jsx-3585649710" + " " + (direction || ""),
+    className: "jsx-1075087436" + " " + (direction || ""),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -653,7 +653,7 @@ var Arrow = function Arrow(_ref) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "jsx-3585649710" + " " + (inner || ""),
+    className: "jsx-1075087436" + " " + (inner || ""),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -661,9 +661,9 @@ var Arrow = function Arrow(_ref) {
       columnNumber: 7
     }
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3585649710",
+    id: "1075087436",
     __self: _this
-  }, ".prev.jsx-3585649710{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:60px;width:60px;top:160px;z-index:100;}.prev_inner.jsx-3585649710{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg);}.next.jsx-3585649710{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;right:0;height:60px;width:60px;top:160px;z-index:100;}.next_inner.jsx-3585649710{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.prev.jsx-3585649710:hover,.next.jsx-3585649710:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL0Fycm93LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9PLEFBRzZCLEFBVVUsQUFPVixBQVdVLEFBUWIsZUFDakIsR0FwQ2UsQUFpQkEsVUFQZ0IsQUFrQkEsNkJBakJqQixBQWtCQSxZQWpCRCxBQWtCQSxXQWpCYyxBQWtCQSxZQTlCRixBQWlCQSwyRUFKekIsQUFrQkEsd0JBOUJxQixBQWlCQSw2RkFoQlAsQUFpQkosUUFDSSxJQWpCRCxRQWtCQSxHQWpCRCxRQWtCQSxFQWpCRSxRQWtCQSxJQWpCZCxRQWtCQSIsImZpbGUiOiIvVXNlcnMvYW1pbmFrYW5vL3dvcmtzcGFjZS9hbmFrYW5vL2NvbXBvbmVudHMvV29yay9BcnJvdy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEFycm93ID0gKHsgdHJpZ2dlcnMsIGRpcmVjdGlvbiwgaW5uZXIgfSkgPT4gKFxuICA8PlxuICAgIDxkaXYgb25DbGljaz17dHJpZ2dlcnN9IFxuICAgICAgICAgIGNsYXNzTmFtZT17ZGlyZWN0aW9ufT5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtpbm5lcn0+PC9kaXY+XG4gICAgPC9kaXY+XG4gICAgPHN0eWxlIGpzeD5cbiAgICAgIHtgXG4gICAgICAgIC5wcmV2IHtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGhlaWdodDogNjBweDtcbiAgICAgICAgICB3aWR0aDogNjBweDtcbiAgICAgICAgICB0b3A6IDE2MHB4O1xuICAgICAgICAgIHotaW5kZXg6IDEwMDtcbiAgICAgICAgfVxuICAgICAgICAucHJldl9pbm5lciB7XG4gICAgICAgICAgYm9yZGVyLXJpZ2h0OiAzcHggc29saWQgI2ZmZjtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmZjtcbiAgICAgICAgICBoZWlnaHQ6IDI1cHg7XG4gICAgICAgICAgd2lkdGg6IDI1cHg7XG4gICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMTM1ZGVnKTtcbiAgICAgICAgfVxuICAgICAgICAubmV4dCB7XG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICBoZWlnaHQ6IDYwcHg7XG4gICAgICAgICAgd2lkdGg6IDYwcHg7XG4gICAgICAgICAgdG9wOiAxNjBweDtcbiAgICAgICAgICB6LWluZGV4OiAxMDA7XG4gICAgICAgIH1cbiAgICAgICAgLm5leHRfaW5uZXIge1xuICAgICAgICAgIGJvcmRlci1yaWdodDogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgaGVpZ2h0OiAyNXB4O1xuICAgICAgICAgIHdpZHRoOiAyNXB4O1xuICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKC00NWRlZyk7XG4gICAgICAgIH1cbiAgICAgICAgLnByZXY6aG92ZXIsXG4gICAgICAgIC5uZXh0OmhvdmVyIHtcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIH1cbiAgICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC8+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBBcnJvdzsiXX0= */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/Arrow.js */"));
+  }, ".prev.jsx-1075087436{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:60px;width:60px;top:160px;left:0;z-index:100;}.prev_inner.jsx-1075087436{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg);}.next.jsx-1075087436{position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;right:0;height:60px;width:60px;top:160px;z-index:100;}.next_inner.jsx-1075087436{border-right:3px solid #fff;border-bottom:3px solid #fff;height:25px;width:25px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.prev.jsx-1075087436:hover,.next.jsx-1075087436:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL0Fycm93LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9PLEFBRzZCLEFBV1UsQUFPVixBQVdVLEFBUWIsZUFDakIsR0FyQ2UsQUFrQkEsVUFQZ0IsQUFrQkEsNkJBakJqQixBQWtCQSxZQWpCRCxBQWtCQSxXQWpCYyxBQWtCQSxZQS9CRixBQWtCQSwyRUFKekIsQUFrQkEsd0JBL0JxQixBQWtCQSw2RkFqQlAsQUFrQkosUUFDSSxJQWxCRCxRQW1CQSxHQWxCRCxRQW1CQSxFQWxCSCxPQUNLLENBa0JBLFdBakJkLENBa0JBIiwiZmlsZSI6Ii9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL0Fycm93LmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgQXJyb3cgPSAoeyB0cmlnZ2VycywgZGlyZWN0aW9uLCBpbm5lciB9KSA9PiAoXG4gIDw+XG4gICAgPGRpdiBvbkNsaWNrPXt0cmlnZ2Vyc30gXG4gICAgICAgICAgY2xhc3NOYW1lPXtkaXJlY3Rpb259PlxuICAgICAgPGRpdiBjbGFzc05hbWU9e2lubmVyfT48L2Rpdj5cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgLnByZXYge1xuICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICAgIHdpZHRoOiA2MHB4O1xuICAgICAgICAgIHRvcDogMTYwcHg7XG4gICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgICB6LWluZGV4OiAxMDA7XG4gICAgICAgIH1cbiAgICAgICAgLnByZXZfaW5uZXIge1xuICAgICAgICAgIGJvcmRlci1yaWdodDogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICNmZmY7XG4gICAgICAgICAgaGVpZ2h0OiAyNXB4O1xuICAgICAgICAgIHdpZHRoOiAyNXB4O1xuICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDEzNWRlZyk7XG4gICAgICAgIH1cbiAgICAgICAgLm5leHQge1xuICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICAgIHdpZHRoOiA2MHB4O1xuICAgICAgICAgIHRvcDogMTYwcHg7XG4gICAgICAgICAgei1pbmRleDogMTAwO1xuICAgICAgICB9XG4gICAgICAgIC5uZXh0X2lubmVyIHtcbiAgICAgICAgICBib3JkZXItcmlnaHQ6IDNweCBzb2xpZCAjZmZmO1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjZmZmO1xuICAgICAgICAgIGhlaWdodDogMjVweDtcbiAgICAgICAgICB3aWR0aDogMjVweDtcbiAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtNDVkZWcpO1xuICAgICAgICB9XG4gICAgICAgIC5wcmV2OmhvdmVyLFxuICAgICAgICAubmV4dDpob3ZlciB7XG4gICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQXJyb3c7Il19 */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/Arrow.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Arrow);
@@ -695,7 +695,7 @@ var SlideImages = function SlideImages(_ref) {
       url = _ref.url;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("a", {
     href: url,
-    className: "jsx-1460672673",
+    className: "jsx-2571487587",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -704,7 +704,7 @@ var SlideImages = function SlideImages(_ref) {
     }
   }, __jsx("img", {
     src: img,
-    className: "jsx-1460672673",
+    className: "jsx-2571487587",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -712,9 +712,9 @@ var SlideImages = function SlideImages(_ref) {
       columnNumber: 7
     }
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1460672673",
+    id: "2571487587",
     __self: _this
-  }, "img.jsx-1460672673{width:530px;height:330px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1NsaWRlSW1hZ2VzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1PLEFBR3VCLFlBQ0MsYUFDZiIsImZpbGUiOiIvVXNlcnMvYW1pbmFrYW5vL3dvcmtzcGFjZS9hbmFrYW5vL2NvbXBvbmVudHMvV29yay9TbGlkZUltYWdlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFNsaWRlSW1hZ2VzID0gKHsgaW1nLCB1cmwgfSkgPT4gKFxuICA8PlxuICAgIDxhIGhyZWY9e3VybH0+XG4gICAgICA8aW1nIHNyYz17aW1nfSAvPlxuICAgIDwvYT5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgaW1nIHtcbiAgICAgICAgICB3aWR0aDogNTMwcHg7XG4gICAgICAgICAgaGVpZ2h0OiAzMzBweDtcbiAgICAgICAgfVxuICAgICAgYH1cbiAgICA8L3N0eWxlPlxuICA8Lz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IFNsaWRlSW1hZ2VzO1xuIl19 */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/SlideImages.js */"));
+  }, "img.jsx-2571487587{width:530px;height:330px;padding-bottom:1rem;opacity:0.7;-webkit-transition:0.5s all ease;transition:0.5s all ease;}img.jsx-2571487587:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:1;padding-bottom:2.5rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1NsaWRlSW1hZ2VzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1PLEFBR3VCLEFBUVMsWUFQUixhQUNPLG9CQUNSLFlBQ2Esa0JBS2YsVUFDWSxzQkFDeEIsUUFOQSIsImZpbGUiOiIvVXNlcnMvYW1pbmFrYW5vL3dvcmtzcGFjZS9hbmFrYW5vL2NvbXBvbmVudHMvV29yay9TbGlkZUltYWdlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFNsaWRlSW1hZ2VzID0gKHsgaW1nLCB1cmwgfSkgPT4gKFxuICA8PlxuICAgIDxhIGhyZWY9e3VybH0+XG4gICAgICA8aW1nIHNyYz17aW1nfSAvPlxuICAgIDwvYT5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgaW1nIHtcbiAgICAgICAgICB3aWR0aDogNTMwcHg7XG4gICAgICAgICAgaGVpZ2h0OiAzMzBweDtcbiAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMXJlbTtcbiAgICAgICAgICBvcGFjaXR5OiAwLjc7XG4gICAgICAgICAgdHJhbnNpdGlvbjogMC41cyBhbGwgZWFzZTtcbiAgICAgICAgfVxuXG4gICAgICAgIGltZzpob3ZlciB7XG4gICAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xuICAgICAgICAgIG9wYWNpdHk6IDE7XG4gICAgICAgICAgcGFkZGluZy1ib3R0b206IDIuNXJlbTtcbiAgICAgICAgfVxuICAgICAgYH1cbiAgICA8L3N0eWxlPlxuICA8Lz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IFNsaWRlSW1hZ2VzO1xuIl19 */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/SlideImages.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SlideImages);
@@ -784,7 +784,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 var WorkSlide = function WorkSlide(_ref) {
   var children = _ref.children;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-    className: "jsx-1682136367" + " " + "cover",
+    className: "jsx-3818286413" + " " + "cover",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -792,9 +792,9 @@ var WorkSlide = function WorkSlide(_ref) {
       columnNumber: 5
     }
   }, children), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1682136367",
+    id: "3818286413",
     __self: _this
-  }, ".cover.jsx-1682136367{background:url(\"/mac.png\");width:700px;height:400px;background-repeat:no-repeat;background-size:cover;position:relative;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1dvcmtTbGlkZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJTyxBQUdzQywyQkFDZixZQUNDLGFBQ2UsNEJBQ04sc0JBQ0osa0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1dvcmtTbGlkZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFdvcmtTbGlkZSA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPD5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvdmVyXCI+e2NoaWxkcmVufTwvZGl2PlxuICAgIDxzdHlsZSBqc3g+XG4gICAgICB7YFxuICAgICAgICAuY292ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHVybChcIi9tYWMucG5nXCIpO1xuICAgICAgICAgIHdpZHRoOiA3MDBweDtcbiAgICAgICAgICBoZWlnaHQ6IDQwMHB4O1xuICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgIH1cbiAgICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC8+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBXb3JrU2xpZGU7Il19 */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/WorkSlide.js */"));
+  }, ".cover.jsx-3818286413{background:url(\"/mac.png\");width:700px;height:400px;background-repeat:no-repeat;background-size:cover;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1dvcmtTbGlkZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJTyxBQUdzQywyQkFDZixZQUNDLGFBQ2UsNEJBQ04sc0JBQ0osa0JBQ0wsMEVBQ1UsbUdBQ0osNkZBQ3JCIiwiZmlsZSI6Ii9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9Xb3JrL1dvcmtTbGlkZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFdvcmtTbGlkZSA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPD5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvdmVyXCI+e2NoaWxkcmVufTwvZGl2PlxuICAgIDxzdHlsZSBqc3g+XG4gICAgICB7YFxuICAgICAgICAuY292ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHVybChcIi9tYWMucG5nXCIpO1xuICAgICAgICAgIHdpZHRoOiA3MDBweDtcbiAgICAgICAgICBoZWlnaHQ6IDQwMHB4O1xuICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgV29ya1NsaWRlOyJdfQ== */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/Work/WorkSlide.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WorkSlide);
@@ -6759,17 +6759,13 @@ var Page = /*#__PURE__*/function (_Component) {
       var _this2 = this;
 
       var styles = {
-        container: {
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center"
-        },
         list: {
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
-          margin: "1.5rem"
+          overflow: "hidden",
+          width: "530px"
         }
       };
       var contents = work.map(function (item, i) {
@@ -6779,7 +6775,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 34,
+            lineNumber: 30,
             columnNumber: 7
           }
         }, __jsx(_components_Work_WorkTitle__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -6787,7 +6783,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 31,
             columnNumber: 9
           }
         }), __jsx(_components_Work_SlideImages__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -6796,7 +6792,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36,
+            lineNumber: 32,
             columnNumber: 9
           }
         }), __jsx(_components_Work_WorkDesc__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -6804,7 +6800,7 @@ var Page = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 33,
             columnNumber: 9
           }
         }));
@@ -6835,14 +6831,14 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 55,
           columnNumber: 9
         }
       }, __jsx(_components_Work_WorkSlide__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 56,
           columnNumber: 11
         }
       }, __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -6852,7 +6848,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 57,
           columnNumber: 13
         }
       }), contents[this.state.count], __jsx(_components_Work_Arrow__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -6862,7 +6858,7 @@ var Page = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 59,
           columnNumber: 13
         }
       }))));
@@ -6894,7 +6890,7 @@ module.exports = "/_next/static/images/github-a3c7970ff7517a98f20736cd6507d18d.p
 /*! exports provided: work, about, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"}],\"about\":[{\"title\":\"Ami Nakano\",\"text\":\"I'm a Japanese Frontend Developer located in the Netherlands. I like coding, design and learning new technologies especially JavaScript and its libraries. I used to be a secretary, however, I came up with the idea of using my creativity in my full-time job and devoted myself into a coding bootcamp in Amsterdam, which surely was a fantastic decision. Currently I am working on a beautiful webshop as a full-time Frontend Intern and recently I have got my first freelance project to build a corporate website.\"},{\"title\":\"中野亜美\",\"text\":\"オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。\"}]}");
+module.exports = JSON.parse("{\"work\":[{\"title\":\"Soccer League\",\"content\":\"A static multi-paged website with HTML & CSS\",\"url\":\"https://aminakano.github.io/nysl-project/html/index.html\",\"img\":\"../image/NYSL_web.png\"},{\"title\":\"US Government Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised Single Page Application with HTML, CSS, JavaScript + Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\"},{\"title\":\"Rutakeh Limited\",\"content\":\"A responsive website of a Japanese company using Next.js and SCSS\",\"url\":\"https://rutakeh.com/\",\"img\":\"../image/rutakeh.png\"}],\"about\":[{\"title\":\"Ami Nakano\",\"text\":\"I'm a Japanese Frontend Developer located in the Netherlands. I like coding, design and learning new technologies especially JavaScript and its libraries. I used to be a secretary, however, I came up with the idea of using my creativity in my full-time job and devoted myself into a coding bootcamp in Amsterdam, which surely was a fantastic decision. Currently I am working on a beautiful webshop as a full-time Frontend Intern and recently I have got my first freelance project to build a corporate website.\"},{\"title\":\"中野亜美\",\"text\":\"オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。\"}]}");
 
 /***/ }),
 

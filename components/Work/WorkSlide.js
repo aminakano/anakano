@@ -10,6 +10,9 @@ const WorkSlide = ({ children }) => (
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       `}
     </style>

@@ -23,6 +23,12 @@
       "content": "A fully responsive Single Page Application with TypeScript, CSS preprocessor (SCSS) and Axios",
       "url": "https://trivia-quiz-vue.herokuapp.com/",
       "img": "../image/quiz.png"
+    },
+    {
+      "title": "Rutakeh Limited",
+      "content": "A responsive website of a Japanese company using Next.js and SCSS",
+      "url": "https://rutakeh.com/",
+      "img": "../image/rutakeh.png"
     }
   ],
   "about": [
