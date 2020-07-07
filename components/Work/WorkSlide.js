@@ -1,4 +1,5 @@
 const WorkSlide = ({ children }) => (
+  //todo: cleanup iPhone img and change the filename
   <>
     <div className="cover">{children}</div>
     <style jsx>
