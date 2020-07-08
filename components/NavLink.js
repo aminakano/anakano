@@ -17,7 +17,9 @@ const NavLink = () => {
         <Link href={href + "work"}>
           <li>Work</li>
         </Link>
-        {/* <li>Contact</li> */}
+        <Link href={href + "certifications"}>
+          <li>Certifications</li>
+        </Link>
       </ul>
       <style jsx>
         {`
