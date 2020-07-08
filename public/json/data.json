@@ -39,11 +39,22 @@
       "text": "オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。"
     }
   ],
-  "certificates": {
-    "ubiqum": "../image/ubiqum.jpg",
-    "fcc": "../image/fcc.png",
-    "gymnagium": "../image/webdesign.png",
-    "google": "../image/ggl_web_marketing.png"
-  }
-  
+  "certificates": [
+    {
+      "certificate": "../image/ubiqum.jpg",
+      "name": "Full-stack 'MERN' Development"
+    },
+    {
+      "certificate": "../image/fcc.png",
+      "name": "Responsive Web Design"
+    },
+    {
+      "certificate": "../image/webdesign.png",
+      "name": "Modern Web Design"
+    },
+    {
+      "certificate": "../image/ggl_web_marketing.png",
+      "name": "The Fundamentals of Digital Marketing"
+    }    
+  ]
 }

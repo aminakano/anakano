@@ -13,7 +13,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyLayout */ "./components/MyLayout.js");
 var _this = undefined,
     _jsxFileName = "/Users/aminakano/workspace/anakano/components/CertificateShow.js";
 
@@ -21,30 +20,29 @@ var _this = undefined,
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-
 var CertificateShow = function CertificateShow(_ref) {
   var certPath = _ref.certPath;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-    className: "jsx-3884002607",
+    className: "jsx-1325031908",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 3,
       columnNumber: 5
     }
   }, __jsx("img", {
     src: certPath,
-    className: "jsx-3884002607",
+    className: "jsx-1325031908",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 4,
       columnNumber: 7
     }
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3884002607",
+    id: "1325031908",
     __self: _this
-  }, "img.jsx-3884002607{width:400px;height:300px;}@media screen and (max-width:600px){img.jsx-3884002607{width:300px;height:200px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9DZXJ0aWZpY2F0ZVNob3cuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUU8sQUFHdUIsQUFNRSxZQUxELEFBTUUsYUFMakIsQUFNRSIsImZpbGUiOiIvVXNlcnMvYW1pbmFrYW5vL3dvcmtzcGFjZS9hbmFrYW5vL2NvbXBvbmVudHMvQ2VydGlmaWNhdGVTaG93LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi9NeUxheW91dFwiO1xuXG5jb25zdCBDZXJ0aWZpY2F0ZVNob3cgPSAoeyBjZXJ0UGF0aCB9KSA9PiAoXG4gIDw+XG4gICAgPGRpdj5cbiAgICAgIDxpbWcgc3JjPXtjZXJ0UGF0aH0gLz5cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgaW1nIHtcbiAgICAgICAgICB3aWR0aDogNDAwcHg7XG4gICAgICAgICAgaGVpZ2h0OiAzMDBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XG4gICAgICAgICAgaW1nIHtcbiAgICAgICAgICAgIHdpZHRoOiAzMDBweDtcbiAgICAgICAgICAgIGhlaWdodDogMjAwcHg7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQ2VydGlmaWNhdGVTaG93OyJdfQ== */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/CertificateShow.js */"));
+  }, "div.jsx-1325031908{margin:1rem;}img.jsx-1325031908{width:360px;height:240px;}@media screen and (max-width:600px){img.jsx-1325031908{width:270px;height:185px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9DZXJ0aWZpY2F0ZVNob3cuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTU8sQUFHdUIsQUFHQSxBQU1FLFlBUmhCLEFBR2UsQUFNRSxhQUxqQixBQU1FIiwiZmlsZSI6Ii9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vY29tcG9uZW50cy9DZXJ0aWZpY2F0ZVNob3cuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBDZXJ0aWZpY2F0ZVNob3cgPSAoeyBjZXJ0UGF0aCB9KSA9PiAoXG4gIDw+XG4gICAgPGRpdj5cbiAgICAgIDxpbWcgc3JjPXtjZXJ0UGF0aH0gLz5cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgZGl2IHtcbiAgICAgICAgICBtYXJnaW46IDFyZW07XG4gICAgICAgIH1cbiAgICAgICAgaW1nIHtcbiAgICAgICAgICB3aWR0aDogMzYwcHg7XG4gICAgICAgICAgaGVpZ2h0OiAyNDBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XG4gICAgICAgICAgaW1nIHtcbiAgICAgICAgICAgIHdpZHRoOiAyNzBweDtcbiAgICAgICAgICAgIGhlaWdodDogMTg1cHg7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQ2VydGlmaWNhdGVTaG93OyJdfQ== */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/components/CertificateShow.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CertificateShow);
@@ -6324,51 +6322,74 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Main */ "./components/Main.js");
-/* harmony import */ var _components_CertificateShow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/CertificateShow */ "./components/CertificateShow.js");
-/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
-var _public_json_data_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Main */ "./components/Main.js");
+/* harmony import */ var _components_CertificateShow__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/CertificateShow */ "./components/CertificateShow.js");
+/* harmony import */ var _public_json_data_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../public/json/data.json */ "./public/json/data.json");
+var _public_json_data_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/json/data.json */ "./public/json/data.json", 1);
 var _this = undefined,
     _jsxFileName = "/Users/aminakano/workspace/anakano/pages/jp/certifications.js";
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
- // const certs = data.certificates;
+
+
+var certs = _public_json_data_json__WEBPACK_IMPORTED_MODULE_5__.certificates; // class Page extends Component {
+//   render() {
+// console.log(certs);
+//     return (
+//       <>
+//         <Main bg="#a5d0e1">
+//           <div>
+//           </div>
+//         </Main>
+//       </>
+//     );
+//   }
+// }
 
 var Page = function Page() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_3__["default"], {
     bg: "#a5d0e1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, __jsx("div", {
+    className: "jsx-869944847",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 27,
       columnNumber: 7
     }
-  }, __jsx(_components_CertificateShow__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    certPath: _public_json_data_json__WEBPACK_IMPORTED_MODULE_4__.certificates.fcc,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }))));
+  }, certs.map(function (cert, i) {
+    return __jsx(_components_CertificateShow__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      certPath: cert.certificate,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 11
+      }
+    });
+  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "869944847",
+    __self: _this
+  }, "div.jsx-869944847{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:80%;margin:2% 20%;overflow-y:scroll;}@media screen and (max-width:600px){div.jsx-869944847{margin:15% 5% 25%;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbWluYWthbm8vd29ya3NwYWNlL2FuYWthbm8vcGFnZXMvanAvY2VydGlmaWNhdGlvbnMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUNPLEFBR3dCLEFBVU8sa0JBQ3BCLHdEQVZlLHlEQUNRLG1HQUNiLFVBQ0ksY0FDSSxrQkFDcEIiLCJmaWxlIjoiL1VzZXJzL2FtaW5ha2Fuby93b3Jrc3BhY2UvYW5ha2Fuby9wYWdlcy9qcC9jZXJ0aWZpY2F0aW9ucy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTXlMYXlvdXRcIjtcbmltcG9ydCBNYWluIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL01haW5cIjtcbmltcG9ydCBDZXJ0aWZpY2F0ZVNob3cgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvQ2VydGlmaWNhdGVTaG93XCI7XG5pbXBvcnQgZGF0YSBmcm9tIFwiLi4vLi4vcHVibGljL2pzb24vZGF0YS5qc29uXCI7XG5pbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcblxuY29uc3QgY2VydHMgPSBkYXRhLmNlcnRpZmljYXRlcztcblxuLy8gY2xhc3MgUGFnZSBleHRlbmRzIENvbXBvbmVudCB7XG4vLyAgIHJlbmRlcigpIHtcbi8vIGNvbnNvbGUubG9nKGNlcnRzKTtcblxuLy8gICAgIHJldHVybiAoXG4vLyAgICAgICA8PlxuLy8gICAgICAgICA8TWFpbiBiZz1cIiNhNWQwZTFcIj5cbi8vICAgICAgICAgICA8ZGl2PlxuLy8gICAgICAgICAgIDwvZGl2PlxuLy8gICAgICAgICA8L01haW4+XG4vLyAgICAgICA8Lz5cbi8vICAgICApO1xuLy8gICB9XG4gIFxuLy8gfVxuY29uc3QgUGFnZSA9ICgpID0+IChcbiAgPD5cbiAgICA8TWFpbiBiZz1cIiNhNWQwZTFcIj5cbiAgICAgIDxkaXY+XG4gICAgICAgIHtjZXJ0cy5tYXAoKGNlcnQsIGkpID0+IChcbiAgICAgICAgICA8Q2VydGlmaWNhdGVTaG93IGNlcnRQYXRoPXtjZXJ0LmNlcnRpZmljYXRlfSAvPlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvTWFpbj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgZGl2IHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICB3aWR0aDogODAlO1xuICAgICAgICAgIG1hcmdpbjogMiUgMjAlO1xuICAgICAgICAgIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgICAgICAgfVxuXG4gICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XG4gICAgICAgICAgZGl2IHtcbiAgICAgICAgICAgIG1hcmdpbjogMTUlIDUlIDI1JTtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC8+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQoUGFnZSk7XG4iXX0= */\n/*@ sourceURL=/Users/aminakano/workspace/anakano/pages/jp/certifications.js */"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(Page));
 
 /***/ }),
 
@@ -6390,7 +6411,7 @@ module.exports = "/_next/static/images/github-a3c7970ff7517a98f20736cd6507d18d.p
 /*! exports provided: work, about, certificates, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"work\":[{\"title\":\"US Gov. Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\",\"mobImg\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised SPA with Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\",\"mobImg\":\"../image/NYSL_mob_m.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript and SCSS\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\",\"mobImg\":\"../image/quiz_m.png\"},{\"title\":\"Rutakeh Limited\",\"content\":\"A responsive website of a Japanese company using Next.js and SCSS\",\"url\":\"https://rutakeh.com/\",\"img\":\"../image/rutakeh.png\",\"mobImg\":\"../image/rutakeh_m.jpg\"}],\"about\":[{\"title\":\"Ami Nakano\",\"text\":\"I’m an enthusiastic web developer with a can-do attitude and a passion for design and learning new technologies especially JavaScript frameworks and libraries. As a Frontend Developer, I mainly develop and maintain a website using JavaScript and Sass, also develop A/B tests and fix bugs. I love to attend tech meetups to keep myself updated with latest technologies and meet new people!\"},{\"title\":\"中野亜美\",\"text\":\"オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。\"}],\"certificates\":{\"ubiqum\":\"../image/ubiqum.jpg\",\"fcc\":\"../image/fcc.png\",\"gymnagium\":\"../image/webdesign.png\",\"google\":\"../image/ggl_web_marketing.png\"}}");
+module.exports = JSON.parse("{\"work\":[{\"title\":\"US Gov. Congress Tracking\",\"content\":\"A dynamic website using fetch API with HTML, CSS + Bootstrap & JavaScript\",\"url\":\"https://t-g-i-f.herokuapp.com/\",\"img\":\"../image/TGIF.png\",\"mobImg\":\"../image/TGIF.png\"},{\"title\":\"Soccer League Mobile\",\"content\":\"A mobile optimised SPA with Vue.js and synchronous chat using Firebase\",\"url\":\"https://ami-nyslmobile.firebaseapp.com/\",\"img\":\"../image/NYSL_mob.png\",\"mobImg\":\"../image/NYSL_mob_m.png\"},{\"title\":\"Trivia Quiz\",\"content\":\"A fully responsive Single Page Application with TypeScript and SCSS\",\"url\":\"https://trivia-quiz-vue.herokuapp.com/\",\"img\":\"../image/quiz.png\",\"mobImg\":\"../image/quiz_m.png\"},{\"title\":\"Rutakeh Limited\",\"content\":\"A responsive website of a Japanese company using Next.js and SCSS\",\"url\":\"https://rutakeh.com/\",\"img\":\"../image/rutakeh.png\",\"mobImg\":\"../image/rutakeh_m.jpg\"}],\"about\":[{\"title\":\"Ami Nakano\",\"text\":\"I’m an enthusiastic web developer with a can-do attitude and a passion for design and learning new technologies especially JavaScript frameworks and libraries. As a Frontend Developer, I mainly develop and maintain a website using JavaScript and Sass, also develop A/B tests and fix bugs. I love to attend tech meetups to keep myself updated with latest technologies and meet new people!\"},{\"title\":\"中野亜美\",\"text\":\"オランダ在住のフロントエンドエンジニアです。アムステルダムのベンチャー企業にてECサイトの運営に携わり、主にHTML、CSS(Sass)、JavaScript(Vue.js、jQuery)を用いたコーディング、Qubitを使用したA/Bテストの実装を担当しています。日本では4年間、秘書・オフィスアシスタントとして外資系企業に勤務し、事務、翻訳、受付、イベント企画管理、ニュースレター編集、マーケティング資料のデザイン等多岐にわたる業務を行っていました。\"}],\"certificates\":[{\"certificate\":\"../image/ubiqum.jpg\",\"name\":\"Full-stack 'MERN' Development\"},{\"certificate\":\"../image/fcc.png\",\"name\":\"Responsive Web Design\"},{\"certificate\":\"../image/webdesign.png\",\"name\":\"Modern Web Design\"},{\"certificate\":\"../image/ggl_web_marketing.png\",\"name\":\"The Fundamentals of Digital Marketing\"}]}");
 
 /***/ }),
 

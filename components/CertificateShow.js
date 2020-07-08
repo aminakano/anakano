@@ -1,5 +1,3 @@
-import Layout from "./MyLayout";
-
 const CertificateShow = ({ certPath }) => (
   <>
     <div>
@@ -7,15 +5,18 @@ const CertificateShow = ({ certPath }) => (
     </div>
     <style jsx>
       {`
+        div {
+          margin: 1rem;
+        }
         img {
-          width: 400px;
-          height: 300px;
+          width: 360px;
+          height: 240px;
         }
 
         @media screen and (max-width: 600px) {
           img {
-            width: 300px;
-            height: 200px;
+            width: 270px;
+            height: 185px;
           }
         }
       `}
