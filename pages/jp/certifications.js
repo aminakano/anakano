@@ -9,7 +9,7 @@ const Page = () => (
     <Main bg="#a5d0e1">
       <div>
         {certs.map((cert, i) => (
-          <CertificateShow certPath={cert.certificate} />
+          <CertificateShow certPath={cert.certificate} org={cert.name} />
         ))}
       </div>
     </Main>

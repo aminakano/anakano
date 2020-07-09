@@ -1,16 +1,41 @@
-const CertificateShow = ({ certPath }) => (
+import { Component } from "react";
+
+const CertificateShow = ({ certPath, org }) => (
   <>
     <div>
       <img src={certPath} />
+      <h3>{org}</h3>
     </div>
     <style jsx>
       {`
         div {
           margin: 1rem;
+          color: transparent;
+          transition: 0.7s all ease;
+          position: relative;
         }
+
+        div:hover {
+          cursor: pointer;
+          color: #333;
+          z-index: 10;
+        }
+
         img {
           width: 360px;
           height: 240px;
+          opacity: 1;
+        }
+
+        img:hover {
+          opacity: 0.6;
+        }
+
+        h3 {
+          text-align: center;
+          position: absolute;
+          bottom: 110px;
+          width: 100%;
         }
 
         @media screen and (max-width: 600px) {
