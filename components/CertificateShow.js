@@ -17,7 +17,7 @@ const CertificateShow = ({ certPath, org }) => (
 
         div:hover {
           cursor: pointer;
-          color: #333;
+          color: #fff;
           z-index: 10;
         }
 
@@ -28,7 +28,7 @@ const CertificateShow = ({ certPath, org }) => (
         }
 
         img:hover {
-          opacity: 0.6;
+          filter: brightness(50%);
         }
 
         h3 {
