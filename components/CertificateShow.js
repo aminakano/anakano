@@ -32,8 +32,14 @@ const CertificateShow = ({ certPath, org }) => (
         h3 {
           text-align: center;
           position: absolute;
-          bottom: 110px;
+          bottom: 100px;
           width: 100%;
+          padding: 1rem 0;
+        }
+
+        h3:hover {
+          background: #84a6b4;
+          transition: 1s all ease;
         }
 
         @media screen and (max-width: 600px) {
