@@ -42,19 +42,23 @@
   "certificates": [
     {
       "certificate": "../image/ubiqum.jpg",
-      "name": "Full-stack 'MERN' Development"
+      "name": "Full-stack 'MERN' Development",
+      "name_jp": "フルスタックMERN開発"
     },
     {
       "certificate": "../image/fcc.png",
-      "name": "Responsive Web Design"
+      "name": "Responsive Web Design",
+      "name_jp": "レスポンシブWebデザイン"
     },
     {
       "certificate": "../image/webdesign.png",
-      "name": "Modern Web Design"
+      "name": "Modern Web Design",
+      "name_jp": "モダンWebデザイン"
     },
     {
       "certificate": "../image/ggl_web_marketing.png",
-      "name": "The Fundamentals of Digital Marketing"
+      "name": "The Fundamentals of Digital Marketing",
+      "name_jp": "デジタルマーケティングの基礎"
     }    
   ]
 }

@@ -1,7 +1,7 @@
-import Layout from "../../components/MyLayout";
-import Main from "../../components/Main";
-import CertificateShow from "../../components/CertificateShow";
-import data from "../../public/json/data.json";
+import Layout from "../components/MyLayout";
+import Main from "../components/Main";
+import CertificateShow from "../components/CertificateShow";
+import data from "../public/json/data.json";
 const certs = data.certificates;
 
 const Page = () => (
@@ -9,7 +9,11 @@ const Page = () => (
     <Main bg="#a5d0e1">
       <div>
         {certs.map((cert, i) => (
-          <CertificateShow certPath={cert.certificate} org={cert.name_jp} key={i} />
+          <CertificateShow
+            certPath={cert.certificate}
+            org={cert.name}
+            key={i}
+          />
         ))}
       </div>
     </Main>
@@ -32,6 +36,6 @@ const Page = () => (
       `}
     </style>
   </>
-)
+);
 
 export default Layout(Page);
