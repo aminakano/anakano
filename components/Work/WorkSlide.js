@@ -1,5 +1,4 @@
 const WorkSlide = ({ children }) => (
-  //todo: cleanup iPhone img and change the filename
   <>
     <div className="cover">{children}</div>
     <style jsx>
@@ -18,7 +17,7 @@ const WorkSlide = ({ children }) => (
 
         @media screen and (max-width: 600px) {
           .cover {
-            background: url("/image/iPhone3.png") center;
+            background: url("/image/iPhone.png") center;
             background-repeat: no-repeat;
             width: 300px;
             height: 300px;
