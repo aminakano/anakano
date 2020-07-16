@@ -4,7 +4,7 @@ const WorkSlide = ({ children }) => (
     <style jsx>
       {`
         .cover {
-          background: url("/mac.png");
+          background: url("/image/mac.png");
           width: 700px;
           height: 400px;
           background-repeat: no-repeat;

@@ -25,11 +25,12 @@ const NavLink = () => {
         {`
           ul {
             display: flex;
+            margin-right: 3rem;
           }
           li {
             list-style: none;
             margin-right: 1.25rem;
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: #fff;
             font-weight: 200;
             text-transform: uppercase;
@@ -54,7 +55,12 @@ const NavLink = () => {
             font-weight: bold;
           }
 
-          @media screen and (max-width: 600px); {
+          @media screen and (max-width: 600px)
+           {
+            ul {
+              margin-right: 0;
+            }
+
             li {
               font-size: 0.9rem;
             }

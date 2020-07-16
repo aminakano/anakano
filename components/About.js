@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../public/profile.png";
+import image from "../public/image/profile.png";
 
 const About = ({ title, text, lang }) => (
   <div className="main">
