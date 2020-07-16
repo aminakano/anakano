@@ -398,6 +398,17 @@ const Headtag = () => {
       lineNumber: 7,
       columnNumber: 7
     }
+  }), __jsx("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "64x64",
+    href: "/image/64x64.png",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
   }));
 };
 
