@@ -1,6 +1,6 @@
-import github from "../public/github.png";
-import linkedin from "../public/linkedin.png";
-import twitter from "../public/twitter.png";
+import github from "../public/image/github.png";
+import linkedin from "../public/image/linkedin.png";
+import twitter from "../public/image/twitter.png";
 
 const Footer = () => (
   <>
