@@ -41,7 +41,7 @@
   ],
   "certificates": [
     {
-      "certificate": "../image/ubiqum.jpg",
+      "certificate": "../image/ubiqum.png",
       "name": "Full-stack 'MERN' Development",
       "name_jp": "フルスタックMERN開発"
     },

@@ -47,6 +47,10 @@ const CertificateShow = ({ certPath, org }) => (
             width: 270px;
             height: 185px;
           }
+
+          h3 {
+            bottom: 70px;
+          }
         }
       `}
     </style>
