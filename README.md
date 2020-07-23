@@ -34,12 +34,8 @@ $ npm run export
 
 * It helps to crate a custom link component that can add a 'selected' class dynamically. <https://flaviocopes.com/nextjs-active-link/>
 
-* <https://github.com/glidejs/glide/issues/366>
-
 * Usage of components <https://medium.com/trabe/advanced-composition-in-react-cloneelement-hocs-and-renderprops-a20971aec50e>
 
 ### Reference for useful libraries
 
 * `global` To define window object <https://www.npmjs.com/package/global> 
-
-* `react-no-ssr` React component to wrap non SSR components. <https://www.npmjs.com/package/react-no-ssr>
