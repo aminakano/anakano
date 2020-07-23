@@ -23,6 +23,7 @@ const Header = () => (
         @media screen and (max-width: 600px) {
           header {
             top: 0;
+            width: 100%;
           }
         }
       `}
